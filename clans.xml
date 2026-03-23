@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+
+<!-- TACTICAL OVERHAUL - ONLY NEW CLANS -->
+<!-- Vanilla clans loaded by Native -->
+
+<!-- NORMANDY CLANS (5) -->
+<Faction id="clan_normandy_1" name="{=!}House de Hauteville" owner="Hero.lord_normandy_1_1" super_faction="Kingdom.normandy" />
+<Faction id="clan_normandy_2" name="{=!}House de Tancarville" owner="Hero.lord_normandy_2_1" super_faction="Kingdom.normandy" />
+<Faction id="clan_normandy_3" name="{=!}House de Beaumont" owner="Hero.lord_normandy_3_1" super_faction="Kingdom.normandy" />
+<Faction id="clan_normandy_4" name="{=!}House de Montfort" owner="Hero.lord_normandy_4_1" super_faction="Kingdom.normandy" />
+<Faction id="clan_normandy_5" name="{=!}House de Bellême" owner="Hero.lord_normandy_5_1" super_faction="Kingdom.normandy" />
+
+<!-- RUTHENIA CLANS (5) -->
+<Faction id="clan_ruthenia_1" name="{=!}House Rurikid" owner="Hero.lord_ruthenia_1_1" super_faction="Kingdom.ruthenia" />
+<Faction id="clan_ruthenia_2" name="{=!}House Ol'govich" owner="Hero.lord_ruthenia_2_1" super_faction="Kingdom.ruthenia" />
+<Faction id="clan_ruthenia_3" name="{=!}House Monomakhovich" owner="Hero.lord_ruthenia_3_1" super_faction="Kingdom.ruthenia" />
+<Faction id="clan_ruthenia_4" name="{=!}House Yaroslavich" owner="Hero.lord_ruthenia_4_1" super_faction="Kingdom.ruthenia" />
+<Faction id="clan_ruthenia_5" name="{=!}House Vsevolodovich" owner="Hero.lord_ruthenia_5_1" super_faction="Kingdom.ruthenia" />
+
+</Factions>

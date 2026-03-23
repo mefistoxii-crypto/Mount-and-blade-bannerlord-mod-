@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<Items>
+
+  <Item id="sturgia_boots_c_nocolor" name="{=*}White Tied Boots" mesh="exp_tied_boots_second" culture="Culture.vlandia" weight="1.2" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+	
+	  <Item id="exp_tied_boots_second" name="{=*}Secondary Clan Color Tied Boots" mesh="exp_tied_boots_second" culture="Culture.vlandia" weight="1.2" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	
+		  <Item id="exp_tied_boots_blue" name="{=*}Blue Tied Boots" mesh="exp_tied_boots_blue" culture="Culture.vlandia" weight="1.2" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+	
+	<Item id="exp_tied_boots_green" name="{=*}Green Tied Boots" mesh="exp_tied_boots_green" culture="Culture.vlandia" weight="1.2" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+	
+	<Item id="exp_tied_boots_orange" name="{=*}Orange Tied Boots" mesh="exp_tied_boots_orange" culture="Culture.vlandia" weight="1.2" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+	
+	<Item id="exp_tied_boots_burg" name="{=*}Burgundy Tied Boots" mesh="exp_tied_boots_burg" culture="Culture.vlandia" weight="1.2" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+	
+		<Item id="sturgia_boots_d_nocolor" name="{=*}White Wrapped Boots" mesh="sturgia_boots_d" culture="Culture.vlandia" weight="1" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+	
+	<Item id="exp_wrapped_boots_second" name="{=*}Secondary Clan Color Wrapped Boots" mesh="exp_wrapped_boots_second" culture="Culture.vlandia" weight="1" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	
+	<Item id="exp_wrapped_boots_blue" name="{=*}Blue Wrapped Boots" mesh="exp_wrapped_boots_blue" culture="Culture.vlandia" weight="1" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+	
+	<Item id="exp_wrapped_boots_green" name="{=*}Green Wrapped Boots" mesh="exp_wrapped_boots_green" culture="Culture.vlandia" weight="1" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+	
+	<Item id="exp_wrapped_boots_orange" name="{=*}Orange Wrapped Boots" mesh="exp_wrapped_boots_orange" culture="Culture.vlandia" weight="1" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+	
+	<Item id="exp_wrapped_boots_burg" name="{=*}Burgundy Wrapped Boots" mesh="exp_wrapped_boots_burg" culture="Culture.vlandia" weight="1" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+	
+</Items>

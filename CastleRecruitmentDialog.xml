@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dialogs>
+    <Dialog id="castle_recruitment_dialog">
+        <Text>Castle Recruitment</Text>
+        <Condition type="current_settlement_is_castle"/>
+        <Condition type="player_is_owner_or_ruler"/>
+
+        <DialogBranch>
+            <Text>I'd like to recruit some special units.</Text>
+            <Condition type="player_is_owner_or_ruler"/>
+
+            <DialogOption>
+                <Text>Show me the available units.</Text>
+                <ResultDialog>show_available_units</ResultDialog>
+            </DialogOption>
+
+            <DialogOption>
+                <Text>I'm not interested right now.</Text>
+                <ResultDialog>end_dialog</ResultDialog>
+            </DialogOption>
+        </DialogBranch>
+
+        <DialogBranch id="show_available_units">
+            <Text>Here are the special units available for recruitment at this castle:</Text>
+
+            <OptionSelect type="castle_unit_list">
+                <Text>Select a unit to recruit.</Text>
+                <Condition type="player_has_gold"/>
+
+                <DialogOption>
+                    <Text>Recruit one unit.</Text>
+                    <Condition type="player_has_gold"/>
+                    <ResultDialog>recruit_unit</ResultDialog>
+                </DialogOption>
+
+                <DialogOption>
+                    <Text>Recruit five units.</Text>
+                    <Condition type="player_has_gold"/>
+                    <ResultDialog>recruit_unit_five</ResultDialog>
+                </DialogOption>
+
+                <DialogOption>
+                    <Text>Never mind.</Text>
+                    <ResultDialog>end_dialog</ResultDialog>
+                </DialogOption>
+            </OptionSelect>
+        </DialogBranch>
+
+        <DialogBranch id="recruit_unit">
+            <Text>You have recruited one {selected_unit} from the castle.</Text>
+            <Action type="recruit_unit" amount="1"/>
+            <ResultDialog>end_dialog</ResultDialog>
+        </DialogBranch>
+
+        <DialogBranch id="recruit_unit_five">
+            <Text>You have recruited five {selected_unit} from the castle.</Text>
+            <Action type="recruit_unit" amount="5"/>
+            <ResultDialog>end_dialog</ResultDialog>
+        </DialogBranch>
+    </Dialog>
+</Dialogs>

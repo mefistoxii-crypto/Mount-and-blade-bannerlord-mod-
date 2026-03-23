@@ -1,0 +1,2011 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+<!-- ============================================== -->
+<!-- CASTLE ELITE UNITS - ALL 9 FACTIONS         -->
+<!-- Recruitable ONLY in castles                  -->
+<!-- Use NAR weapons + OSA armor                  -->
+<!-- ============================================== -->
+
+
+<!-- ========== EMPIRE CASTLE UNITS ========== -->
+
+<NPCCharacter id="castle_empire_heavy_infantry"
+             name="{=!}Empire Elite Heavy Infantry"
+             occupation="Soldier"
+             culture="Culture.empire"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_empire_sword_elite"/>
+            <equipment slot="Item1" id="Item.NAR_empire_shield_elite"/>
+            <equipment slot="Head" id="Item.OSA_empire_helmet_elite"/>
+            <equipment slot="Body" id="Item.OSA_empire_armor_heavy"/>
+            <equipment slot="Leg" id="Item.OSA_empire_boots_heavy"/>
+            <equipment slot="Gloves" id="Item.OSA_empire_gauntlets"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_empire_light_infantry"
+             name="{=!}Empire Elite Light Infantry"
+             occupation="Soldier"
+             culture="Culture.empire"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_empire_sword"/>
+            <equipment slot="Item1" id="Item.NAR_empire_shield_light"/>
+            <equipment slot="Head" id="Item.OSA_empire_helmet_light"/>
+            <equipment slot="Body" id="Item.OSA_empire_armor_light"/>
+            <equipment slot="Leg" id="Item.OSA_empire_boots"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_empire_crossbowmen"
+             name="{=!}Empire Master Crossbowman"
+             occupation="Soldier"
+             culture="Culture.empire"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_empire_crossbow_heavy"/>
+            <equipment slot="Item1" id="Item.NAR_empire_sword"/>
+            <equipment slot="Item2" id="Item.bolts"/>
+            <equipment slot="Head" id="Item.OSA_empire_helmet"/>
+            <equipment slot="Body" id="Item.OSA_empire_armor_medium"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_empire_archers"
+             name="{=!}Empire Master Archer"
+             occupation="Soldier"
+             culture="Culture.empire"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_empire_bow_longbow"/>
+            <equipment slot="Item1" id="Item.NAR_empire_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.OSA_empire_helmet"/>
+            <equipment slot="Body" id="Item.OSA_empire_armor_light"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_empire_spearmen"
+             name="{=!}Empire Elite Spearman"
+             occupation="Soldier"
+             culture="Culture.empire"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_empire_spear_elite"/>
+            <equipment slot="Item1" id="Item.NAR_empire_shield"/>
+            <equipment slot="Head" id="Item.OSA_empire_helmet_heavy"/>
+            <equipment slot="Body" id="Item.OSA_empire_armor_heavy"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_empire_pikemen"
+             name="{=!}Empire Elite Pikeman"
+             occupation="Soldier"
+             culture="Culture.empire"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_empire_pike"/>
+            <equipment slot="Head" id="Item.OSA_empire_helmet"/>
+            <equipment slot="Body" id="Item.OSA_empire_armor_medium"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_empire_light_cavalry"
+             name="{=!}Empire Elite Light Cavalry"
+             occupation="Soldier"
+             culture="Culture.empire"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_empire_lance"/>
+            <equipment slot="Item1" id="Item.NAR_empire_sword_cavalry"/>
+            <equipment slot="Head" id="Item.OSA_empire_helmet_cavalry"/>
+            <equipment slot="Body" id="Item.OSA_empire_armor_cavalry"/>
+            <equipment slot="Horse" id="Item.empire_horse_elite"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_empire_heavy_cavalry"
+             name="{=!}Empire Elite Heavy Cavalry"
+             occupation="Soldier"
+             culture="Culture.empire"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_empire_lance"/>
+            <equipment slot="Item1" id="Item.NAR_empire_sword_cavalry"/>
+            <equipment slot="Head" id="Item.OSA_empire_helmet_cavalry"/>
+            <equipment slot="Body" id="Item.OSA_empire_armor_cavalry"/>
+            <equipment slot="Horse" id="Item.empire_horse_elite"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_empire_horse_archers"
+             name="{=!}Empire Elite Horse Archer"
+             occupation="Soldier"
+             culture="Culture.empire"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_empire_bow_longbow"/>
+            <equipment slot="Item1" id="Item.NAR_empire_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.OSA_empire_helmet"/>
+            <equipment slot="Body" id="Item.OSA_empire_armor_light"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+
+<!-- ========== VLANDIA CASTLE UNITS ========== -->
+
+<NPCCharacter id="castle_vlandia_heavy_infantry"
+             name="{=!}Vlandia Elite Heavy Infantry"
+             occupation="Soldier"
+             culture="Culture.vlandia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_vlandia_sword_elite"/>
+            <equipment slot="Item1" id="Item.NAR_vlandia_shield_elite"/>
+            <equipment slot="Head" id="Item.OSA_vlandia_helmet_elite"/>
+            <equipment slot="Body" id="Item.OSA_vlandia_armor_heavy"/>
+            <equipment slot="Leg" id="Item.OSA_vlandia_boots_heavy"/>
+            <equipment slot="Gloves" id="Item.OSA_vlandia_gauntlets"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_vlandia_light_infantry"
+             name="{=!}Vlandia Elite Light Infantry"
+             occupation="Soldier"
+             culture="Culture.vlandia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_vlandia_sword"/>
+            <equipment slot="Item1" id="Item.NAR_vlandia_shield_light"/>
+            <equipment slot="Head" id="Item.OSA_vlandia_helmet_light"/>
+            <equipment slot="Body" id="Item.OSA_vlandia_armor_light"/>
+            <equipment slot="Leg" id="Item.OSA_vlandia_boots"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_vlandia_crossbowmen"
+             name="{=!}Vlandia Master Crossbowman"
+             occupation="Soldier"
+             culture="Culture.vlandia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_vlandia_crossbow_heavy"/>
+            <equipment slot="Item1" id="Item.NAR_vlandia_sword"/>
+            <equipment slot="Item2" id="Item.bolts"/>
+            <equipment slot="Head" id="Item.OSA_vlandia_helmet"/>
+            <equipment slot="Body" id="Item.OSA_vlandia_armor_medium"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_vlandia_archers"
+             name="{=!}Vlandia Master Archer"
+             occupation="Soldier"
+             culture="Culture.vlandia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_vlandia_bow_longbow"/>
+            <equipment slot="Item1" id="Item.NAR_vlandia_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.OSA_vlandia_helmet"/>
+            <equipment slot="Body" id="Item.OSA_vlandia_armor_light"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_vlandia_spearmen"
+             name="{=!}Vlandia Elite Spearman"
+             occupation="Soldier"
+             culture="Culture.vlandia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_vlandia_spear_elite"/>
+            <equipment slot="Item1" id="Item.NAR_vlandia_shield"/>
+            <equipment slot="Head" id="Item.OSA_vlandia_helmet_heavy"/>
+            <equipment slot="Body" id="Item.OSA_vlandia_armor_heavy"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_vlandia_pikemen"
+             name="{=!}Vlandia Elite Pikeman"
+             occupation="Soldier"
+             culture="Culture.vlandia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_vlandia_pike"/>
+            <equipment slot="Head" id="Item.OSA_vlandia_helmet"/>
+            <equipment slot="Body" id="Item.OSA_vlandia_armor_medium"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_vlandia_light_cavalry"
+             name="{=!}Vlandia Elite Light Cavalry"
+             occupation="Soldier"
+             culture="Culture.vlandia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_vlandia_lance"/>
+            <equipment slot="Item1" id="Item.NAR_vlandia_sword_cavalry"/>
+            <equipment slot="Head" id="Item.OSA_vlandia_helmet_cavalry"/>
+            <equipment slot="Body" id="Item.OSA_vlandia_armor_cavalry"/>
+            <equipment slot="Horse" id="Item.vlandia_horse_elite"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_vlandia_heavy_cavalry"
+             name="{=!}Vlandia Elite Heavy Cavalry"
+             occupation="Soldier"
+             culture="Culture.vlandia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_vlandia_lance"/>
+            <equipment slot="Item1" id="Item.NAR_vlandia_sword_cavalry"/>
+            <equipment slot="Head" id="Item.OSA_vlandia_helmet_cavalry"/>
+            <equipment slot="Body" id="Item.OSA_vlandia_armor_cavalry"/>
+            <equipment slot="Horse" id="Item.vlandia_horse_elite"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_vlandia_mounted_crossbowmen"
+             name="{=!}Vlandia Elite Mounted Crossbowman"
+             occupation="Soldier"
+             culture="Culture.vlandia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_vlandia_crossbow_heavy"/>
+            <equipment slot="Item1" id="Item.NAR_vlandia_sword"/>
+            <equipment slot="Item2" id="Item.bolts"/>
+            <equipment slot="Head" id="Item.OSA_vlandia_helmet"/>
+            <equipment slot="Body" id="Item.OSA_vlandia_armor_medium"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+
+<!-- ========== BATTANIA CASTLE UNITS ========== -->
+
+<NPCCharacter id="castle_battania_heavy_infantry"
+             name="{=!}Battania Elite Heavy Infantry"
+             occupation="Soldier"
+             culture="Culture.battania"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_battania" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_battania_sword_elite"/>
+            <equipment slot="Item1" id="Item.NAR_battania_shield_elite"/>
+            <equipment slot="Head" id="Item.OSA_battania_helmet_elite"/>
+            <equipment slot="Body" id="Item.OSA_battania_armor_heavy"/>
+            <equipment slot="Leg" id="Item.OSA_battania_boots_heavy"/>
+            <equipment slot="Gloves" id="Item.OSA_battania_gauntlets"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_battania_light_infantry"
+             name="{=!}Battania Elite Light Infantry"
+             occupation="Soldier"
+             culture="Culture.battania"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_battania" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_battania_sword"/>
+            <equipment slot="Item1" id="Item.NAR_battania_shield_light"/>
+            <equipment slot="Head" id="Item.OSA_battania_helmet_light"/>
+            <equipment slot="Body" id="Item.OSA_battania_armor_light"/>
+            <equipment slot="Leg" id="Item.OSA_battania_boots"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_battania_archers"
+             name="{=!}Battania Master Archer"
+             occupation="Soldier"
+             culture="Culture.battania"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_battania" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_battania_bow_longbow"/>
+            <equipment slot="Item1" id="Item.NAR_battania_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.OSA_battania_helmet"/>
+            <equipment slot="Body" id="Item.OSA_battania_armor_light"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_battania_spearmen"
+             name="{=!}Battania Elite Spearman"
+             occupation="Soldier"
+             culture="Culture.battania"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_battania" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_battania_spear_elite"/>
+            <equipment slot="Item1" id="Item.NAR_battania_shield"/>
+            <equipment slot="Head" id="Item.OSA_battania_helmet_heavy"/>
+            <equipment slot="Body" id="Item.OSA_battania_armor_heavy"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_battania_pikemen"
+             name="{=!}Battania Elite Pikeman"
+             occupation="Soldier"
+             culture="Culture.battania"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_battania" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_battania_pike"/>
+            <equipment slot="Head" id="Item.OSA_battania_helmet"/>
+            <equipment slot="Body" id="Item.OSA_battania_armor_medium"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_battania_light_cavalry"
+             name="{=!}Battania Elite Light Cavalry"
+             occupation="Soldier"
+             culture="Culture.battania"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_battania" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_battania_lance"/>
+            <equipment slot="Item1" id="Item.NAR_battania_sword_cavalry"/>
+            <equipment slot="Head" id="Item.OSA_battania_helmet_cavalry"/>
+            <equipment slot="Body" id="Item.OSA_battania_armor_cavalry"/>
+            <equipment slot="Horse" id="Item.battania_horse_elite"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_battania_heavy_cavalry"
+             name="{=!}Battania Elite Heavy Cavalry"
+             occupation="Soldier"
+             culture="Culture.battania"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_battania" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_battania_lance"/>
+            <equipment slot="Item1" id="Item.NAR_battania_sword_cavalry"/>
+            <equipment slot="Head" id="Item.OSA_battania_helmet_cavalry"/>
+            <equipment slot="Body" id="Item.OSA_battania_armor_cavalry"/>
+            <equipment slot="Horse" id="Item.battania_horse_elite"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_battania_horse_archers"
+             name="{=!}Battania Elite Horse Archer"
+             occupation="Soldier"
+             culture="Culture.battania"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_battania" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_battania_bow_longbow"/>
+            <equipment slot="Item1" id="Item.NAR_battania_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.OSA_battania_helmet"/>
+            <equipment slot="Body" id="Item.OSA_battania_armor_light"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+
+<!-- ========== KHUZAIT CASTLE UNITS ========== -->
+
+<NPCCharacter id="castle_khuzait_heavy_infantry"
+             name="{=!}Khuzait Elite Heavy Infantry"
+             occupation="Soldier"
+             culture="Culture.khuzait"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_khuzait_sword_elite"/>
+            <equipment slot="Item1" id="Item.NAR_khuzait_shield_elite"/>
+            <equipment slot="Head" id="Item.OSA_khuzait_helmet_elite"/>
+            <equipment slot="Body" id="Item.OSA_khuzait_armor_heavy"/>
+            <equipment slot="Leg" id="Item.OSA_khuzait_boots_heavy"/>
+            <equipment slot="Gloves" id="Item.OSA_khuzait_gauntlets"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_khuzait_light_infantry"
+             name="{=!}Khuzait Elite Light Infantry"
+             occupation="Soldier"
+             culture="Culture.khuzait"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_khuzait_sword"/>
+            <equipment slot="Item1" id="Item.NAR_khuzait_shield_light"/>
+            <equipment slot="Head" id="Item.OSA_khuzait_helmet_light"/>
+            <equipment slot="Body" id="Item.OSA_khuzait_armor_light"/>
+            <equipment slot="Leg" id="Item.OSA_khuzait_boots"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_khuzait_archers"
+             name="{=!}Khuzait Master Archer"
+             occupation="Soldier"
+             culture="Culture.khuzait"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_khuzait_bow_longbow"/>
+            <equipment slot="Item1" id="Item.NAR_khuzait_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.OSA_khuzait_helmet"/>
+            <equipment slot="Body" id="Item.OSA_khuzait_armor_light"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_khuzait_spearmen"
+             name="{=!}Khuzait Elite Spearman"
+             occupation="Soldier"
+             culture="Culture.khuzait"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_khuzait_spear_elite"/>
+            <equipment slot="Item1" id="Item.NAR_khuzait_shield"/>
+            <equipment slot="Head" id="Item.OSA_khuzait_helmet_heavy"/>
+            <equipment slot="Body" id="Item.OSA_khuzait_armor_heavy"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_khuzait_pikemen"
+             name="{=!}Khuzait Elite Pikeman"
+             occupation="Soldier"
+             culture="Culture.khuzait"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_khuzait_pike"/>
+            <equipment slot="Head" id="Item.OSA_khuzait_helmet"/>
+            <equipment slot="Body" id="Item.OSA_khuzait_armor_medium"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_khuzait_light_cavalry"
+             name="{=!}Khuzait Elite Light Cavalry"
+             occupation="Soldier"
+             culture="Culture.khuzait"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_khuzait_lance"/>
+            <equipment slot="Item1" id="Item.NAR_khuzait_sword_cavalry"/>
+            <equipment slot="Head" id="Item.OSA_khuzait_helmet_cavalry"/>
+            <equipment slot="Body" id="Item.OSA_khuzait_armor_cavalry"/>
+            <equipment slot="Horse" id="Item.khuzait_horse_elite"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_khuzait_heavy_cavalry"
+             name="{=!}Khuzait Elite Heavy Cavalry"
+             occupation="Soldier"
+             culture="Culture.khuzait"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_khuzait_lance"/>
+            <equipment slot="Item1" id="Item.NAR_khuzait_sword_cavalry"/>
+            <equipment slot="Head" id="Item.OSA_khuzait_helmet_cavalry"/>
+            <equipment slot="Body" id="Item.OSA_khuzait_armor_cavalry"/>
+            <equipment slot="Horse" id="Item.khuzait_horse_elite"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_khuzait_horse_archers"
+             name="{=!}Khuzait Elite Horse Archer"
+             occupation="Soldier"
+             culture="Culture.khuzait"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_khuzait_bow_longbow"/>
+            <equipment slot="Item1" id="Item.NAR_khuzait_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.OSA_khuzait_helmet"/>
+            <equipment slot="Body" id="Item.OSA_khuzait_armor_light"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+
+<!-- ========== STURGIA CASTLE UNITS ========== -->
+
+<NPCCharacter id="castle_sturgia_heavy_infantry"
+             name="{=!}Sturgia Elite Heavy Infantry"
+             occupation="Soldier"
+             culture="Culture.sturgia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_sturgia_sword_elite"/>
+            <equipment slot="Item1" id="Item.NAR_sturgia_shield_elite"/>
+            <equipment slot="Head" id="Item.OSA_sturgia_helmet_elite"/>
+            <equipment slot="Body" id="Item.OSA_sturgia_armor_heavy"/>
+            <equipment slot="Leg" id="Item.OSA_sturgia_boots_heavy"/>
+            <equipment slot="Gloves" id="Item.OSA_sturgia_gauntlets"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_sturgia_light_infantry"
+             name="{=!}Sturgia Elite Light Infantry"
+             occupation="Soldier"
+             culture="Culture.sturgia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_sturgia_sword"/>
+            <equipment slot="Item1" id="Item.NAR_sturgia_shield_light"/>
+            <equipment slot="Head" id="Item.OSA_sturgia_helmet_light"/>
+            <equipment slot="Body" id="Item.OSA_sturgia_armor_light"/>
+            <equipment slot="Leg" id="Item.OSA_sturgia_boots"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_sturgia_crossbowmen"
+             name="{=!}Sturgia Master Crossbowman"
+             occupation="Soldier"
+             culture="Culture.sturgia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_sturgia_crossbow_heavy"/>
+            <equipment slot="Item1" id="Item.NAR_sturgia_sword"/>
+            <equipment slot="Item2" id="Item.bolts"/>
+            <equipment slot="Head" id="Item.OSA_sturgia_helmet"/>
+            <equipment slot="Body" id="Item.OSA_sturgia_armor_medium"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_sturgia_archers"
+             name="{=!}Sturgia Master Archer"
+             occupation="Soldier"
+             culture="Culture.sturgia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_sturgia_bow_longbow"/>
+            <equipment slot="Item1" id="Item.NAR_sturgia_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.OSA_sturgia_helmet"/>
+            <equipment slot="Body" id="Item.OSA_sturgia_armor_light"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_sturgia_spearmen"
+             name="{=!}Sturgia Elite Spearman"
+             occupation="Soldier"
+             culture="Culture.sturgia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_sturgia_spear_elite"/>
+            <equipment slot="Item1" id="Item.NAR_sturgia_shield"/>
+            <equipment slot="Head" id="Item.OSA_sturgia_helmet_heavy"/>
+            <equipment slot="Body" id="Item.OSA_sturgia_armor_heavy"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_sturgia_pikemen"
+             name="{=!}Sturgia Elite Pikeman"
+             occupation="Soldier"
+             culture="Culture.sturgia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_sturgia_pike"/>
+            <equipment slot="Head" id="Item.OSA_sturgia_helmet"/>
+            <equipment slot="Body" id="Item.OSA_sturgia_armor_medium"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_sturgia_light_cavalry"
+             name="{=!}Sturgia Elite Light Cavalry"
+             occupation="Soldier"
+             culture="Culture.sturgia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_sturgia_lance"/>
+            <equipment slot="Item1" id="Item.NAR_sturgia_sword_cavalry"/>
+            <equipment slot="Head" id="Item.OSA_sturgia_helmet_cavalry"/>
+            <equipment slot="Body" id="Item.OSA_sturgia_armor_cavalry"/>
+            <equipment slot="Horse" id="Item.sturgia_horse_elite"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_sturgia_heavy_cavalry"
+             name="{=!}Sturgia Elite Heavy Cavalry"
+             occupation="Soldier"
+             culture="Culture.sturgia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_sturgia_lance"/>
+            <equipment slot="Item1" id="Item.NAR_sturgia_sword_cavalry"/>
+            <equipment slot="Head" id="Item.OSA_sturgia_helmet_cavalry"/>
+            <equipment slot="Body" id="Item.OSA_sturgia_armor_cavalry"/>
+            <equipment slot="Horse" id="Item.sturgia_horse_elite"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+
+<!-- ========== ASERAI CASTLE UNITS ========== -->
+
+<NPCCharacter id="castle_aserai_heavy_infantry"
+             name="{=!}Aserai Elite Heavy Infantry"
+             occupation="Soldier"
+             culture="Culture.aserai"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_aserai" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_aserai_sword_elite"/>
+            <equipment slot="Item1" id="Item.NAR_aserai_shield_elite"/>
+            <equipment slot="Head" id="Item.OSA_aserai_helmet_elite"/>
+            <equipment slot="Body" id="Item.OSA_aserai_armor_heavy"/>
+            <equipment slot="Leg" id="Item.OSA_aserai_boots_heavy"/>
+            <equipment slot="Gloves" id="Item.OSA_aserai_gauntlets"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_aserai_light_infantry"
+             name="{=!}Aserai Elite Light Infantry"
+             occupation="Soldier"
+             culture="Culture.aserai"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_aserai" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_aserai_sword"/>
+            <equipment slot="Item1" id="Item.NAR_aserai_shield_light"/>
+            <equipment slot="Head" id="Item.OSA_aserai_helmet_light"/>
+            <equipment slot="Body" id="Item.OSA_aserai_armor_light"/>
+            <equipment slot="Leg" id="Item.OSA_aserai_boots"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_aserai_crossbowmen"
+             name="{=!}Aserai Master Crossbowman"
+             occupation="Soldier"
+             culture="Culture.aserai"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_aserai" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_aserai_crossbow_heavy"/>
+            <equipment slot="Item1" id="Item.NAR_aserai_sword"/>
+            <equipment slot="Item2" id="Item.bolts"/>
+            <equipment slot="Head" id="Item.OSA_aserai_helmet"/>
+            <equipment slot="Body" id="Item.OSA_aserai_armor_medium"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_aserai_archers"
+             name="{=!}Aserai Master Archer"
+             occupation="Soldier"
+             culture="Culture.aserai"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_aserai" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_aserai_bow_longbow"/>
+            <equipment slot="Item1" id="Item.NAR_aserai_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.OSA_aserai_helmet"/>
+            <equipment slot="Body" id="Item.OSA_aserai_armor_light"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_aserai_spearmen"
+             name="{=!}Aserai Elite Spearman"
+             occupation="Soldier"
+             culture="Culture.aserai"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_aserai" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_aserai_spear_elite"/>
+            <equipment slot="Item1" id="Item.NAR_aserai_shield"/>
+            <equipment slot="Head" id="Item.OSA_aserai_helmet_heavy"/>
+            <equipment slot="Body" id="Item.OSA_aserai_armor_heavy"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_aserai_pikemen"
+             name="{=!}Aserai Elite Pikeman"
+             occupation="Soldier"
+             culture="Culture.aserai"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_aserai" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_aserai_pike"/>
+            <equipment slot="Head" id="Item.OSA_aserai_helmet"/>
+            <equipment slot="Body" id="Item.OSA_aserai_armor_medium"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_aserai_light_cavalry"
+             name="{=!}Aserai Elite Light Cavalry"
+             occupation="Soldier"
+             culture="Culture.aserai"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_aserai" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_aserai_lance"/>
+            <equipment slot="Item1" id="Item.NAR_aserai_sword_cavalry"/>
+            <equipment slot="Head" id="Item.OSA_aserai_helmet_cavalry"/>
+            <equipment slot="Body" id="Item.OSA_aserai_armor_cavalry"/>
+            <equipment slot="Horse" id="Item.aserai_horse_elite"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_aserai_camel_heavy_cavalry"
+             name="{=!}Aserai Elite Camel Cataphract"
+             occupation="Soldier"
+             culture="Culture.aserai"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_aserai" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_aserai_lance"/>
+            <equipment slot="Item1" id="Item.NAR_aserai_shield_cavalry"/>
+            <equipment slot="Head" id="Item.OSA_aserai_helmet_elite"/>
+            <equipment slot="Body" id="Item.OSA_aserai_armor_camel"/>
+            <equipment slot="Horse" id="Item.camel"/>
+            <equipment slot="HorseHarness" id="Item.camel_scale_armor"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_aserai_horse_archers"
+             name="{=!}Aserai Elite Horse Archer"
+             occupation="Soldier"
+             culture="Culture.aserai"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_aserai" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_aserai_bow_longbow"/>
+            <equipment slot="Item1" id="Item.NAR_aserai_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.OSA_aserai_helmet"/>
+            <equipment slot="Body" id="Item.OSA_aserai_armor_light"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+
+<!-- ========== NORD CASTLE UNITS ========== -->
+
+<NPCCharacter id="castle_nord_heavy_infantry_axemen"
+             name="{=!}Nord Elite Ulfhednar Axeman"
+             occupation="Soldier"
+             culture="Culture.nord"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_nord" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_nord_sword_elite"/>
+            <equipment slot="Item1" id="Item.NAR_nord_shield_elite"/>
+            <equipment slot="Head" id="Item.OSA_nord_helmet_elite"/>
+            <equipment slot="Body" id="Item.OSA_nord_armor_heavy"/>
+            <equipment slot="Leg" id="Item.OSA_nord_boots_heavy"/>
+            <equipment slot="Gloves" id="Item.OSA_nord_gauntlets"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_nord_light_infantry"
+             name="{=!}Nord Elite Light Infantry"
+             occupation="Soldier"
+             culture="Culture.nord"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_nord" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_nord_sword"/>
+            <equipment slot="Item1" id="Item.NAR_nord_shield_light"/>
+            <equipment slot="Head" id="Item.OSA_nord_helmet_light"/>
+            <equipment slot="Body" id="Item.OSA_nord_armor_light"/>
+            <equipment slot="Leg" id="Item.OSA_nord_boots"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_nord_archers"
+             name="{=!}Nord Master Archer"
+             occupation="Soldier"
+             culture="Culture.nord"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_nord" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_nord_bow_longbow"/>
+            <equipment slot="Item1" id="Item.NAR_nord_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.OSA_nord_helmet"/>
+            <equipment slot="Body" id="Item.OSA_nord_armor_light"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+
+<!-- ========== NORMANDY CASTLE UNITS ========== -->
+
+<NPCCharacter id="castle_normandy_heavy_infantry"
+             name="{=!}Normandy Elite Heavy Infantry"
+             occupation="Soldier"
+             culture="Culture.normandy"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_normandy_sword_elite"/>
+            <equipment slot="Item1" id="Item.NAR_normandy_shield_elite"/>
+            <equipment slot="Head" id="Item.OSA_normandy_helmet_elite"/>
+            <equipment slot="Body" id="Item.OSA_normandy_armor_heavy"/>
+            <equipment slot="Leg" id="Item.OSA_normandy_boots_heavy"/>
+            <equipment slot="Gloves" id="Item.OSA_normandy_gauntlets"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_normandy_light_infantry"
+             name="{=!}Normandy Elite Light Infantry"
+             occupation="Soldier"
+             culture="Culture.normandy"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_normandy_sword"/>
+            <equipment slot="Item1" id="Item.NAR_normandy_shield_light"/>
+            <equipment slot="Head" id="Item.OSA_normandy_helmet_light"/>
+            <equipment slot="Body" id="Item.OSA_normandy_armor_light"/>
+            <equipment slot="Leg" id="Item.OSA_normandy_boots"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_normandy_crossbowmen"
+             name="{=!}Normandy Master Crossbowman"
+             occupation="Soldier"
+             culture="Culture.normandy"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_normandy_crossbow_heavy"/>
+            <equipment slot="Item1" id="Item.NAR_normandy_sword"/>
+            <equipment slot="Item2" id="Item.bolts"/>
+            <equipment slot="Head" id="Item.OSA_normandy_helmet"/>
+            <equipment slot="Body" id="Item.OSA_normandy_armor_medium"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_normandy_archers"
+             name="{=!}Normandy Master Archer"
+             occupation="Soldier"
+             culture="Culture.normandy"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_normandy_bow_longbow"/>
+            <equipment slot="Item1" id="Item.NAR_normandy_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.OSA_normandy_helmet"/>
+            <equipment slot="Body" id="Item.OSA_normandy_armor_light"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_normandy_spearmen"
+             name="{=!}Normandy Elite Spearman"
+             occupation="Soldier"
+             culture="Culture.normandy"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_normandy_spear_elite"/>
+            <equipment slot="Item1" id="Item.NAR_normandy_shield"/>
+            <equipment slot="Head" id="Item.OSA_normandy_helmet_heavy"/>
+            <equipment slot="Body" id="Item.OSA_normandy_armor_heavy"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_normandy_pikemen"
+             name="{=!}Normandy Elite Pikeman"
+             occupation="Soldier"
+             culture="Culture.normandy"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_normandy_pike"/>
+            <equipment slot="Head" id="Item.OSA_normandy_helmet"/>
+            <equipment slot="Body" id="Item.OSA_normandy_armor_medium"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_normandy_light_cavalry"
+             name="{=!}Normandy Elite Light Cavalry"
+             occupation="Soldier"
+             culture="Culture.normandy"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_normandy_lance"/>
+            <equipment slot="Item1" id="Item.NAR_normandy_sword_cavalry"/>
+            <equipment slot="Head" id="Item.OSA_normandy_helmet_cavalry"/>
+            <equipment slot="Body" id="Item.OSA_normandy_armor_cavalry"/>
+            <equipment slot="Horse" id="Item.normandy_horse_elite"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_normandy_heavy_cavalry"
+             name="{=!}Normandy Elite Heavy Cavalry"
+             occupation="Soldier"
+             culture="Culture.normandy"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_normandy_lance"/>
+            <equipment slot="Item1" id="Item.NAR_normandy_sword_cavalry"/>
+            <equipment slot="Head" id="Item.OSA_normandy_helmet_cavalry"/>
+            <equipment slot="Body" id="Item.OSA_normandy_armor_cavalry"/>
+            <equipment slot="Horse" id="Item.normandy_horse_elite"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_normandy_horse_archers"
+             name="{=!}Normandy Elite Horse Archer"
+             occupation="Soldier"
+             culture="Culture.normandy"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_normandy_bow_longbow"/>
+            <equipment slot="Item1" id="Item.NAR_normandy_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.OSA_normandy_helmet"/>
+            <equipment slot="Body" id="Item.OSA_normandy_armor_light"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+
+<!-- ========== RUTHENIA CASTLE UNITS ========== -->
+
+<NPCCharacter id="castle_ruthenia_heavy_infantry"
+             name="{=!}Ruthenia Elite Heavy Infantry"
+             occupation="Soldier"
+             culture="Culture.ruthenia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_ruthenia_sword_elite"/>
+            <equipment slot="Item1" id="Item.NAR_ruthenia_shield_elite"/>
+            <equipment slot="Head" id="Item.OSA_ruthenia_helmet_elite"/>
+            <equipment slot="Body" id="Item.OSA_ruthenia_armor_heavy"/>
+            <equipment slot="Leg" id="Item.OSA_ruthenia_boots_heavy"/>
+            <equipment slot="Gloves" id="Item.OSA_ruthenia_gauntlets"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_ruthenia_light_infantry"
+             name="{=!}Ruthenia Elite Light Infantry"
+             occupation="Soldier"
+             culture="Culture.ruthenia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_ruthenia_sword"/>
+            <equipment slot="Item1" id="Item.NAR_ruthenia_shield_light"/>
+            <equipment slot="Head" id="Item.OSA_ruthenia_helmet_light"/>
+            <equipment slot="Body" id="Item.OSA_ruthenia_armor_light"/>
+            <equipment slot="Leg" id="Item.OSA_ruthenia_boots"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_ruthenia_archers"
+             name="{=!}Ruthenia Master Archer"
+             occupation="Soldier"
+             culture="Culture.ruthenia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_ruthenia_bow_longbow"/>
+            <equipment slot="Item1" id="Item.NAR_ruthenia_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.OSA_ruthenia_helmet"/>
+            <equipment slot="Body" id="Item.OSA_ruthenia_armor_light"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_ruthenia_spearmen"
+             name="{=!}Ruthenia Elite Spearman"
+             occupation="Soldier"
+             culture="Culture.ruthenia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_ruthenia_spear_elite"/>
+            <equipment slot="Item1" id="Item.NAR_ruthenia_shield"/>
+            <equipment slot="Head" id="Item.OSA_ruthenia_helmet_heavy"/>
+            <equipment slot="Body" id="Item.OSA_ruthenia_armor_heavy"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_ruthenia_pikemen"
+             name="{=!}Ruthenia Elite Pikeman"
+             occupation="Soldier"
+             culture="Culture.ruthenia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_ruthenia_pike"/>
+            <equipment slot="Head" id="Item.OSA_ruthenia_helmet"/>
+            <equipment slot="Body" id="Item.OSA_ruthenia_armor_medium"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_ruthenia_light_cavalry"
+             name="{=!}Ruthenia Elite Light Cavalry"
+             occupation="Soldier"
+             culture="Culture.ruthenia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_ruthenia_lance"/>
+            <equipment slot="Item1" id="Item.NAR_ruthenia_sword_cavalry"/>
+            <equipment slot="Head" id="Item.OSA_ruthenia_helmet_cavalry"/>
+            <equipment slot="Body" id="Item.OSA_ruthenia_armor_cavalry"/>
+            <equipment slot="Horse" id="Item.ruthenia_horse_elite"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_ruthenia_heavy_cavalry"
+             name="{=!}Ruthenia Elite Heavy Cavalry"
+             occupation="Soldier"
+             culture="Culture.ruthenia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_ruthenia_lance"/>
+            <equipment slot="Item1" id="Item.NAR_ruthenia_sword_cavalry"/>
+            <equipment slot="Head" id="Item.OSA_ruthenia_helmet_cavalry"/>
+            <equipment slot="Body" id="Item.OSA_ruthenia_armor_cavalry"/>
+            <equipment slot="Horse" id="Item.ruthenia_horse_elite"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+<NPCCharacter id="castle_ruthenia_horse_archers"
+             name="{=!}Ruthenia Elite Horse Archer"
+             occupation="Soldier"
+             culture="Culture.ruthenia"
+             level="35"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="200" />
+        <skill id="Polearm" value="210" />
+        <skill id="Bow" value="190" />
+        <skill id="Crossbow" value="190" />
+        <skill id="Throwing" value="180" />
+        <skill id="Riding" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Tactics" value="150" />
+        <skill id="Leadership" value="140" />
+    </skills>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_ruthenia_bow_longbow"/>
+            <equipment slot="Item1" id="Item.NAR_ruthenia_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.OSA_ruthenia_helmet"/>
+            <equipment slot="Body" id="Item.OSA_ruthenia_armor_light"/>
+        </EquipmentRoster>
+</NPCCharacter>
+
+</NPCCharacters>

@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+<!-- ============================================== -->
+<!-- TACTICAL OVERHAUL CUSTOM LORDS               -->
+<!-- 40 Lords: 20 Normandy + 20 Ruthenia          -->
+<!-- ============================================== -->
+
+
+<!-- NORMANDY LORDS (20) -->
+
+<NPCCharacter id="lord_normandy_1_1"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Guillaume de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="210" />
+        <skill id="TwoHanded" value="172" />
+        <skill id="Polearm" value="200" />
+        <skill id="Crossbow" value="162" />
+        <skill id="Riding" value="248" />
+        <skill id="Athletics" value="134" />
+        <skill id="Leadership" value="200" />
+        <skill id="Tactics" value="162" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_normandy_1_2"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Roger de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="210" />
+        <skill id="TwoHanded" value="172" />
+        <skill id="Polearm" value="200" />
+        <skill id="Crossbow" value="162" />
+        <skill id="Riding" value="248" />
+        <skill id="Athletics" value="134" />
+        <skill id="Leadership" value="200" />
+        <skill id="Tactics" value="162" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_normandy_1_3"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}Robert de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="230" />
+        <skill id="TwoHanded" value="188" />
+        <skill id="Polearm" value="220" />
+        <skill id="Crossbow" value="178" />
+        <skill id="Riding" value="272" />
+        <skill id="Athletics" value="146" />
+        <skill id="Leadership" value="220" />
+        <skill id="Tactics" value="178" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_normandy_1_4"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}Richard de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="230" />
+        <skill id="TwoHanded" value="188" />
+        <skill id="Polearm" value="220" />
+        <skill id="Crossbow" value="178" />
+        <skill id="Riding" value="272" />
+        <skill id="Athletics" value="146" />
+        <skill id="Leadership" value="220" />
+        <skill id="Tactics" value="178" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_normandy_2_1"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Tancred de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="210" />
+        <skill id="TwoHanded" value="172" />
+        <skill id="Polearm" value="200" />
+        <skill id="Crossbow" value="162" />
+        <skill id="Riding" value="248" />
+        <skill id="Athletics" value="134" />
+        <skill id="Leadership" value="200" />
+        <skill id="Tactics" value="162" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_normandy_2_2"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Bohemond de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="210" />
+        <skill id="TwoHanded" value="172" />
+        <skill id="Polearm" value="200" />
+        <skill id="Crossbow" value="162" />
+        <skill id="Riding" value="248" />
+        <skill id="Athletics" value="134" />
+        <skill id="Leadership" value="200" />
+        <skill id="Tactics" value="162" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_normandy_2_3"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}Odo de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="230" />
+        <skill id="TwoHanded" value="188" />
+        <skill id="Polearm" value="220" />
+        <skill id="Crossbow" value="178" />
+        <skill id="Riding" value="272" />
+        <skill id="Athletics" value="146" />
+        <skill id="Leadership" value="220" />
+        <skill id="Tactics" value="178" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_normandy_2_4"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}Hugh de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="230" />
+        <skill id="TwoHanded" value="188" />
+        <skill id="Polearm" value="220" />
+        <skill id="Crossbow" value="178" />
+        <skill id="Riding" value="272" />
+        <skill id="Athletics" value="146" />
+        <skill id="Leadership" value="220" />
+        <skill id="Tactics" value="178" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_normandy_3_1"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Ralph de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="210" />
+        <skill id="TwoHanded" value="172" />
+        <skill id="Polearm" value="200" />
+        <skill id="Crossbow" value="162" />
+        <skill id="Riding" value="248" />
+        <skill id="Athletics" value="134" />
+        <skill id="Leadership" value="200" />
+        <skill id="Tactics" value="162" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_normandy_3_2"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Walter de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="210" />
+        <skill id="TwoHanded" value="172" />
+        <skill id="Polearm" value="200" />
+        <skill id="Crossbow" value="162" />
+        <skill id="Riding" value="248" />
+        <skill id="Athletics" value="134" />
+        <skill id="Leadership" value="200" />
+        <skill id="Tactics" value="162" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_normandy_3_3"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}Fulk de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="230" />
+        <skill id="TwoHanded" value="188" />
+        <skill id="Polearm" value="220" />
+        <skill id="Crossbow" value="178" />
+        <skill id="Riding" value="272" />
+        <skill id="Athletics" value="146" />
+        <skill id="Leadership" value="220" />
+        <skill id="Tactics" value="178" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_normandy_3_4"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}Drogo de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="230" />
+        <skill id="TwoHanded" value="188" />
+        <skill id="Polearm" value="220" />
+        <skill id="Crossbow" value="178" />
+        <skill id="Riding" value="272" />
+        <skill id="Athletics" value="146" />
+        <skill id="Leadership" value="220" />
+        <skill id="Tactics" value="178" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_normandy_4_1"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Rainald de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="210" />
+        <skill id="TwoHanded" value="172" />
+        <skill id="Polearm" value="200" />
+        <skill id="Crossbow" value="162" />
+        <skill id="Riding" value="248" />
+        <skill id="Athletics" value="134" />
+        <skill id="Leadership" value="200" />
+        <skill id="Tactics" value="162" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_normandy_4_2"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Geoffrey de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="210" />
+        <skill id="TwoHanded" value="172" />
+        <skill id="Polearm" value="200" />
+        <skill id="Crossbow" value="162" />
+        <skill id="Riding" value="248" />
+        <skill id="Athletics" value="134" />
+        <skill id="Leadership" value="200" />
+        <skill id="Tactics" value="162" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_normandy_4_3"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}Baldwin de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="230" />
+        <skill id="TwoHanded" value="188" />
+        <skill id="Polearm" value="220" />
+        <skill id="Crossbow" value="178" />
+        <skill id="Riding" value="272" />
+        <skill id="Athletics" value="146" />
+        <skill id="Leadership" value="220" />
+        <skill id="Tactics" value="178" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_normandy_4_4"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}Humphrey de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="230" />
+        <skill id="TwoHanded" value="188" />
+        <skill id="Polearm" value="220" />
+        <skill id="Crossbow" value="178" />
+        <skill id="Riding" value="272" />
+        <skill id="Athletics" value="146" />
+        <skill id="Leadership" value="220" />
+        <skill id="Tactics" value="178" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_normandy_5_1"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Mauger de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="210" />
+        <skill id="TwoHanded" value="172" />
+        <skill id="Polearm" value="200" />
+        <skill id="Crossbow" value="162" />
+        <skill id="Riding" value="248" />
+        <skill id="Athletics" value="134" />
+        <skill id="Leadership" value="200" />
+        <skill id="Tactics" value="162" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_normandy_5_2"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Osbern de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="210" />
+        <skill id="TwoHanded" value="172" />
+        <skill id="Polearm" value="200" />
+        <skill id="Crossbow" value="162" />
+        <skill id="Riding" value="248" />
+        <skill id="Athletics" value="134" />
+        <skill id="Leadership" value="200" />
+        <skill id="Tactics" value="162" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_normandy_5_3"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}William de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="230" />
+        <skill id="TwoHanded" value="188" />
+        <skill id="Polearm" value="220" />
+        <skill id="Crossbow" value="178" />
+        <skill id="Riding" value="272" />
+        <skill id="Athletics" value="146" />
+        <skill id="Leadership" value="220" />
+        <skill id="Tactics" value="178" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_normandy_5_4"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}Serlo de Hauteville"
+             occupation="Lord"
+             culture="Culture.normandy"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_normandy" /></face>
+    <skills>
+        <skill id="OneHanded" value="230" />
+        <skill id="TwoHanded" value="188" />
+        <skill id="Polearm" value="220" />
+        <skill id="Crossbow" value="178" />
+        <skill id="Riding" value="272" />
+        <skill id="Athletics" value="146" />
+        <skill id="Leadership" value="220" />
+        <skill id="Tactics" value="178" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="normans_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+
+<!-- RUTHENIA LORDS (20) -->
+
+<NPCCharacter id="lord_ruthenia_1_1"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Yaroslav Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="200" />
+        <skill id="TwoHanded" value="167" />
+        <skill id="Polearm" value="205" />
+        <skill id="Bow" value="238" />
+        <skill id="Riding" value="243" />
+        <skill id="Athletics" value="139" />
+        <skill id="Leadership" value="195" />
+        <skill id="Tactics" value="167" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_ruthenia_1_2"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Svyatoslav Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="200" />
+        <skill id="TwoHanded" value="167" />
+        <skill id="Polearm" value="205" />
+        <skill id="Bow" value="238" />
+        <skill id="Riding" value="243" />
+        <skill id="Athletics" value="139" />
+        <skill id="Leadership" value="195" />
+        <skill id="Tactics" value="167" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_ruthenia_1_3"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}Vladimir Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="183" />
+        <skill id="Polearm" value="225" />
+        <skill id="Bow" value="262" />
+        <skill id="Riding" value="267" />
+        <skill id="Athletics" value="151" />
+        <skill id="Leadership" value="215" />
+        <skill id="Tactics" value="183" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_ruthenia_1_4"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}Boris Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="183" />
+        <skill id="Polearm" value="225" />
+        <skill id="Bow" value="262" />
+        <skill id="Riding" value="267" />
+        <skill id="Athletics" value="151" />
+        <skill id="Leadership" value="215" />
+        <skill id="Tactics" value="183" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_ruthenia_2_1"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Gleb Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="200" />
+        <skill id="TwoHanded" value="167" />
+        <skill id="Polearm" value="205" />
+        <skill id="Bow" value="238" />
+        <skill id="Riding" value="243" />
+        <skill id="Athletics" value="139" />
+        <skill id="Leadership" value="195" />
+        <skill id="Tactics" value="167" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_ruthenia_2_2"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Igor Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="200" />
+        <skill id="TwoHanded" value="167" />
+        <skill id="Polearm" value="205" />
+        <skill id="Bow" value="238" />
+        <skill id="Riding" value="243" />
+        <skill id="Athletics" value="139" />
+        <skill id="Leadership" value="195" />
+        <skill id="Tactics" value="167" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_ruthenia_2_3"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}Oleg Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="183" />
+        <skill id="Polearm" value="225" />
+        <skill id="Bow" value="262" />
+        <skill id="Riding" value="267" />
+        <skill id="Athletics" value="151" />
+        <skill id="Leadership" value="215" />
+        <skill id="Tactics" value="183" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_ruthenia_2_4"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}Rurik Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="183" />
+        <skill id="Polearm" value="225" />
+        <skill id="Bow" value="262" />
+        <skill id="Riding" value="267" />
+        <skill id="Athletics" value="151" />
+        <skill id="Leadership" value="215" />
+        <skill id="Tactics" value="183" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_ruthenia_3_1"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Vsevolod Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="200" />
+        <skill id="TwoHanded" value="167" />
+        <skill id="Polearm" value="205" />
+        <skill id="Bow" value="238" />
+        <skill id="Riding" value="243" />
+        <skill id="Athletics" value="139" />
+        <skill id="Leadership" value="195" />
+        <skill id="Tactics" value="167" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_ruthenia_3_2"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Iziaslav Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="200" />
+        <skill id="TwoHanded" value="167" />
+        <skill id="Polearm" value="205" />
+        <skill id="Bow" value="238" />
+        <skill id="Riding" value="243" />
+        <skill id="Athletics" value="139" />
+        <skill id="Leadership" value="195" />
+        <skill id="Tactics" value="167" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_ruthenia_3_3"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}Mstislav Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="183" />
+        <skill id="Polearm" value="225" />
+        <skill id="Bow" value="262" />
+        <skill id="Riding" value="267" />
+        <skill id="Athletics" value="151" />
+        <skill id="Leadership" value="215" />
+        <skill id="Tactics" value="183" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_ruthenia_3_4"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}Rostislav Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="183" />
+        <skill id="Polearm" value="225" />
+        <skill id="Bow" value="262" />
+        <skill id="Riding" value="267" />
+        <skill id="Athletics" value="151" />
+        <skill id="Leadership" value="215" />
+        <skill id="Tactics" value="183" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_ruthenia_4_1"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Roman Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="200" />
+        <skill id="TwoHanded" value="167" />
+        <skill id="Polearm" value="205" />
+        <skill id="Bow" value="238" />
+        <skill id="Riding" value="243" />
+        <skill id="Athletics" value="139" />
+        <skill id="Leadership" value="195" />
+        <skill id="Tactics" value="167" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_ruthenia_4_2"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Yuri Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="200" />
+        <skill id="TwoHanded" value="167" />
+        <skill id="Polearm" value="205" />
+        <skill id="Bow" value="238" />
+        <skill id="Riding" value="243" />
+        <skill id="Athletics" value="139" />
+        <skill id="Leadership" value="195" />
+        <skill id="Tactics" value="167" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_ruthenia_4_3"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}Vasily Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="183" />
+        <skill id="Polearm" value="225" />
+        <skill id="Bow" value="262" />
+        <skill id="Riding" value="267" />
+        <skill id="Athletics" value="151" />
+        <skill id="Leadership" value="215" />
+        <skill id="Tactics" value="183" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_ruthenia_4_4"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}Andrei Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="183" />
+        <skill id="Polearm" value="225" />
+        <skill id="Bow" value="262" />
+        <skill id="Riding" value="267" />
+        <skill id="Athletics" value="151" />
+        <skill id="Leadership" value="215" />
+        <skill id="Tactics" value="183" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_ruthenia_5_1"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Dmitry Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="200" />
+        <skill id="TwoHanded" value="167" />
+        <skill id="Polearm" value="205" />
+        <skill id="Bow" value="238" />
+        <skill id="Riding" value="243" />
+        <skill id="Athletics" value="139" />
+        <skill id="Leadership" value="195" />
+        <skill id="Tactics" value="167" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_ruthenia_5_2"
+             default_group="Cavalry"
+             level="18"
+             name="{=!}Ivan Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="200" />
+        <skill id="TwoHanded" value="167" />
+        <skill id="Polearm" value="205" />
+        <skill id="Bow" value="238" />
+        <skill id="Riding" value="243" />
+        <skill id="Athletics" value="139" />
+        <skill id="Leadership" value="195" />
+        <skill id="Tactics" value="167" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_ruthenia_5_3"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}Alexei Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="183" />
+        <skill id="Polearm" value="225" />
+        <skill id="Bow" value="262" />
+        <skill id="Riding" value="267" />
+        <skill id="Athletics" value="151" />
+        <skill id="Leadership" value="215" />
+        <skill id="Tactics" value="183" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="lord_ruthenia_5_4"
+             default_group="Cavalry"
+             level="22"
+             name="{=!}Mikhail Rurikovich"
+             occupation="Lord"
+             culture="Culture.ruthenia"
+             is_hero="true">
+    <face><face_key_template value="BodyProperty.fighter_ruthenia" /></face>
+    <skills>
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="183" />
+        <skill id="Polearm" value="225" />
+        <skill id="Bow" value="262" />
+        <skill id="Riding" value="267" />
+        <skill id="Athletics" value="151" />
+        <skill id="Leadership" value="215" />
+        <skill id="Tactics" value="183" />
+    </skills>
+    <Equipments>
+        <EquipmentSet id="ruthenia_heavy_template" />
+    </Equipments>
+</NPCCharacter>
+
+</NPCCharacters>

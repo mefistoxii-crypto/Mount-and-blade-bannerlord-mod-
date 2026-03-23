@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+<!-- EMPIRE CASTLE UNITS - Elite units recruitable only in castles -->
+
+<NPCCharacter id="castle_empire_praetorian"
+             name="{=!}Imperial Praetorian"
+             occupation="Soldier"
+             culture="Culture.empire"
+             level="30"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+        <skill id="OneHanded" value="200" />
+        <skill id="TwoHanded" value="140" />
+        <skill id="Polearm" value="160" />
+        <skill id="Riding" value="140" />
+        <skill id="Athletics" value="120" />
+        <skill id="Tactics" value="160" />
+        <skill id="Leadership" value="160" />
+    </skills>
+    <Equipments>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.NAR_imperial_sword"/>
+            <equipment slot="Item1" id="Item.NAR_imperial_shield"/>
+            <equipment slot="Item2" id="Item.NAR_imperial_javelin"/>
+            <equipment slot="Head" id="Item.OSA_imperial_helmet_elite"/>
+            <equipment slot="Body" id="Item.OSA_imperial_armor_elite"/>
+            <equipment slot="Leg" id="Item.OSA_imperial_boots_elite"/>
+            <equipment slot="Gloves" id="Item.OSA_imperial_gauntlets"/>
+            <equipment slot="Cape" id="Item.OSA_imperial_cape"/>
+            <equipment slot="Horse" id="Item.empire_horse_heavy"/>
+        </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<!-- More castle units... -->
+
+</NPCCharacters>

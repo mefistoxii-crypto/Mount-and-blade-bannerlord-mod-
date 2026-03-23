@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModuleData>
+    <!-- Khuzait Castle Units - Elite units recruitable only in castles -->
+
+    <CharacterObject>
+        <Id>castle_recruit_khuzait_elite_archer</Id>
+        <Name>Khuzait Elite Archer</Name>
+        <Description>Master horse archer specialized in castle defense and ranged tactics.</Description>
+        <Culture>khuzait</Culture>
+        <Tier>6</Tier>
+        <Health>130</Health>
+        <Morale>75</Morale>
+
+        <Equipment>
+            <Item slot="Weapon">khuzait_war_bow</Item>
+            <Item slot="Weapon2">khuzait_light_shield</Item>
+            <Item slot="Horse">light_warhorse</Item>
+            <Item slot="Body">khuzait_leather_armor</Item>
+            <Item slot="Head">khuzait_open_helmet</Item>
+        </Equipment>
+
+        <Skills>
+            <OneHanded>120</OneHanded>
+            <TwoHanded>100</TwoHanded>
+            <Polearm>120</Polearm>
+            <Shield>140</Shield>
+            <Riding>180</Riding>
+            <Athletics>160</Athletics>
+            <PowerStrike>120</PowerStrike>
+            <PowerDraw>220</PowerDraw>
+            <Scouting>180</Scouting>
+            <Tactics>160</Tactics>
+            <Surgery>100</Surgery>
+            <FirstAid>120</FirstAid>
+            <Trade>80</Trade>
+            <Leadership>120</Leadership>
+            <Persuasion>100</Persuasion>
+            <Smithing>100</Smithing>
+            <Crafting>100</Crafting>
+            <Throwing>140</Throwing>
+            <Bow>220</Bow>
+            <Crossbow>120</Crossbow>
+            <Firearm>80</Firearm>
+        </Skills>
+
+        <Attributes>
+            <Strength>10</Strength>
+            <Dexterity>16</Dexterity>
+            <Intelligence>10</Intelligence>
+            <Endurance>10</Endurance>
+            <Charisma>10</Charisma>
+        </Attributes>
+
+        <Flags>
+            <IsMounted>true</IsMounted>
+            <IsNotManhunter>true</IsNotManhunter>
+            <IsOffensive>true</IsOffensive>
+            <IsTemplate>false</IsTemplate>
+        </Flags>
+    </CharacterObject>
+
+    <CharacterObject>
+        <Id>castle_recruit_khuzait_heavy_lancer</Id>
+        <Name>Khuzait Heavy Lancer</Name>
+        <Description>Elite cavalry warrior specialized in castle assaults and charges.</Description>
+        <Culture>khuzait</Culture>
+        <Tier>7</Tier>
+        <Health>170</Health>
+        <Morale>85</Morale>
+
+        <Equipment>
+            <Item slot="Weapon">khuzait_lance</Item>
+            <Item slot="Weapon2">khuzait_heavy_shield</Item>
+            <Item slot="Horse">heavy_warhorse</Item>
+            <Item slot="Body">khuzait_mail_armor</Item>
+            <Item slot="Head">khuzait_closed_helmet</Item>
+        </Equipment>
+
+        <Skills>
+            <OneHanded>160</OneHanded>
+            <TwoHanded>140</TwoHanded>
+            <Polearm>220</Polearm>
+            <Shield>160</Shield>
+            <Riding>220</Riding>
+            <Athletics>140</Athletics>
+            <PowerStrike>200</PowerStrike>
+            <PowerDraw>180</PowerDraw>
+            <Scouting>120</Scouting>
+            <Tactics>180</Tactics>
+            <Surgery>100</Surgery>
+            <FirstAid>120</FirstAid>
+            <Trade>80</Trade>
+            <Leadership>160</Leadership>
+            <Persuasion>120</Persuasion>
+            <Smithing>100</Smithing>
+            <Crafting>100</Crafting>
+            <Throwing>100</Throwing>
+            <Bow>120</Bow>
+            <Crossbow>100</Crossbow>
+            <Firearm>80</Firearm>
+        </Skills>
+
+        <Attributes>
+            <Strength>16</Strength>
+            <Dexterity>10</Dexterity>
+            <Intelligence>8</Intelligence>
+            <Endurance>14</Endurance>
+            <Charisma>10</Charisma>
+        </Attributes>
+
+        <Flags>
+            <IsMounted>true</IsMounted>
+            <IsNotManhunter>true</IsNotManhunter>
+            <IsOffensive>true</IsOffensive>
+            <IsTemplate>false</IsTemplate>
+        </Flags>
+    </CharacterObject>
+
+    <CharacterObject>
+        <Id>castle_recruit_khuzait_strategist</Id>
+        <Name>Khuzait Strategist</Name>
+        <Description>Tactical specialist in siege warfare and castle defense strategies.</Description>
+        <Culture>khuzait</Culture>
+        <Tier>5</Tier>
+        <Health>120</Health>
+        <Morale>70</Morale>
+
+        <Equipment>
+            <Item slot="Weapon">khuzait_crossbow</Item>
+            <Item slot="Weapon2">khuzait_light_shield</Item>
+            <Item slot="Horse">light_horse</Item>
+            <Item slot="Body">khuzait_mail_armor</Item>
+            <Item slot="Head">khuzait_open_helmet</Item>
+        </Equipment>
+
+        <Skills>
+            <OneHanded>120</OneHanded>
+            <TwoHanded>100</TwoHanded>
+            <Polearm>120</Polearm>
+            <Shield>140</Shield>
+            <Riding>140</Riding>
+            <Athletics>100</Athletics>
+            <PowerStrike>120</PowerStrike>
+            <PowerDraw>140</PowerDraw>
+            <Scouting>140</Scouting>
+            <Tactics>200</Tactics>
+            <Surgery>100</Surgery>
+            <FirstAid>120</FirstAid>
+            <Trade>140</Trade>
+            <Leadership>140</Leadership>
+            <Persuasion>120</Persuasion>
+            <Smithing>160</Smithing>
+            <Crafting>160</Crafting>
+            <Throwing>100</Throwing>
+            <Bow>100</Bow>
+            <Crossbow>180</Crossbow>
+            <Firearm>100</Firearm>
+        </Skills>
+
+        <Attributes>
+            <Strength>10</Strength>
+            <Dexterity>12</Dexterity>
+            <Intelligence>14</Intelligence>
+            <Endurance>10</Endurance>
+            <Charisma>10</Charisma>
+        </Attributes>
+
+        <Flags>
+            <IsMounted>true</IsMounted>
+            <IsNotManhunter>true</IsNotManhunter>
+            <IsOffensive>true</IsOffensive>
+            <IsTemplate>false</IsTemplate>
+        </Flags>
+    </CharacterObject>
+</ModuleData>

@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Vanilla Balance -->
+	<!-- Aserai Armors -->
+	<Item id="AR_aserai_armor_a" name="{=osa_ar_aserai_armor_a}Southern Leather Coat" mesh="AR_aserai_armor_a" culture="Culture.aserai" weight="8.4" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20" leg_armor="10" arm_armor="6" covers_body="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_b" name="{=osa_ar_aserai_armor_b}Southern Double Mail Hauberk" mesh="AR_aserai_armor_b" culture="Culture.aserai" subtype="body_armor" weight="9.5" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="27" leg_armor="14" arm_armor="12" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_c" name="{=osa_ar_aserai_armor_c}Southern Brass Scale Armor" mesh="AR_aserai_armor_c" culture="Culture.aserai" weight="20.0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="47" leg_armor="23" arm_armor="14" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_d" name="{=osa_ar_aserai_armor_d}Southern Scale Armor Over Leather" mesh="AR_aserai_armor_d" culture="Culture.aserai" subtype="body_armor" weight="12.5" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="32" leg_armor="17" arm_armor="12" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_d2" name="{=osa_ar_aserai_armor_d2}Southern Brass Scale Armor Over Leather" mesh="AR_aserai_armor_d2" culture="Culture.aserai" subtype="body_armor" weight="12.5" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="32" leg_armor="17" arm_armor="12" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_e" name="{=osa_ar_aserai_armor_e}Southern Scale Armor Over Cloth" mesh="AR_aserai_armor_e" culture="Culture.aserai" subtype="body_armor" weight="12.5" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="25" leg_armor="14" arm_armor="10" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_e2" name="{=osa_ar_aserai_armor_e2}Southern Brass Scale Armor Over Cloth" mesh="AR_aserai_armor_e2" culture="Culture.aserai" subtype="body_armor" weight="12.5" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="25" leg_armor="14" arm_armor="10" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_f" name="{=osa_ar_aserai_armor_f}Southern Steel Scale Over Mail" mesh="AR_aserai_armor_f" culture="Culture.aserai" subtype="body_armor" weight="22.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="48" leg_armor="14" arm_armor="14" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_f2" name="{=osa_ar_aserai_armor_f2}Southern Brass Scale Over Mail" mesh="AR_aserai_armor_f2" culture="Culture.aserai" subtype="body_armor" weight="22.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="48" leg_armor="14" arm_armor="14" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_g" name="{=osa_ar_aserai_armor_g}Aserai Decorated Scale Cuirass With Chain Mail" mesh="AR_aserai_armor_g" culture="Culture.aserai" weight="18.0" appearance="4" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="32" leg_armor="14" arm_armor="15" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_g2" name="{=osa_ar_aserai_armor_g2}Aserai Decorated Brass Scale Cuirass With Chain Mail" mesh="AR_aserai_armor_g2" culture="Culture.aserai" weight="18.0" appearance="4" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="32" leg_armor="14" arm_armor="15" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_h" name="{=osa_ar_aserai_armor_h}Southern Aketon" mesh="AR_aserai_armor_h" culture="Culture.aserai" weight="3.4" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="14" leg_armor="3" arm_armor="3" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_i" name="{=osa_ar_aserai_armor_i}Darshi Kaftan Over Mail" subtype="body_armor" mesh="AR_aserai_armor_i" culture="Culture.aserai" weight="15" difficulty="0" appearance="1.2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="12" arm_armor="6" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_j" name="{=osa_ar_aserai_armor_j}Darshi Decorated Kaftan Over Mail" subtype="body_armor" mesh="AR_aserai_armor_j" culture="Culture.aserai" weight="15" difficulty="0" appearance="1.2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="37" leg_armor="12" arm_armor="6" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_k" name="{=osa_ar_aserai_armor_k}Darshi Leather Vest Over Kaftan" mesh="AR_aserai_armor_k" culture="Culture.aserai" weight="3.1" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="22" leg_armor="4" arm_armor="4" covers_body="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_l" name="{=osa_ar_aserai_armor_l}Darshi Heavy Leather Vest Over Kaftan" mesh="AR_aserai_armor_l" culture="Culture.aserai" weight="3.1" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="23" leg_armor="6" arm_armor="6" covers_body="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_m" name="{=osa_ar_aserai_armor_m}Darshi Mailed Heavy Leather Vest Over Kaftan" mesh="AR_aserai_armor_m" culture="Culture.aserai" weight="8.6" appearance="10.1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="31" leg_armor="8" arm_armor="8" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_n" name="{=osa_ar_aserai_armor_n}Southern Wrapped Tunic" subtype="body_armor" mesh="AR_aserai_armor_n" culture="Culture.aserai" weight="0.3" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="4" leg_armor="2" arm_armor="2" has_gender_variations="false" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_o" name="{=osa_ar_aserai_armor_o}Southern Fur Coat Over Tunic" mesh="AR_aserai_armor_o" culture="Culture.aserai" weight="2.1" difficulty="0" appearance="0.1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="12" leg_armor="5" arm_armor="2" covers_body="true" has_gender_variations="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_p" name="{=osa_ar_aserai_armor_p}Southern Gambeson" mesh="AR_aserai_armor_p" culture="Culture.aserai" weight="2" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="18" leg_armor="9" arm_armor="9" has_gender_variations="false" covers_body="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_q" name="{=osa_ar_aserai_armor_q}Darshi Leather Subarmalis Over Tunic" mesh="AR_aserai_armor_q" culture="Culture.aserai" weight="3.1" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="22" leg_armor="6" arm_armor="6" covers_body="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_r" name="{=osa_ar_aserai_armor_r}Darshi Mail Over Stripped Cloth" mesh="AR_aserai_armor_r" culture="Culture.aserai" subtype="body_armor" weight="10.2" difficulty="0" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="31" leg_armor="6" arm_armor="6" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_s" name="{=osa_ar_aserai_armor_s}Darshi Cloth Subarmalis Over Tunic" mesh="AR_aserai_armor_s" culture="Culture.aserai" weight="2.1" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="15" leg_armor="6" arm_armor="6" covers_body="true" has_gender_variations="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_t" name="{=osa_ar_aserai_armor_t}Darshi Lamellar Over Stripped Cloth" mesh="AR_aserai_armor_t" culture="Culture.aserai" weight="2.1" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="48" leg_armor="8" arm_armor="8" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_t2" name="{=osa_ar_aserai_armor_t2}Darshi Alternating Lamellar Over Stripped Cloth" mesh="AR_aserai_armor_t2" culture="Culture.aserai" weight="2.1" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="48" leg_armor="8" arm_armor="8" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_u" name="{=osa_ar_aserai_armor_u}Darshi Lamellar Over Stripped Mail" mesh="AR_aserai_armor_u" culture="Culture.aserai" weight="7" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="50" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_u2" name="{=osa_ar_aserai_armor_u2}Darshi Alternating Lamellar Over Stripped Mail" mesh="AR_aserai_armor_u2" culture="Culture.aserai" weight="7" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="50" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_v" name="{=osa_ar_aserai_armor_v}Darshi Mailed Lamellar Vest Over Kaftan" mesh="AR_aserai_armor_v" culture="Culture.aserai" weight="8.6" appearance="10.1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="50" leg_armor="10" arm_armor="10" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_v2" name="{=osa_ar_aserai_armor_v2}Darshi Mailed Alternating Lamellar Vest Over Kaftan" mesh="AR_aserai_armor_v2" culture="Culture.aserai" weight="8.6" appearance="10.1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="50" leg_armor="10" arm_armor="10" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_w" name="{=osa_ar_aserai_armor_w}Eastern Light Lamellar" subtype="body_armor" mesh="AR_aserai_armor_w" culture="Culture.aserai" weight="16.5" difficulty="0" appearance="1.5" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="36" arm_armor="8" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_w2" name="{=osa_ar_aserai_armor_w2}Eastern Light Alternating Lamellar" subtype="body_armor" mesh="AR_aserai_armor_w2" culture="Culture.aserai" weight="16.5" difficulty="0" appearance="1.5" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="36" arm_armor="8" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_x" name="{=osa_ar_aserai_armor_x}Eastern Alternating Lamellar Over Mail Armor" subtype="body_armor" mesh="AR_aserai_armor_x" culture="Culture.aserai" weight="16.5" difficulty="0" appearance="1.5" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="46" arm_armor="14" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_y" name="{=osa_ar_aserai_armor_y}Eastern Alternating Lamellar Over Heavy Mail" subtype="body_armor" mesh="AR_aserai_armor_y" culture="Culture.aserai" weight="18" difficulty="0" appearance="1.5" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="50" leg_armor="16" arm_armor="14" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_z" name="{=osa_ar_aserai_armor_z}Eastern Heavy Alternating Lamellar Armor" mesh="AR_aserai_armor_z" culture="Culture.khuzait" weight="25.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="54" leg_armor="18" arm_armor="16" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_za" name="{=osa_ar_aserai_armor_za}Darshi Kaftan Over Cloth" mesh="AR_aserai_armor_za" culture="Culture.aserai" weight="2.1" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="15" leg_armor="6" arm_armor="6" covers_body="true" has_gender_variations="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_zb" name="{=osa_ar_aserai_armor_zb}Darshi Kaftan Over Leather" mesh="AR_aserai_armor_zb" culture="Culture.aserai" weight="3.1" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="22" leg_armor="6" arm_armor="6" covers_body="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_zc" name="{=osa_ar_aserai_armor_zc}Darshi Silk Noble Robes" mesh="AR_aserai_armor_zc" culture="Culture.aserai" weight="0.9" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="8" leg_armor="3" arm_armor="4" has_gender_variations="true" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_zd" name="{=osa_ar_aserai_armor_zd}Southern Noble Robes" mesh="AR_aserai_armor_zd" culture="Culture.aserai" weight="0.9" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="8" leg_armor="3" arm_armor="4" has_gender_variations="true" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_armor_zd2" name="{=osa_ar_aserai_armor_zd2}Southern Decorated Noble Robes" mesh="AR_aserai_armor_zd2" culture="Culture.aserai" weight="0.9" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="8" leg_armor="3" arm_armor="4" has_gender_variations="true" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_lamellar_a" name="{=osa_ar_aserai_lamellar_a}Southern Brass Lamellar Armor Over Padded Mail" mesh="AR_aserai_lamellar_a" subtype="body_armor" culture="Culture.aserai" weight="15.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="48" leg_armor="12" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_lamellar_b" name="{=osa_ar_aserai_lamellar_b}Southern Iron Lamellar Armor Over Padded Mail" mesh="AR_aserai_lamellar_b" subtype="body_armor" culture="Culture.aserai" weight="15.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="48" leg_armor="12" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_leather_a" name="{=osa_ar_aserai_leather_a}Southern Leather Cuirass Over Padded Cloth" mesh="AR_aserai_leather_a" culture="Culture.empire" weight="6.2" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="18" leg_armor="8" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="6"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_scale_armor_a" name="{=osa_ar_aserai_scale_armor_a}Mastercrafted Southern Steel Scale Mail" mesh="AR_aserai_scale_armor_a" culture="Culture.aserai" weight="18.0" appearance="6" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="6" arm_armor="7" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_scale_armor_b" name="{=osa_ar_aserai_scale_armor_b}Mastercrafted Southern Steel Scale over Chain Mail" mesh="AR_aserai_scale_armor_b" culture="Culture.aserai" weight="22.0" appearance="6" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="51" leg_armor="16" arm_armor="16" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_aserai_scale_armor_c" name="{=osa_ar_aserai_scale_armor_c}Mastercrafted Southern Steel Scale over Chain Hauberk" lod_atlas_index="3" mesh="AR_aserai_scale_armor_c" culture="Culture.aserai" weight="28.0" appearance="7" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="51" leg_armor="25" arm_armor="16" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<!-- Battanian Armors -->
+	<Item id="AR_battania_armor_a" name="{=osa_ar_battania_armor_a}Highland Savage Scale Cuirass" mesh="AR_battania_armor_a" culture="Culture.battania" weight="15" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="8" arm_armor="2" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_battania_armor_a2" name="{=osa_ar_battania_armor_a2}Highland Savage Scale Over Mail Shirt" mesh="AR_battania_armor_a2" subtype="body_armor" culture="Culture.battania" weight="20.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="48" leg_armor="8" arm_armor="12" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_battania_armor_b" name="{=osa_ar_battania_armor_b}Highland Decorated Savage Scale Over Mail" mesh="AR_battania_armor_b" subtype="body_armor" culture="Culture.battania" weight="20.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="50" leg_armor="14" arm_armor="12" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_battania_armor_b2" name="{=osa_ar_battania_armor_b2}Highland Savage Scale Over Mail" mesh="AR_battania_armor_b2" subtype="body_armor" culture="Culture.battania" weight="20.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="48" leg_armor="14" arm_armor="12" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_battania_armor_c" name="{=osa_ar_battania_armor_c}Highland Cloth Trousers" mesh="AR_battania_armor_c" culture="Culture.battania" subtype="body_armor" weight="0.4" difficulty="0" appearance="1.8" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="1" leg_armor="3" arm_armor="0" has_gender_variations="true" covers_body="false" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" DoesNotHideChest="true"/>
+	</Item>
+	<Item id="AR_battania_armor_d" name="{=osa_ar_battania_armor_d}Highland Plaid Cloth Trousers" mesh="AR_battania_armor_d" culture="Culture.battania" subtype="body_armor" weight="0.4" difficulty="0" appearance="1.8" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="1" leg_armor="3" arm_armor="0" has_gender_variations="true" covers_body="false" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" DoesNotHideChest="true"/>
+	</Item>
+	<Item id="AR_battania_armor_e" name="{=osa_ar_battania_armor_e}Highland Striped Cloth Trousers" mesh="AR_battania_armor_e" culture="Culture.battania" subtype="body_armor" weight="0.4" difficulty="0" appearance="1.8" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="1" leg_armor="3" arm_armor="0" has_gender_variations="true" covers_body="false" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" DoesNotHideChest="true"/>
+	</Item>
+	<Item id="AR_battania_armor_f" name="{=osa_ar_battania_armor_f}Highland Rough Mail Hauberk With Fur" mesh="AR_battania_armor_f" culture="Culture.battania" subtype="body_armor" weight="9.5" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="27" leg_armor="14" arm_armor="12" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_battania_armor_g" name="{=osa_ar_battania_armor_g}Highland Sleeveless Leather Tunic" mesh="AR_battania_armor_g" culture="Culture.battania" subtype="body_armor" weight="2.0" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="15" leg_armor="7" arm_armor="2" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_battania_armor_h" name="{=osa_ar_battania_armor_h}Highland Rugged Leather Vest" subtype="body_armor" mesh="AR_battania_armor_h" culture="Culture.battania" weight="0.8" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="16" leg_armor="8" arm_armor="2" has_gender_variations="true" covers_body="false" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_battania_armor_i" name="{=osa_ar_battania_armor_i}Highland Rugged Mail Vest" subtype="body_armor" mesh="AR_battania_armor_i" culture="Culture.battania" weight="1.0" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="25" leg_armor="8" arm_armor="2" has_gender_variations="true" covers_body="false" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_battania_armor_j" name="{=osa_ar_battania_armor_j}Highland Plated Mail Vest" subtype="body_armor" mesh="AR_battania_armor_j" culture="Culture.battania" weight="1.0" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="26" leg_armor="10" arm_armor="0" has_gender_variations="true" covers_body="false" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_battania_armor_k" name="{=osa_ar_battania_armor_k}Highland Tartan Tunic with Rolled Cloth" mesh="AR_battania_armor_k" culture="Culture.battania" subtype="body_armor" weight="0.7" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6" leg_armor="3" arm_armor="2" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_battania_armor_l" name="{=osa_ar_battania_armor_l}Highland Mail Shirt With Rolled Cloth" mesh="AR_battania_armor_l" culture="Culture.battania" subtype="body_armor" weight="7.5" difficulty="0" appearance="1.2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="27" leg_armor="13" arm_armor="8" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_battania_armor_m" name="{=osa_ar_battania_armor_m}Highland Brass Scale Shirt With Rolled Cloth" mesh="AR_battania_armor_m" subtype="body_armor" culture="Culture.battania" weight="15.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="36" leg_armor="12" arm_armor="8" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_battania_armor_m2" name="{=osa_ar_battania_armor_m2}Highland Steel Scale Shirt With Rolled Cloth" mesh="AR_battania_armor_m2" subtype="body_armor" culture="Culture.battania" weight="15.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="36" leg_armor="12" arm_armor="8" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_battania_armor_n" name="{=osa_ar_battania_armor_n}Highland Mailed Brass Scale Shirt With Rolled Cloth" mesh="AR_battania_armor_n" subtype="body_armor" culture="Culture.battania" weight="22.4" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="14" arm_armor="16" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_battania_armor_n2" name="{=osa_ar_battania_armor_n2}Highland Mailed Steel Scale Shirt With Rolled Cloth" mesh="AR_battania_armor_n2" subtype="body_armor" culture="Culture.battania" weight="22.4" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="14" arm_armor="16" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_battania_armor_o" name="{=osa_ar_battania_armor_o}Highland Padded Steel Breastplate" subtype="body_armor" mesh="AR_battania_armor_o" culture="Culture.battania" weight="10" difficulty="0" appearance="1.9" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="8" arm_armor="5" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_battania_armor_o2" name="{=osa_ar_battania_armor_o2}Highland Padded Decorated Steel Breastplate" subtype="body_armor" mesh="AR_battania_armor_o2" culture="Culture.battania" weight="10" difficulty="0" appearance="1.9" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="8" arm_armor="5" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_battania_armor_p" name="{=osa_ar_battania_armor_p}Highland Brass Breastplate Over Tunic" subtype="body_armor" mesh="AR_battania_armor_p" culture="Culture.battania" weight="10" difficulty="0" appearance="1.9" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="32" leg_armor="6" arm_armor="5" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_battania_armor_p2" name="{=osa_ar_battania_armor_p2}Highland Steel Breastplate Over Tunic" subtype="body_armor" mesh="AR_battania_armor_p2" culture="Culture.battania" weight="10" difficulty="0" appearance="1.9" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="32" leg_armor="6" arm_armor="5" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_battania_armor_p3" name="{=osa_ar_battania_armor_p3}Highland Decorated Steel Breastplate Over Tunic" subtype="body_armor" mesh="AR_battania_armor_p3" culture="Culture.battania" weight="10" difficulty="0" appearance="1.9" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="32" leg_armor="6" arm_armor="5" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_battania_armor_q" name="{=osa_ar_battania_armor_q}Highland Brass Breastplate Over Mail" mesh="AR_battania_armor_q" culture="Culture.battania" weight="9.5" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="34" leg_armor="12" arm_armor="8" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_battania_armor_q2" name="{=osa_ar_battania_armor_q2}Highland Steel Breastplate Over Mail" mesh="AR_battania_armor_q2" culture="Culture.battania" weight="9.5" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="34" leg_armor="12" arm_armor="8" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_battania_armor_q3" name="{=osa_ar_battania_armor_q3}Highland Decorated Steel Breastplate Over Mail" mesh="AR_battania_armor_q3" culture="Culture.battania" weight="9.5" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="34" leg_armor="12" arm_armor="8" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<!-- Empire Armors -->
+	<Item id="AR_empire_armor_a" name="{=osa_ar_empire_armor_a}Imperial Leather Subarmalis Over Tunic" mesh="AR_empire_armor_a" culture="Culture.empire" weight="3.1" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="22" leg_armor="6" arm_armor="6" covers_body="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_empire_armor_b" name="{=osa_ar_empire_armor_b}Imperial Toga With Tunic" mesh="AR_empire_armor_b" culture="Culture.empire" weight="1.9" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="8" leg_armor="3" arm_armor="4" has_gender_variations="true" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_empire_armor_c" name="{=osa_ar_empire_armor_c}Imperial Decorated Mail Over Stripped Cloth" mesh="AR_empire_armor_c" culture="Culture.empire" subtype="body_armor" weight="10.2" difficulty="0" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="33" leg_armor="12" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_armor_d" name="{=osa_ar_empire_armor_d}Imperial Decorated Cloth Subarmalis" mesh="AR_empire_armor_d" culture="Culture.empire" weight="2.1" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="16" leg_armor="12" arm_armor="6" covers_body="true" has_gender_variations="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_armor_e" name="{=osa_ar_empire_armor_e}Imperial Cloth Subarmalis Over Tunic" mesh="AR_empire_armor_e" culture="Culture.empire" weight="2.1" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="15" leg_armor="12" arm_armor="6" covers_body="true" has_gender_variations="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_armor_f" name="{=osa_ar_empire_armor_f}Imperial Skirted Trousers" mesh="AR_empire_armor_f" culture="Culture.empire" subtype="body_armor" weight="0.4" difficulty="0" appearance="1.8" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="1" leg_armor="3" arm_armor="0" has_gender_variations="true" covers_body="false" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" DoesNotHideChest="true"/>
+	</Item>
+	<Item id="AR_empire_armor_g" name="{=osa_ar_empire_armor_g}Imperial Belted Skirt" mesh="AR_empire_armor_g" culture="Culture.empire" subtype="body_armor" weight="0.4" difficulty="0" appearance="1.8" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="1" leg_armor="2" arm_armor="0" has_gender_variations="true" covers_body="false" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" DoesNotHideChest="true"/>
+	</Item>
+	<Item id="AR_empire_armor_h" name="{=osa_ar_empire_armor_h}Imperial Lamellar Cuirass Over Stripped Cloth" mesh="AR_empire_armor_h" subtype="body_armor" culture="Culture.empire" weight="15.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="48" leg_armor="12" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_armor_i" name="{=osa_ar_empire_armor_i}Imperial Lamellar Cuirass Over Mailed Leather" mesh="AR_empire_armor_i" subtype="body_armor" culture="Culture.empire" weight="20.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="52" leg_armor="18" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_armor_j" name="{=osa_ar_empire_armor_j}Imperial Legionary Mail With Strips" mesh="AR_empire_armor_j" culture="Culture.empire" subtype="body_armor" weight="19" difficulty="0" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="18" arm_armor="15" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_armor_k" name="{=osa_ar_empire_armor_k}Tunic With Shoulder Pads And Pteruges" mesh="AR_empire_armor_k" culture="Culture.empire" weight="0.6" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6" leg_armor="3" arm_armor="2" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_empire_armor_l" name="{=osa_ar_empire_armor_l}Western Mail Shirt With Rolled Cloth" mesh="AR_empire_armor_l" culture="Culture.vlandia" subtype="body_armor" weight="7.5" difficulty="0" appearance="1.2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="27" leg_armor="13" arm_armor="11" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_armor_m" name="{=osa_ar_empire_armor_m}Imperial Robes" mesh="AR_empire_armor_m" culture="Culture.empire" weight="0.9" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="8" leg_armor="3" arm_armor="4" has_gender_variations="true" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_armor_n" name="{=osa_ar_empire_armor_n}Imperial White Robes" mesh="AR_empire_armor_n" culture="Culture.empire" weight="0.9" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="8" leg_armor="3" arm_armor="4" has_gender_variations="true" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_armor_o" name="{=osa_ar_empire_armor_o}Leather Leather Cuirass Over Tunic With Pteruges" mesh="AR_empire_armor_o" culture="Culture.empire" weight="0.6" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="18" leg_armor="4" arm_armor="3" covers_body="true" has_gender_variations="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_empire_armor_p" name="{=osa_ar_empire_armor_p}Palaic Chiton" subtype="body_armor" mesh="AR_empire_armor_p" culture="Culture.empire" weight="0.7" difficulty="0" appearance="1.1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="4" leg_armor="9" arm_armor="0" has_gender_variations="true" covers_body="false" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="true" UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_empire_armor_q" name="{=osa_ar_empire_armor_q}Imperial Decorated Explorator's Tunic" mesh="AR_empire_armor_q" culture="Culture.empire" subtype="body_armor" weight="0.4" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6" leg_armor="1" arm_armor="1" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_empire_armor_r" name="{=osa_ar_empire_armor_r}Imperial Explorator's Mail" mesh="AR_empire_armor_r" culture="Culture.empire" weight="9.5" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="26" leg_armor="16" arm_armor="16" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_armor_s" name="{=osa_ar_empire_armor_s}Imperial Decorated Explorator's Mail" mesh="AR_empire_armor_s" culture="Culture.empire" weight="9.5" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="26" leg_armor="16" arm_armor="16" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_armor_t" name="{=osa_ar_empire_armor_t}Imperial Noble Robes" mesh="AR_empire_armor_t" culture="Culture.empire" weight="0.9" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="8" leg_armor="3" arm_armor="4" has_gender_variations="true" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_brass_lamellar_a" name="{=osa_ar_empire_brass_lamellar_a}Imperial Brass Lamellar Over Leather" mesh="AR_empire_brass_lamellar_a" culture="Culture.empire" weight="12" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="38" leg_armor="12" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_brass_lamellar_b" name="{=osa_ar_empire_brass_lamellar_b}Southern Brass Lamellar Over Padded Cloth" mesh="AR_empire_brass_lamellar_b" culture="Culture.empire" weight="6.2" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="24" leg_armor="8" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="6"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_brass_lamellar_c" name="{=osa_ar_empire_brass_lamellar_c}Imperial White Brass Lamellar Over Leather" mesh="AR_empire_brass_lamellar_c" culture="Culture.empire" weight="12" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="38" leg_armor="12" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_brass_lamellar_d" name="{=osa_ar_empire_brass_lamellar_d}Southern White Brass Lamellar Over Padded Cloth" mesh="AR_empire_brass_lamellar_d" culture="Culture.empire" weight="6.2" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="24" leg_armor="8" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="6"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_horseman_armor" name="{=osa_ar_empire_horseman_armor}Imperial Breastplate Over Mail" mesh="AR_empire_horseman_armor" culture="Culture.empire" weight="9.5" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="34" leg_armor="12" arm_armor="8" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_horseman_armor_a" name="{=osa_ar_empire_horseman_armor_a}Imperial Breastplate Over Steel Scale" mesh="AR_empire_horseman_armor_a" culture="Culture.empire" weight="14" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="20" arm_armor="12" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_horseman_armor_a2" name="{=osa_ar_empire_horseman_armor_a2}Imperial Gilded Breastplate Over Brass Scale" mesh="AR_empire_horseman_armor_a2" culture="Culture.empire" weight="14" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="20" arm_armor="12" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_horseman_armor_b" name="{=osa_ar_empire_horseman_armor_b}Imperial Gilded Breastplate Over Mail" mesh="AR_empire_horseman_armor_b" culture="Culture.empire" weight="9.5" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="34" leg_armor="12" arm_armor="8" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_horseman_armor_c" name="{=osa_ar_empire_horseman_armor_c}Imperial Cavalry Leather Armor" subtype="body_armor" mesh="AR_empire_horseman_armor_c" culture="Culture.empire" weight="8.3" difficulty="0" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="27" leg_armor="6" arm_armor="6" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_horseman_armor_d" name="{=osa_ar_empire_horseman_armor_d}Imperial Breastplate Over Leather" subtype="body_armor" mesh="AR_empire_horseman_armor_d" culture="Culture.empire" weight="8.3" difficulty="0" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="30" leg_armor="6" arm_armor="6" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_scale_armor_a" name="{=osa_ar_empire_scale_armor_a}Imperial Brass Scale Cuirass Over Stripped Leather" mesh="AR_empire_scale_armor_a" subtype="body_armor" culture="Culture.empire" weight="15.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="36" leg_armor="12" arm_armor="8" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_scale_armor_b" name="{=osa_ar_empire_scale_armor_b}Imperial Steel Scale Cuirass Over Stripped Leather" mesh="AR_empire_scale_armor_b" subtype="body_armor" culture="Culture.empire" weight="15.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="36" leg_armor="12" arm_armor="8" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_scale_armor_c" name="{=osa_ar_empire_scale_armor_c}Imperial Long Steel Scale Cuirass Over Mail" mesh="AR_empire_scale_armor_c" subtype="body_armor" culture="Culture.empire" weight="20.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="52" leg_armor="20" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_scale_armor_d" name="{=osa_ar_empire_scale_armor_d}Imperial Long Brass Scale Cuirass Over Mail" mesh="AR_empire_scale_armor_d" subtype="body_armor" culture="Culture.empire" weight="20.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="52" leg_armor="20" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_scale_armor_e" name="{=osa_ar_empire_scale_armor_e}Western Scale Cuirass Over Stripped Mail" mesh="AR_empire_scale_armor_e" subtype="body_armor" culture="Culture.vlandia" weight="21.5" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="52" leg_armor="12" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_scale_armor_e2" name="{=osa_ar_empire_scale_armor_e2}Western Scale Cuirass Over Stripped Gambeson" mesh="AR_empire_scale_armor_e2" culture="Culture.vlandia" weight="12" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="48" leg_armor="5" arm_armor="5" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_scale_armor_e3" name="{=osa_ar_empire_scale_armor_e3}Western Scale Cuirass Over Stripped Scale" mesh="AR_empire_scale_armor_e3" subtype="body_armor" culture="Culture.vlandia" weight="20.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="52" leg_armor="20" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_scale_armor_f" name="{=osa_ar_empire_scale_armor_f}Imperial Decorated Scale Cuirass Over Stripped Cloth" mesh="AR_empire_scale_armor_f" subtype="body_armor" culture="Culture.empire" weight="15.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="50" leg_armor="12" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_scale_armor_g" name="{=osa_ar_empire_scale_armor_g}Imperial Decorated Brass Scale Cuirass Over Stripped Cloth" mesh="AR_empire_scale_armor_g" subtype="body_armor" culture="Culture.empire" weight="15.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="50" leg_armor="12" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_scale_armor_h" name="{=osa_ar_empire_scale_armor_h}Imperial Decorated Alternating Scale Cuirass Over Stripped Cloth" mesh="AR_empire_scale_armor_h" subtype="body_armor" culture="Culture.empire" weight="15.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="50" leg_armor="12" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_scout_armor_a" name="{=osa_ar_empire_scout_armor_a}Imperial Cavalry Padded Cloth" mesh="AR_empire_scout_armor_a" culture="Culture.empire" weight="6.2" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="20" leg_armor="8" covers_body="true" has_gender_variations="true" modifier_group="leather" material_type="Leather" arm_armor="6"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_scout_armor_b" name="{=osa_ar_empire_scout_armor_b}Imperial Breastplate Over Padded Cloth" mesh="AR_empire_scout_armor_b" culture="Culture.empire" weight="6.2" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="30" leg_armor="8" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="6"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_scout_armor_c" name="{=osa_ar_empire_scout_armor_c}Imperial Cavalry Tunic" mesh="AR_empire_scout_armor_c" culture="Culture.empire" weight="1.9" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="14" leg_armor="3" covers_body="true" has_gender_variations="true" modifier_group="cloth" material_type="Cloth" arm_armor="3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_empire_scout_armor_d" name="{=osa_ar_empire_scout_armor_d}Imperial Breastplate Over Tunic" mesh="AR_empire_scout_armor_d" culture="Culture.empire" weight="1.9" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="28" leg_armor="3" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<!-- Khuzait Armors -->
+	<Item id="AR_khuzait_armor_a" name="{=osa_ar_khuzait_armor_a}Eastern Plated Armor" mesh="AR_khuzait_armor_a" culture="Culture.khuzait" weight="18.6" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="17" arm_armor="16" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_khuzait_armor_b" name="{=osa_ar_khuzait_armor_b}Eastern Lamellar Over Mail" mesh="AR_khuzait_armor_b" culture="Culture.khuzait" weight="28" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="50" leg_armor="25" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<!-- Merchant Armors -->
+	<Item id="AR_merchants_coat_a" name="{=osa_ar_merchants_coat_a}Merchant's Coat" mesh="AR_merchants_coat_a" culture="Culture.empire" weight="0.9" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="8" leg_armor="3" arm_armor="4" has_gender_variations="true" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<!-- Monk Armors -->
+	<Item id="AR_monk_robe_a" name="{=osa_ar_monk_robe_a}Western Colored Robe" mesh="AR_monk_robe_a" culture="Culture.vlandia" weight="0.5" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="5" leg_armor="2" arm_armor="1" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_monk_robe_a2" name="{=osa_ar_monk_robe_a2}Western Plain Robe" mesh="AR_monk_robe_a" culture="Culture.vlandia" weight="0.5" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="5" leg_armor="2" arm_armor="1" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="AR_monk_robe_b" name="{=osa_ar_monk_robe_b}Western Brown Robe" mesh="AR_monk_robe_b" culture="Culture.vlandia" weight="0.5" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="5" leg_armor="2" arm_armor="1" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="AR_monk_robe_c" name="{=osa_ar_monk_robe_c}Western Mailed Colored Robe" mesh="AR_monk_robe_c" culture="Culture.vlandia" weight="12" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="30" leg_armor="16" arm_armor="16" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_monk_robe_c2" name="{=osa_ar_monk_robe_c2}Western Mailed Plain Robe" mesh="AR_monk_robe_c" culture="Culture.vlandia" weight="12" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="30" leg_armor="16" arm_armor="16" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_monk_robe_d" name="{=osa_ar_monk_robe_d}Western Mailed Black Robe" mesh="AR_monk_robe_d" culture="Culture.vlandia" weight="12" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="30" leg_armor="16" arm_armor="16" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<!-- Sturgia Armors -->
+	<Item id="AR_sturgia_armor_a" name="{=osa_ar_sturgia_armor_a}Northern Padded Leather Vest Over Mail" mesh="AR_sturgia_armor_a" culture="Culture.sturgia" subtype="body_armor" weight="10.2" difficulty="0" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="33" leg_armor="12" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_sturgia_armor_b" name="{=osa_ar_sturgia_armor_b}Northern Padded Leather Vest" mesh="AR_sturgia_armor_b" culture="Culture.sturgia" weight="3.1" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="22" leg_armor="6" arm_armor="6" covers_body="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_sturgia_armor_c" name="{=osa_ar_sturgia_armor_c}Northern Leather Tabard Over Mail" mesh="AR_sturgia_armor_c" culture="Culture.sturgia" subtype="body_armor" weight="21" difficulty="0" appearance="1.2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="40" leg_armor="22" arm_armor="12" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_sturgia_armor_d" name="{=osa_ar_sturgia_armor_d}Northern Leather Coat" mesh="AR_sturgia_armor_d" culture="Culture.sturgia" weight="3.1" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="22" leg_armor="6" arm_armor="6" covers_body="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_sturgia_armor_d2" name="{=osa_ar_sturgia_armor_d2}Northern Leather Coat" mesh="AR_sturgia_armor_d2" culture="Culture.sturgia" weight="3.1" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="22" leg_armor="6" arm_armor="6" covers_body="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_sturgia_armor_e" name="{=osa_ar_sturgia_armor_e}Northern Leather Coat Over Mail" mesh="AR_sturgia_armor_e" subtype="body_armor" culture="Culture.sturgia" weight="8.3" difficulty="0" appearance="1.8" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="26" leg_armor="12" arm_armor="10" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_sturgia_armor_e2" name="{=osa_ar_sturgia_armor_e2}Northern Leather Coat Over Mail" mesh="AR_sturgia_armor_e2" subtype="body_armor" culture="Culture.sturgia" weight="8.3" difficulty="0" appearance="1.8" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="26" leg_armor="12" arm_armor="10" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_sturgia_armor_f" name="{=osa_ar_sturgia_armor_f}Northern Lamellar Coat Over Mail" mesh="AR_sturgia_armor_f" culture="Culture.sturgia" weight="24" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="50" leg_armor="21" arm_armor="7" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_sturgia_armor_f2" name="{=osa_ar_sturgia_armor_f2}Northern Lamellar Coat Over Mail" mesh="AR_sturgia_armor_f2" culture="Culture.sturgia" weight="24" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="50" leg_armor="21" arm_armor="7" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<!-- Vlandian Armors -->
+	<Item id="AR_vlandia_armor_a" name="{=osa_ar_vlandia_armor_a}Western Heavy Padded Coat Over Mail" subtype="body_armor" mesh="AR_vlandia_armor_a" culture="Culture.vlandia" weight="28.6" appearance="2.4" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="49" leg_armor="22" arm_armor="20" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_a2" name="{=osa_ar_vlandia_armor_a2}Western Heavy Padded Coat" subtype="body_armor" mesh="AR_vlandia_armor_a2" culture="Culture.vlandia" weight="2.4" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="14" leg_armor="5" arm_armor="5" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_b" name="{=osa_ar_vlandia_armor_b}Western Heavy Padded Coat Over Mail And Lamellar" subtype="body_armor" mesh="AR_vlandia_armor_b" culture="Culture.vlandia" weight="28.6" appearance="2.4" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="55" leg_armor="25" arm_armor="20" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_c" name="{=osa_ar_vlandia_armor_c}Western Tabard Over Mail Hauberk" subtype="body_armor" mesh="AR_vlandia_armor_c" culture="Culture.vlandia" weight="15" difficulty="0" appearance="1.2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="34" leg_armor="12" arm_armor="12" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_d" name="{=osa_ar_vlandia_armor_d}Western Mail Shirt" mesh="AR_vlandia_armor_d" culture="Culture.vlandia" subtype="body_armor" weight="7.5" difficulty="0" appearance="1.2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="25" leg_armor="13" arm_armor="11" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_d2" name="{=osa_ar_vlandia_armor_d2}Western Chainmail Shirt" mesh="AR_vlandia_armor_d2" culture="Culture.vlandia" subtype="body_armor" weight="7.5" difficulty="0" appearance="1.2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="25" leg_armor="13" arm_armor="11" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_e" name="{=osa_ar_vlandia_armor_e}Western Plated Mail Shirt" mesh="AR_vlandia_armor_e" culture="Culture.vlandia" subtype="body_armor" weight="7.5" difficulty="0" appearance="1.2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="40" leg_armor="14" arm_armor="15" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_f" name="{=osa_ar_vlandia_armor_f}Western Long Hauberk" mesh="AR_vlandia_armor_f" culture="Culture.vlandia" weight="12" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="30" leg_armor="14" arm_armor="14" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_g" name="{=osa_ar_vlandia_armor_g}Western Tunic With Clavi" mesh="AR_vlandia_armor_g" culture="Culture.empire" subtype="body_armor" weight="0.4" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="4" leg_armor="2" arm_armor="1" has_gender_variations="true" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_h" name="{=osa_ar_vlandia_armor_h}Western Reticulated Plate Over Long Hauberk" mesh="AR_vlandia_armor_h" culture="Culture.vlandia" weight="12" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="52" leg_armor="14" arm_armor="14" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_h2" name="{=osa_ar_vlandia_armor_h2}Western Reticulated Plate Over Aketon" mesh="AR_vlandia_armor_h2" culture="Culture.vlandia" weight="12" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="48" leg_armor="5" arm_armor="5" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_i" name="{=osa_ar_vlandia_armor_i}Western Long Woolen Tunic" mesh="AR_vlandia_armor_i" culture="Culture.vlandia" subtype="body_armor" weight="0.4" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="2" leg_armor="1" arm_armor="1" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_j" name="{=osa_ar_vlandia_armor_j}Western Padded Gambeson" subtype="body_armor" mesh="AR_vlandia_armor_j" culture="Culture.vlandia" weight="2.4" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="14" leg_armor="5" arm_armor="5" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_k" name="{=osa_ar_vlandia_armor_k}Western Sleeveless Padded Gambeson" subtype="body_armor" mesh="AR_vlandia_armor_k" culture="Culture.vlandia" weight="2.2" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="14" leg_armor="9" arm_armor="2" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_l" name="{=osa_ar_vlandia_armor_l}Western Short Padded Gambeson" mesh="AR_vlandia_armor_l" culture="Culture.vlandia" weight="2.2" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="14" leg_armor="2" arm_armor="5" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_m" name="{=osa_ar_vlandia_armor_m}Western Sleeveless Short Padded Gambeson" mesh="AR_vlandia_armor_m" culture="Culture.vlandia" subtype="body_armor" weight="2.0" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="14" leg_armor="5" arm_armor="2" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_n" name="{=osa_ar_vlandia_armor_n}Western Padded Vest Over Leather" mesh="AR_vlandia_armor_n" culture="Culture.vlandia" weight="3.1" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="22" leg_armor="6" arm_armor="6" covers_body="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_o" name="{=osa_ar_vlandia_armor_o}Western Padded Vest Over Mail" mesh="AR_vlandia_armor_o" culture="Culture.vlandia" subtype="body_armor" weight="10.2" difficulty="0" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="33" leg_armor="12" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_p" name="{=osa_ar_vlandia_armor_p}Western Padded Vest Over Steel Scale" mesh="AR_vlandia_armor_p" subtype="body_armor" culture="Culture.vlandia" weight="15.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="36" leg_armor="12" arm_armor="8" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_p2" name="{=osa_ar_vlandia_armor_p2}Western Padded Vest Over Brass Scale" mesh="AR_vlandia_armor_p2" subtype="body_armor" culture="Culture.vlandia" weight="15.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="36" leg_armor="12" arm_armor="8" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_q" name="{=osa_ar_vlandia_armor_q}Western Leather Cuirass Over Long Hauberk" mesh="AR_vlandia_armor_q" culture="Culture.vlandia" weight="12" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="33" leg_armor="14" arm_armor="14" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_q2" name="{=osa_ar_vlandia_armor_q2}Western Leather Cuirass Over Aketon" mesh="AR_vlandia_armor_q2" culture="Culture.vlandia" weight="12" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="24" leg_armor="5" arm_armor="5" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_r" name="{=osa_ar_vlandia_armor_r}Western Leather Cuirass Over Stripped Gambeson" mesh="AR_vlandia_armor_r" culture="Culture.vlandia" weight="12" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="24" leg_armor="5" arm_armor="5" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_r2" name="{=osa_ar_vlandia_armor_r2}Western Leather Cuirass Over Stripped Mail" mesh="AR_vlandia_armor_r2" culture="Culture.vlandia" weight="12" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="33" leg_armor="14" arm_armor="14" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_s" name="{=osa_ar_vlandia_armor_s}Western Padded Vest Over Mailed Steel Scale" mesh="AR_vlandia_armor_s" subtype="body_armor" culture="Culture.vlandia" weight="20.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="52" leg_armor="20" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_s2" name="{=osa_ar_vlandia_armor_s2}Western Padded Vest Over Mailed Brass Scale" mesh="AR_vlandia_armor_s2" subtype="body_armor" culture="Culture.vlandia" weight="20.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="52" leg_armor="20" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_t" name="{=osa_ar_vlandia_armor_t}Western Cavalry Tunic" mesh="AR_vlandia_armor_t" culture="Culture.vlandia" weight="1.9" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="14" leg_armor="3" covers_body="true" has_gender_variations="true" modifier_group="cloth" material_type="Cloth" arm_armor="3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_armor_u" name="{=osa_ar_vlandia_armor_u}Western Reticulated Plate Over Scale Coat" mesh="AR_vlandia_armor_u" subtype="body_armor" culture="Culture.vlandia" weight="21.40" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="57" leg_armor="20" arm_armor="16" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_lamellar_a" name="{=osa_ar_vlandia_lamellar_a}Western Steel Lamellar Over Heavy Mail Hauberk" mesh="AR_vlandia_lamellar_a" culture="Culture.vlandia" weight="22" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="46" leg_armor="14" arm_armor="14" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_lamellar_a2" name="{=osa_ar_vlandia_lamellar_a2}Western Brass Lamellar Over Heavy Mail Hauberk" mesh="AR_vlandia_lamellar_a2" culture="Culture.vlandia" weight="22" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="46" leg_armor="14" arm_armor="14" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_lamellar_b" name="{=osa_ar_vlandia_lamellar_b}Western Leather Lamellar Over Heavy Mail Hauberk" mesh="AR_vlandia_lamellar_b" culture="Culture.vlandia" weight="16" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="14" arm_armor="14" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_leather_a" name="{=osa_ar_vlandia_leather_a}Western Leather Vest Over Mail Hauberk" subtype="body_armor" mesh="AR_vlandia_leather_a" culture="Culture.vlandia" weight="21" difficulty="0" appearance="1.2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="40" leg_armor="22" arm_armor="12" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_scale_a" name="{=osa_ar_vlandia_scale_a}Western Long Scale Vest Over Mail Hauberk" mesh="AR_vlandia_scale_a" culture="Culture.vlandia" weight="36.9" Type="BodyArmor" value="47950" appearance="3" difficulty="0" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="52" leg_armor="24" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="16"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_vlandia_scale_b" name="{=osa_ar_vlandia_scale_b}Western Rough Scale Vest Over Mail" mesh="AR_vlandia_scale_b" subtype="body_armor" culture="Culture.vlandia" weight="15.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="50" leg_armor="22" arm_armor="16" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<!-- Misc Armors -->
+	<Item id="AR_bandit_armor_a" name="{=osa_ar_bandit_armor_a}Studded Fur Armor With Mail" mesh="AR_bandit_armor_a" subtype="body_armor" culture="Culture.looters" weight="1.2" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="32" leg_armor="7" arm_armor="14" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+</Items>

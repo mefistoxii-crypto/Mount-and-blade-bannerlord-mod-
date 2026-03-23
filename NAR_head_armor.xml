@@ -1,0 +1,1182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<Items>
+
+	
+		<Item id="normannasalnew3" name="{=*}Traditional Vlandian Nasal Helmet Over Mail Coif" mesh="normannasalnew_exp3" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false" />	
+	</Item>
+
+	<Item id="normannasalnew4" name="{=*}Vlandian Nasal Helmet Over Mail Coif" mesh="normannasalnew_exp4" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="false" />	
+  </Item> 
+  
+	<Item id="normannasalnew" name="{=*}Vlandian Cross Nasal Helmet Over Closed Mail Coif" mesh="exp_crossnasal" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false" />	
+	</Item>
+	
+		
+
+	<Item id="paintednormannasalnew6" name="{=*}Vlandian Painted Cross Nasal Helmet Over Closed Mail Coif I" mesh="exp_crossnasal2" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item> 
+  
+  
+	<Item id="paintednormannasalnew7" name="{=*}Vlandian Painted Cross Nasal Helmet Over Closed Mail Coif II" mesh="exp_crossnasal3" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  
+  
+  <Item id="normannasalnew2" name="{=*}Vlandian Cross Nasal Helmet Over Open Mail Coif I" mesh="exp_crossnasal_open" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+  </Item> 		
+  
+  <Item id="exp_crossnasal_open2" name="{=*}Vlandian Painted Cross Nasal Helmet Over Open Mail Coif I" mesh="exp_crossnasal_open2" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+  </Item>
+  <Item id="exp_crossnasal_open3" name="{=*}Vlandian Painted Cross Nasal Helmet Over Open Mail Coif II" mesh="exp_crossnasal_open3" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+  </Item>
+  
+
+	<Item id="paintednormannasalnew5" name="{=*}Vlandian Painted Nasal Helmet Over Mail Coif I" mesh="normannasalnew_exp5" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item> 
+  <Item id="exp_paintednormannasalnew6" name="{=*}Vlandian Painted Nasal Helmet Over Mail Coif II" mesh="normannasalnew_exp6" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  
+  <Item id="exp_french_open_wrapped" name="{=*}Vlandian Wrapped Nasal Helmet Over Open Mail Coif I" mesh="exp_french_open_wrapped" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  
+  <Item id="exp_french_open_wrapped_nocolor" name="{=*}Vlandian Wrapped Nasal Helmet Over Open Mail Coif II" mesh="exp_french_open_wrapped" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="false" />	
+  </Item>
+  
+    <Item id="normannasalnew_exp7" name="{=*}Northern Vlandian Nasal Helmet Over Mail Coif" mesh="normannasalnew_exp7" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item> 
+  
+     <Item id="normannasalnew_exp8" name="{=*}Northern Vlandian Painted Nasal Helmet Over Mail Coif I" mesh="normannasalnew_exp8" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item> 
+  
+  <Item id="normannasalnew_exp9" name="{=*}Northern Vlandian Painted Nasal Helmet Over Mail Coif II" mesh="normannasalnew_exp9" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item> 
+  
+  <Item id="exp_german_open_wrapped" name="{=*}Northern Vlandian Wrapped Nasal Helmet Over Mail Coif I" mesh="exp_german_open_wrapped" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item> 
+  
+  <Item id="exp_german_open_wrapped_nocolor" name="{=*}Northern Vlandian Wrapped Nasal Helmet Over Mail Coif II" mesh="exp_german_open_wrapped" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="false" />	
+  </Item> 
+  
+  
+   <Item id="normannasalnew_exp12" name="{=*}Southern Vlandian Nasal Helmet Over Mail Coif I" mesh="normannasalnew_exp12" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item> 
+  
+
+<Item id="normannasalnew_exp14" name="{=*}Southern Vlandian Painted Nasal Helmet Over Mail Coif I" mesh="normannasalnew_exp14" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>  
+<Item id="normannasalnew_exp15" name="{=*}Southern Vlandian Painted Nasal Helmet Over Mail Coif II" mesh="normannasalnew_exp15" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item> 
+<Item id="normannasalnew_exp16" name="{=*}Southern Vlandian Painted Nasal Helmet Over Mail Coif III" mesh="normannasalnew_exp16" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>   
+  
+  <Item id="exp_italian_open_wrapped" name="{=*}Southern Vlandian Wrapped Nasal Helmet Over Mail Coif I" mesh="exp_italian_open_wrapped" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item> 
+  
+  <Item id="exp_italian_open_wrapped_nocolor" name="{=*}Southern Vlandian Wrapped Nasal Helmet Over Mail Coif II" mesh="exp_italian_open_wrapped" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="false" />	
+  </Item> 
+  
+    <Item id="exp_german_closed1" name="{=*}Northern Vlandian Nasal Helmet Over Closed Mail Coif I" mesh="exp_german_closed1" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  <Item id="exp_german_closed2" name="{=*}Northern Vlandian Painted Nasal Helmet Over Closed Mail Coif I" mesh="exp_german_closed2" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  <Item id="exp_german_closed3" name="{=*}Northern Vlandian Nasal Painted Helmet Over Closed Mail Coif II" mesh="exp_german_closed3" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  
+  <Item id="exp_german_closed_wrapped" name="{=*}Northern Vlandian Nasal Wrapped Helmet Over Closed Mail Coif I" mesh="exp_german_closed_wrapped" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  
+  <Item id="exp_german_closed_wrapped_nocolor" name="{=*}Northern Vlandian Nasal Wrapped Helmet Over Closed Mail Coif I" mesh="exp_german_closed_wrapped" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="false" />	
+  </Item>
+  
+  <Item id="exp_french_closed1" name="{=*}Vlandian Nasal Helmet Over Closed Mail Coif I" mesh="exp_french_closed_1" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  
+  <Item id="exp_french_closed2" name="{=*}Vlandian Painted Nasal Helmet Over Closed Mail Coif I" mesh="exp_french_closed_2" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  
+  <Item id="exp_french_closed3" name="{=*}Vlandian Painted Nasal Helmet Over Closed Mail Coif II" mesh="exp_french_closed_3" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  
+  <Item id="exp_french_closed_wrapped" name="{=*}Vlandian Wrapped Nasal Helmet Over Closed Mail Coif I" mesh="exp_french_closed_wrapped" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  
+  <Item id="exp_french_closed_wrapped_nocolor" name="{=*}Vlandian Wrapped Nasal Helmet Over Closed Mail Coif II" mesh="exp_french_closed_wrapped" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="false" />	
+  </Item>
+  
+  <Item id="exp_italian_closed1" name="{=*}Southern Vlandian Nasal Helmet Over Closed Mail Coif I" mesh="exp_italian_closed1" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+ 
+  <Item id="exp_italian_closed5" name="{=*}Southern Vlandian Painted Nasal Helmet Over Closed Mail Coif I" mesh="exp_italian_closed5" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  <Item id="exp_italian_closed6" name="{=*}Southern Vlandian Painted Nasal Helmet Over Closed Mail Coif II" mesh="exp_italian_closed6" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  <Item id="exp_italian_closed7" name="{=*}Southern Vlandian Painted Nasal Helmet Over Closed Mail Coif III" mesh="exp_italian_closed7" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  
+  <Item id="exp_italian_closed_wrapped" name="{=*}Southern Vlandian Wrapped Nasal Helmet Over Closed Mail Coif I" mesh="exp_italian_closed_wrapped" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  
+  <Item id="exp_italian_closed_wrapped_nocolor" name="{=*}Southern Vlandian Wrapped Nasal Helmet Over Closed Mail Coif II" mesh="exp_italian_closed_wrapped" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="false" />	
+  </Item>
+  
+  <Item id="exp_smooth_phrygian_closed" name="{=*}Calrado-Vlandic Nasal Helmet Over Closed Mail Coif I" mesh="exp_smooth_phrygian_closed" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  
+   <Item id="exp_smooth_phrygian_closed_iron" name="{=*}Calrado-Vlandic Nasal Helmet Over Closed Mail Coif II" mesh="exp_smooth_phrygian_closed_iron" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  
+  <Item id="exp_smooth_phrygian_closed_painted" name="{=*}Calrado-Vlandic Nasal Helmet Over Closed Mail Coif III" mesh="exp_smooth_phrygian_closed_painted" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  
+    <Item id="nasal_wenceslas_closed" name="{=*}Traditional Vlandian Nasal Helmet Over Closed Mail Coif" mesh="nasal_wenceslas_closed" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  
+  
+  
+   
+
+	<Item id="nasalnew" name="{=*}Vlandian Fluted Nasal Cervelliere Over Closed Mail Coif" mesh="nasalnew" culture="Culture.vlandia" weight="2.1" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item> 
+  	<Item id="nasalnew2" name="{=*}Vlandian Painted Fluted Nasal Cervelliere Over Closed Mail Coif" mesh="nasalnew2" culture="Culture.vlandia" weight="2.1" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item> 
+  
+   	<Item id="flutted_nasal" name="{=*}Vlandian Phrygian Nasal Helmet Over Mail Coif I" mesh="flutted_noseguard" culture="Culture.vlandia" weight="2.5" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="false" />	
+  </Item> 
+   	<Item id="flutted_nasal_colored" name="{=*}Vlandian Phrygian Nasal Helmet Over Mail Coif II" mesh="flutted_noseguard2" culture="Culture.vlandia" weight="2.5" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item> 
+     	<Item id="flutted_noseguard3" name="{=*}Vlandian Painted Phrygian Nasal Helmet Over Mail Coif I" mesh="flutted_noseguard3" culture="Culture.vlandia" weight="2.5" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item> 
+ 	<Item id="flutted_noseguard4" name="{=*}Vlandian Painted Phrygian Nasal Helmet Over Mail Coif II" mesh="flutted_noseguard4" culture="Culture.vlandia" weight="2.5" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item> 
+  
+  <Item id="flutted_noseguard5" name="{=*}Vlandian Painted Phrygian Nasal Helmet Over Mail Coif III" mesh="flutted_noseguard5" culture="Culture.vlandia" weight="2.5" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item> 
+  
+ 	<Item id="open_flutted_noseguard" name="{=*}Vlandian Phrygian Nasal Helmet Over Open Coif I" mesh="open_flutted_noseguard" culture="Culture.vlandia" weight="2.5" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type1"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  
+
+<Item id="open_flutted_noseguard3" name="{=*}Vlandian Phrygian Nasal Helmet Over Open Coif II" mesh="open_flutted_noseguard3" culture="Culture.vlandia" weight="2.5" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type1"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item> 
+  
+    <Item id="open_flutted_noseguard4" name="{=*}Vlandian Painted Phrygian Nasal Helmet Over Open Coif I" mesh="open_flutted_noseguard4" culture="Culture.vlandia" weight="2.5" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type1"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  
+  <Item id="open_flutted_noseguard5" name="{=*}Vlandian Painted Phrygian Nasal Helmet Over Open Coif II" mesh="open_flutted_noseguard5" culture="Culture.vlandia" weight="2.5" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type1"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item> 
+  <Item id="open_flutted_noseguard6" name="{=*}Vlandian Painted Phrygian Nasal Helmet Over Open Coif III" mesh="open_flutted_noseguard6" culture="Culture.vlandia" weight="2.5" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type1"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item> 
+	<Item id="open_nasalnew" name="{=*}Vlandian Fluted Nasal Cervelliere Over Open Coif I" mesh="open_nasalnew" culture="Culture.vlandia" weight="2.1" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type1"/>
+		</ItemComponent>
+    <Flags UseTeamColor="false" />	
+  </Item>   
+  	<Item id="open_nasalnew2" name="{=*}Vlandian Fluted Nasal Cervelliere Over Open Coif II" mesh="open_nasalnew2" culture="Culture.vlandia" weight="2.1" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type1"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>  
+  	<Item id="open_nasalnew3" name="{=*}Vlandian Painted Fluted Nasal Cervelliere Over Open Coif" mesh="open_nasalnew3" culture="Culture.vlandia" weight="2.1" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type1"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item> 
+  
+<Item id="exp_mailcoif" name="{=*}Vlandian Closed Mail Coif" mesh="exp_mailcoif" culture="Culture.vlandia" weight="1.5" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="65" body_armor="65" has_gender_variations="false" hair_cover_type="all" modifier_group="chain" material_type="Chainmail" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>  
+
+<Item id="exp_mailcoif2" name="{=*}Vlandian Closed Mail Coif with Cloth Wrap" mesh="exp_mailcoif2" culture="Culture.vlandia" weight="1.7" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="65" body_armor="65" has_gender_variations="false" hair_cover_type="all" modifier_group="chain" material_type="Chainmail" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>  
+
+<Item id="exp_mailcoif3" name="{=*}Vlandian Open Mail Coif with Ventail" mesh="exp_mailcoif3" culture="Culture.vlandia" weight="1.7" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="65" body_armor="5" has_gender_variations="false" hair_cover_type="all" modifier_group="chain" material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>   
+  
+  
+  <Item id="asera_vlandic_helmet_nasal_wrap" name="{=*}Calrado-Vlandic Wrapped Nasal Helmet Over Open Mail Coif I" mesh="asera_vlandic_helmet_nasal_wrap" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="12" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+
+<Item id="asera_vlandic_helmet_nasal_wrap_nocolor" name="{=*}Calrado-Vlandic Wrapped Nasal Helmet Over Open Mail Coif II" mesh="asera_vlandic_helmet_nasal_wrap" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="12" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="false" />	
+  </Item> 
+
+<Item id="exp_segmented_cerv" name="{=*}Vlandian Segmented Cervelliere Over Mail Coif" mesh="exp_segmented_cerv" culture="Culture.empire" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="5" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+    <Flags UseTeamColor="false" />	
+  </Item>
+  
+  <Item id="exp_segmented_cerv_closed" name="{=*}Vlandian Segmented Cervelliere Over Closed Mail Coif" mesh="exp_segmented_cerv_closed" culture="Culture.vlandia" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="false" />	
+  </Item>
+  
+  <Item id="exp_segmented_cerv_byz" name="{=*}Eastern Segmented Cervelliere Over Full Face Mail Coif" mesh="exp_segmented_cerv_byz" culture="Culture.empire" weight="2.5" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="90" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="false" />	
+  </Item>
+  
+  <Item id="exp_segmented_cerv_byz_wrapped" name="{=*}Eastern Wrapped Segmented Cervelliere Over Full Face Mail Coif I" mesh="exp_segmented_cerv_byz_wrapped" culture="Culture.empire" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="90" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" />	
+  </Item>
+  
+  <Item id="exp_segmented_cerv_byz_wrapped_nocolor" name="{=*}Eastern Wrapped Segmented Cervelliere Over Full Face Mail Coif II" mesh="exp_segmented_cerv_byz_wrapped" culture="Culture.empire" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="90" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="false" />	
+  </Item>
+  
+  <Item id="exp_fluted_cap_full_face_byz" name="{=*}Eastern Fluted Phrygian Helmet Over Full Face Mail Coif" mesh="exp_fluted_cap_full_face_byz" culture="Culture.empire" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="90" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="false" />	
+  </Item>
+  
+  <Item id="exp_fluted_cap2_full_face_byz" name="{=*}Eastern Fluted Cervelliere Over Full Face Mail Coif" mesh="exp_fluted_cap2_full_face_byz" culture="Culture.empire" weight="2.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="90" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+    <Flags UseTeamColor="false" />	
+  </Item>
+  
+
+
+
+  <Item id="asera_vlandic_helmet_nasal"
+        name="{=ArbBALwc}Calrado-Vlandic Nasal Helmet with Mail Coif I"
+        subtype="head_armor"
+        mesh="asera_vlandic_helmet_nasal"
+        culture="Culture.vlandia"
+        weight="2.5"
+        difficulty="0"
+        appearance="1.5"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="92"
+			 body_armor="15"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type3"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  
+  <Item id="asera_vlandic_helmet_nasal2"
+        name="{=ArbBALwc}Calrado-Vlandic Nasal Helmet with Mail Coif II"
+        subtype="head_armor"
+        mesh="asera_vlandic_helmet_nasal2"
+        culture="Culture.vlandia"
+        weight="2.5"
+        difficulty="0"
+        appearance="1.5"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="92"
+			 body_armor="30"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type3"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  
+   <Item id="asera_vlandic_helmet_nasal_p1"
+        name="{=ArbBALwc}Calrado-Vlandic Painted Nasal Helmet with Mail Coif"
+        subtype="head_armor"
+        mesh="asera_vlandic_helmet_nasal_p1"
+        culture="Culture.vlandia"
+        weight="2.5"
+        difficulty="0"
+        appearance="1.5"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="92"
+			 body_armor="15"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type3"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  
+  <Item id="asera_vlandic_helmet_cap"
+        name="{=ArbBALwc}Calrado-Vlandic Cap I"
+        subtype="head_armor"
+        mesh="asera_vlandic_helmet_cap"
+        culture="Culture.vlandia"
+        weight="1.5"
+        difficulty="0"
+        appearance="1.5"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="65"
+             has_gender_variations="false"
+             hair_cover_type="type1"
+             beard_cover_type="none"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="asera_vlandic_helmet_cap2"
+        name="{=ArbBALwc}Calrado-Vlandic Cap II"
+        subtype="head_armor"
+        mesh="asera_vlandic_helmet_cap2"
+        culture="Culture.vlandia"
+        weight="1.5"
+        difficulty="0"
+        appearance="1.5"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="65"
+             has_gender_variations="false"
+             hair_cover_type="type1"
+             beard_cover_type="none"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  
+    <Item id="exp_smooth_phrygian_chin"
+        name="{=ArbBALwc}Calrado-Vlandic Nasal Helmet"
+        subtype="head_armor"
+        mesh="exp_smooth_phrygian_chin"
+        culture="Culture.vlandia"
+        weight="1.5"
+        difficulty="0"
+        appearance="1.5"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="65"
+			 body_armor="12"
+             has_gender_variations="false"
+             hair_cover_type="type1"
+             beard_cover_type="none"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+ 
+	
+  <Item id="spoleto_helmet"
+        name="{=ArbBALwc}Calrado-Vlandic Helmet with Mail Coif I"
+        subtype="head_armor"
+        mesh="asera_vlandic_helmet_half"
+        culture="Culture.vlandia"
+        weight="2.5"
+        difficulty="0"
+        appearance="1.5"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="92"
+			 body_armor="92"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type3"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  
+  <Item id="asera_vlandic_helmet_half2"
+        name="{=ArbBALwc}Calrado-Vlandic Helmet with Mail Coif II"
+        subtype="head_armor"
+        mesh="asera_vlandic_helmet_half2"
+        culture="Culture.vlandia"
+        weight="2.5"
+        difficulty="0"
+        appearance="1.5"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="92"
+			 body_armor="92"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type3"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>	  
+
+  <Item id="spoleto_helmet2"
+        name="{=ArbBALwc}Painted Calrado-Vlandic Helm with Mail Coif"
+        subtype="head_armor"
+        mesh="asera_vlandic_helmet_half_p_1"
+        culture="Culture.vlandia"
+        weight="2.5"
+        difficulty="0"
+        appearance="1.5"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="92"
+			 body_armor="92"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type3"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+   		<Flags UseTeamColor="true"/>
+  </Item>	  
+
+
+  <Item id="spoleto_helmet3"
+        name="{=ArbBALwc}Painted Calrado-Vlandic Helm with Mail Coif II"
+        subtype="head_armor"
+        mesh="asera_vlandic_helmet_half_p_2"
+        culture="Culture.vlandia"
+        weight="2.5"
+        difficulty="0"
+        appearance="1.5"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="92"
+			 body_armor="92"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type3"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+   		<Flags UseTeamColor="true"/>
+  </Item>	  
+	 
+	 
+
+  <Item id="spoleto_helmet4"
+        name="{=ArbBALwc}Painted Calrado-Vlandic Helm with Mail Coif III"
+        subtype="head_armor"
+        mesh="asera_vlandic_helmet_half_p_3"
+        culture="Culture.vlandia"
+        weight="2.5"
+        difficulty="0"
+        appearance="1.5"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="92"
+			 body_armor="92"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type3"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+   		<Flags UseTeamColor="true"/>
+  </Item>	  
+	 	 
+
+
+  
+   <Item id="nasal_helmet_norman"
+        name="{=k4kivaf5}Vlandian Nasal Helmet I"
+        mesh="nasal_helmet_a_new"
+        culture="Culture.vlandia"
+        weight="1.8"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="65"
+			 body_armor="12"
+             has_gender_variations="false"
+             hair_cover_type="type1"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item> 
+  
+   <Item id="normancapnew_exp1"
+        name="{=k4kivaf5}Vlandian Nasal Helmet II"
+        mesh="normancapnew_exp1"
+        culture="Culture.vlandia"
+        weight="1.8"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="65"
+			 body_armor="12"
+             has_gender_variations="false"
+             hair_cover_type="type1"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item> 	
+
+   <Item id="exp_normancap2"
+        name="{=k4kivaf5}Western Steel Cap"
+        mesh="exp_normancap2"
+        culture="Culture.vlandia"
+        weight="1.8"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="60"
+             has_gender_variations="false"
+             hair_cover_type="type1"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+   <Item id="exp_normancap2_aventail"
+        name="{=k4kivaf5}Western Steel Cap with Aventail"
+        mesh="exp_normancap2_aventail"
+        culture="Culture.vlandia"
+        weight="2.4"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="75"
+			 body_armor="5"
+             has_gender_variations="false"
+             hair_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>   
+  
+       <Item id="nasal_helmet_a_new_aventail"
+        name="{=k4kivaf5}Vlandian Nasal Helmet with Aventail I"
+        mesh="nasal_helmet_a_new_aventail"
+        culture="Culture.vlandia"
+        weight="2.4"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="75"
+			 body_armor="12"
+             has_gender_variations="false"
+             hair_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item> 
+  
+     <Item id="exp_normancapnew_aventail"
+        name="{=k4kivaf5}Vlandian Nasal Helmet with Aventail II"
+        mesh="exp_normancapnew_aventail"
+        culture="Culture.vlandia"
+        weight="2.4"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="75"
+			 body_armor="12"
+             has_gender_variations="false"
+             hair_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item> 
+  
+       <Item id="exp_normancapnew_aventail2"
+        name="{=k4kivaf5}Vlandian Painted Nasal Helmet with Aventail I"
+        mesh="exp_normancapnew_aventail2"
+        culture="Culture.vlandia"
+        weight="2.4"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="75"
+			 body_armor="12"
+             has_gender_variations="false"
+             hair_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item> 
+  
+   <Item id="exp_normancapnew_aventail3"
+        name="{=k4kivaf5}Vlandian Painted Nasal Helmet with Aventail II"
+        mesh="exp_normancapnew_aventail3"
+        culture="Culture.vlandia"
+        weight="2.4"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="75"
+			 body_armor="12"
+             has_gender_variations="false"
+             hair_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item> 
+
+   <Item id="exp_flutted_cap"
+        name="{=k4kivaf5}Fluted Phrygian Steel Cap"
+        mesh="exp_flutted_cap"
+        culture="Culture.empire"
+        weight="1.8"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="65"
+             has_gender_variations="false"
+             hair_cover_type="type1"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+<Item id="exp_flutted_nosegrd_cap"
+        name="{=k4kivaf5}Fluted Phrygian Steel Nasal Helmet I"
+        mesh="exp_flutted_nosegrd_cap"
+        culture="Culture.vlandia"
+        weight="1.8"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="65"
+	          body_armor="12"
+             has_gender_variations="false"
+             hair_cover_type="type1"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="exp_flutted_nosegrd_cap2"
+        name="{=k4kivaf5}Fluted Phrygian Steel Nasal Helmet II"
+        mesh="exp_flutted_nosegrd_cap2"
+        culture="Culture.vlandia"
+        weight="1.8"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="65"
+	          body_armor="12"
+             has_gender_variations="false"
+             hair_cover_type="type1"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="exp_flutted_nosegrd_cap3"
+        name="{=k4kivaf5}Fluted Phrygian Steel Nasal Helmet III"
+        mesh="exp_flutted_nosegrd_cap3"
+        culture="Culture.vlandia"
+        weight="1.8"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="65"
+	          body_armor="12"
+             has_gender_variations="false"
+             hair_cover_type="type1"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+
+<Item id="exp_flutted_nosegrd_cap_aventail"
+        name="{=k4kivaf5}Fluted Phrygian Nasal Helmet with Aventail"
+        mesh="exp_flutted_nosegrd_cap_aventail"
+        culture="Culture.vlandia"
+        weight="2.4"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="75"
+	          body_armor="12"
+             has_gender_variations="false"
+             hair_cover_type="type1"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+
+<Item id="asera_vlandic_helmet_byz"
+        name="{=k4kivaf5}Imperial Phrygian Helmet with Aventail"
+        mesh="asera_vlandic_helmet_byz"
+        culture="Culture.empire"
+        weight="2.4"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="75"
+	          body_armor="5"
+             has_gender_variations="false"
+             hair_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>    
+  
+  <Item id="asera_vlandic_helmet_byz_opencoif"
+        name="{=k4kivaf5}Imperial Phrygian Helmet with Mail Coif"
+        mesh="asera_vlandic_helmet_byz_opencoif"
+        culture="Culture.empire"
+        weight="2.8"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="80"
+	          body_armor="12"
+             has_gender_variations="false"
+             hair_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item> 
+
+<Item id="asera_vlandic_helmet_brass_aventail"
+        name="{=k4kivaf5}Phrygian Nasal Helmet with Aventail I"
+        mesh="asera_vlandic_helmet_brass_aventail"
+        culture="Culture.vlandia"
+        weight="2.4"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="80"
+	          body_armor="18"
+             has_gender_variations="false"
+             hair_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>    
+  
+  <Item id="asera_vlandic_helmet_iron_aventail"
+        name="{=k4kivaf5}Phrygian Nasal Helmet with Aventail II"
+        mesh="asera_vlandic_helmet_iron_aventail"
+        culture="Culture.vlandia"
+        weight="2.4"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="80"
+	          body_armor="18"
+             has_gender_variations="false"
+             hair_cover_type="type1"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>   
+  
+    <Item id="exp_flutted_cap_aventail"
+        name="{=k4kivaf5}Fluted Phrygian Steel Cap with Aventail"
+        mesh="exp_flutted_cap_aventail"
+        culture="Culture.empire"
+        weight="2.4"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="75"
+			 body_armor="5"
+             has_gender_variations="false"
+             hair_cover_type="type3"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>  
+  
+     <Item id="exp_flutted_cap_short"
+        name="{=k4kivaf5}Fluted Short Steel Cap"
+        mesh="exp_flutted_cap2"
+        culture="Culture.empire"
+        weight="1.8"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="65"
+             has_gender_variations="false"
+             hair_cover_type="type1"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>  
+  
+      <Item id="exp_flutted_cap_aventail2"
+        name="{=k4kivaf5}Fluted Short Steel Cap with Aventail"
+        mesh="exp_flutted_cap_aventail2"
+        culture="Culture.empire"
+        weight="2.4"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="75"
+			 body_armor="5"
+             has_gender_variations="false"
+             hair_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item> 
+  
+     <Item id="nasal_helmet_norman2"
+        name="{=k4kivaf5}Vlandian Nasal Helmet with Coif"
+        mesh="nasal_helmet_a_new2"
+        culture="Culture.vlandia"
+        weight="2.2"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="65"
+			 body_armor="24"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type1"			 
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item> 	  
+  
+    <Item id="nasal_helmet_norman3"
+        name="{=k4kivaf5}Vlandian Reinforced Nasal Helmet"
+        mesh="nasal_helmet_a_new3"
+        culture="Culture.vlandia"
+        weight="2.6"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="75"
+			 body_armor="36"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type1"			 			 
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item> 	 
+  
+    <Item id="vlandia_crown"
+        name="{=1b6T0M72}Austere Crown"
+        mesh="vlandia_crown"
+        culture="Culture.vlandia"
+        is_merchandise="false"
+        weight="0.35"
+        appearance="6"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="7"
+             has_gender_variations="false"
+             hair_cover_type="none"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="false" />
+  </Item>
+   
+     <Item id="nasal_helmet_norman4"
+        name="{=k4kivaf5}Vlandian Nasal Helmet with Coif II"
+        mesh="nasal_helmet_a_new2"
+        culture="Culture.vlandia"
+        weight="2.2"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="65"
+			 body_armor="24"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type1"			 			 
+             modifier_group="plate"
+             material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>  
+  
+    <Item id="nasal_helmet_norman5"
+        name="{=k4kivaf5}Vlandian Reinforced Nasal Helmet II"
+        mesh="nasal_helmet_a_new3"
+        culture="Culture.vlandia"
+        weight="2.6"
+        appearance="2"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="75"
+			 body_armor="36"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type1"			 			 
+             modifier_group="plate"
+             material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item> 
+
+</Items>

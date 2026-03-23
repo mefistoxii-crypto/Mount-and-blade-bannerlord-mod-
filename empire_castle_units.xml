@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModuleData>
+    <!-- Imperial Castle Units - Elite units recruitable only in castles -->
+
+    <CharacterObject>
+        <Id>castle_recruit_empire_praetorian</Id>
+        <Name>Imperial Praetorian</Name>
+        <Description>Elite guards protecting Imperial castles and nobility.</Description>
+        <Culture>empire</Culture>
+        <Tier>6</Tier>
+        <Health>150</Health>
+        <Morale>80</Morale>
+
+        <Equipment>
+            <Item slot="Weapon">empire_gladius</Item>
+            <Item slot="Weapon2">empire_shield</Item>
+            <Item slot="Horse">heavy_horse</Item>
+            <Item slot="Body">empire_plate_armor</Item>
+            <Item slot="Head">empire_closed_helmet</Item>
+        </Equipment>
+
+        <Skills>
+            <OneHanded>200</OneHanded>
+            <TwoHanded>140</TwoHanded>
+            <Polearm>160</Polearm>
+            <Shield>180</Shield>
+            <Riding>140</Riding>
+            <Athletics>120</Athletics>
+            <PowerStrike>180</PowerStrike>
+            <PowerDraw>100</PowerDraw>
+            <Scouting>100</Scouting>
+            <Tactics>160</Tactics>
+            <Surgery>80</Surgery>
+            <FirstAid>100</FirstAid>
+            <Trade>60</Trade>
+            <Leadership>160</Leadership>
+            <Persuasion>100</Persuasion>
+            <Smithing>80</Smithing>
+            <Crafting>80</Crafting>
+            <Throwing>100</Throwing>
+            <Bow>100</Bow>
+            <Crossbow>120</Crossbow>
+            <Firearm>60</Firearm>
+        </Skills>
+
+        <Attributes>
+            <Strength>13</Strength>
+            <Dexterity>10</Dexterity>
+            <Intelligence>8</Intelligence>
+            <Endurance>12</Endurance>
+            <Charisma>10</Charisma>
+        </Attributes>
+
+        <Flags>
+            <IsMounted>true</IsMounted>
+            <IsNotManhunter>true</IsNotManhunter>
+            <IsOffensive>true</IsOffensive>
+            <IsTemplate>false</IsTemplate>
+        </Flags>
+    </CharacterObject>
+
+    <CharacterObject>
+        <Id>castle_recruit_empire_cataphract</Id>
+        <Name>Imperial Cataphract</Name>
+        <Description>Heavy cavalry elite protecting Imperial castles and leading charges.</Description>
+        <Culture>empire</Culture>
+        <Tier>7</Tier>
+        <Health>180</Health>
+        <Morale>90</Morale>
+
+        <Equipment>
+            <Item slot="Weapon">empire_lance</Item>
+            <Item slot="Weapon2">empire_heavy_shield</Item>
+            <Item slot="Horse">heavy_warhorse</Item>
+            <Item slot="Body">empire_plate_armor</Item>
+            <Item slot="Head">empire_closed_helmet</Item>
+        </Equipment>
+
+        <Skills>
+            <OneHanded>180</OneHanded>
+            <TwoHanded>140</TwoHanded>
+            <Polearm>220</Polearm>
+            <Shield>160</Shield>
+            <Riding>220</Riding>
+            <Athletics>140</Athletics>
+            <PowerStrike>200</PowerStrike>
+            <PowerDraw>180</PowerDraw>
+            <Scouting>120</Scouting>
+            <Tactics>180</Tactics>
+            <Surgery>100</Surgery>
+            <FirstAid>120</FirstAid>
+            <Trade>80</Trade>
+            <Leadership>180</Leadership>
+            <Persuasion>120</Persuasion>
+            <Smithing>100</Smithing>
+            <Crafting>100</Crafting>
+            <Throwing>100</Throwing>
+            <Bow>120</Bow>
+            <Crossbow>100</Crossbow>
+            <Firearm>80</Firearm>
+        </Skills>
+
+        <Attributes>
+            <Strength>16</Strength>
+            <Dexterity>10</Dexterity>
+            <Intelligence>8</Intelligence>
+            <Endurance>14</Endurance>
+            <Charisma>10</Charisma>
+        </Attributes>
+
+        <Flags>
+            <IsMounted>true</IsMounted>
+            <IsNotManhunter>true</IsNotManhunter>
+            <IsOffensive>true</IsOffensive>
+            <IsTemplate>false</IsTemplate>
+        </Flags>
+    </CharacterObject>
+
+    <CharacterObject>
+        <Id>castle_recruit_empire_artillery_master</Id>
+        <Name>Imperial Artillery Master</Name>
+        <Description>Specialist in siege weapons and castle defense engineering.</Description>
+        <Culture>empire</Culture>
+        <Tier>5</Tier>
+        <Health>120</Health>
+        <Morale>70</Morale>
+
+        <Equipment>
+            <Item slot="Weapon">empire_crossbow</Item>
+            <Item slot="Weapon2">empire_light_shield</Item>
+            <Item slot="Horse">light_horse</Item>
+            <Item slot="Body">empire_mail_armor</Item>
+            <Item slot="Head">empire_open_helmet</Item>
+        </Equipment>
+
+        <Skills>
+            <OneHanded>120</OneHanded>
+            <TwoHanded>100</TwoHanded>
+            <Polearm>120</Polearm>
+            <Shield>140</Shield>
+            <Riding>140</Riding>
+            <Athletics>100</Athletics>
+            <PowerStrike>120</PowerStrike>
+            <PowerDraw>140</PowerDraw>
+            <Scouting>140</Scouting>
+            <Tactics>180</Tactics>
+            <Surgery>100</Surgery>
+            <FirstAid>120</FirstAid>
+            <Trade>140</Trade>
+            <Leadership>120</Leadership>
+            <Persuasion>120</Persuasion>
+            <Smithing>200</Smithing>
+            <Crafting>200</Crafting>
+            <Throwing>100</Throwing>
+            <Bow>100</Bow>
+            <Crossbow>220</Crossbow>
+            <Firearm>120</Firearm>
+        </Skills>
+
+        <Attributes>
+            <Strength>10</Strength>
+            <Dexterity>12</Dexterity>
+            <Intelligence>14</Intelligence>
+            <Endurance>10</Endurance>
+            <Charisma>10</Charisma>
+        </Attributes>
+
+        <Flags>
+            <IsMounted>true</IsMounted>
+            <IsNotManhunter>true</IsNotManhunter>
+            <IsOffensive>true</IsOffensive>
+            <IsTemplate>false</IsTemplate>
+        </Flags>
+    </CharacterObject>
+</ModuleData>

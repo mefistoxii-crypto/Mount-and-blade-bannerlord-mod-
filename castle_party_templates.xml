@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModuleData>
+    <!-- Party templates for castle units -->
+
+    <!-- Vlandian Templates -->
+    <PartyTemplate>
+        <Id>vlandia_castle_guard_squad</Id>
+        <Name>Vlandian Castle Guard Squad</Name>
+        <Culture>vlandia</Culture>
+        <Tier>6</Tier>
+        <Size>20</Size>
+        <Troops>
+            <Troop id="castle_recruit_vlandia_castle_guard" probability="100" count="20"/>
+        </Troops>
+    </PartyTemplate>
+
+    <PartyTemplate>
+        <Id>vlandia_knight_commander_squad</Id>
+        <Name>Vlandian Knight Commander Squad</Name>
+        <Culture>vlandia</Culture>
+        <Tier>7</Tier>
+        <Size>10</Size>
+        <Troops>
+            <Troop id="castle_recruit_vlandia_knight_commander" probability="100" count="10"/>
+        </Troops>
+    </PartyTemplate>
+
+    <PartyTemplate>
+        <Id>vlandia_siege_engineer_squad</Id>
+        <Name>Vlandian Siege Engineer Squad</Name>
+        <Culture>vlandia</Culture>
+        <Tier>5</Tier>
+        <Size>15</Size>
+        <Troops>
+            <Troop id="castle_recruit_vlandia_siege_engineer" probability="100" count="15"/>
+        </Troops>
+    </PartyTemplate>
+
+    <!-- Sturgian Templates -->
+    <PartyTemplate>
+        <Id>sturgia_royal_guard_squad</Id>
+        <Name>Sturgian Royal Guard Squad</Name>
+        <Culture>sturgia</Culture>
+        <Tier>6</Tier>
+        <Size>20</Size>
+        <Troops>
+            <Troop id="castle_recruit_sturgia_royal_guard" probability="100" count="20"/>
+        </Troops>
+    </PartyTemplate>
+
+    <PartyTemplate>
+        <Id>sturgia_boyar_squad</Id>
+        <Name>Sturgian Boyar Squad</Name>
+        <Culture>sturgia</Culture>
+        <Tier>7</Tier>
+        <Size>10</Size>
+        <Troops>
+            <Troop id="castle_recruit_sturgia_boyar" probability="100" count="10"/>
+        </Troops>
+    </PartyTemplate>
+
+    <PartyTemplate>
+        <Id>sturgia_ice_breaker_squad</Id>
+        <Name>Sturgian Ice Breaker Squad</Name>
+        <Culture>sturgia</Culture>
+        <Tier>5</Tier>
+        <Size>15</Size>
+        <Troops>
+            <Troop id="castle_recruit_sturgia_ice_breaker" probability="100" count="15"/>
+        </Troops>
+    </PartyTemplate>
+
+    <!-- Empire Templates -->
+    <PartyTemplate>
+        <Id>empire_praetorian_squad</Id>
+        <Name>Imperial Praetorian Squad</Name>
+        <Culture>empire</Culture>
+        <Tier>6</Tier>
+        <Size>20</Size>
+        <Troops>
+            <Troop id="castle_recruit_empire_praetorian" probability="100" count="20"/>
+        </Troops>
+    </PartyTemplate>
+
+    <PartyTemplate>
+        <Id>empire_cataphract_squad</Id>
+        <Name>Imperial Cataphract Squad</Name>
+        <Culture>empire</Culture>
+        <Tier>7</Tier>
+        <Size>10</Size>
+        <Troops>
+            <Troop id="castle_recruit_empire_cataphract" probability="100" count="10"/>
+        </Troops>
+    </PartyTemplate>
+
+    <PartyTemplate>
+        <Id>empire_artillery_master_squad</Id>
+        <Name>Imperial Artillery Master Squad</Name>
+        <Culture>empire</Culture>
+        <Tier>5</Tier>
+        <Size>15</Size>
+        <Troops>
+            <Troop id="castle_recruit_empire_artillery_master" probability="100" count="15"/>
+        </Troops>
+    </PartyTemplate>
+
+    <!-- Aserai Templates -->
+    <PartyTemplate>
+        <Id>aserai_royal_guard_squad</Id>
+        <Name>Aserai Royal Guard Squad</Name>
+        <Culture>aserai</Culture>
+        <Tier>6</Tier>
+        <Size>20</Size>
+        <Troops>
+            <Troop id="castle_recruit_aserai_royal_guard" probability="100" count="20"/>
+        </Troops>
+    </PartyTemplate>
+
+    <PartyTemplate>
+        <Id>aserai_hashishi_squad</Id>
+        <Name>Aserai Hashishi Squad</Name>
+        <Culture>aserai</Culture>
+        <Tier>7</Tier>
+        <Size>10</Size>
+        <Troops>
+            <Troop id="castle_recruit_aserai_hashishi" probability="100" count="10"/>
+        </Troops>
+    </PartyTemplate>
+
+    <PartyTemplate>
+        <Id>aserai_siege_commander_squad</Id>
+        <Name>Aserai Siege Commander Squad</Name>
+        <Culture>aserai</Culture>
+        <Tier>5</Tier>
+        <Size>15</Size>
+        <Troops>
+            <Troop id="castle_recruit_aserai_siege_commander" probability="100" count="15"/>
+        </Troops>
+    </PartyTemplate>
+
+    <!-- Battania Templates -->
+    <PartyTemplate>
+        <Id>battania_champion_squad</Id>
+        <Name>Battanian Champion Squad</Name>
+        <Culture>battania</Culture>
+        <Tier>6</Tier>
+        <Size>20</Size>
+        <Troops>
+            <Troop id="castle_recruit_battania_champion" probability="100" count="20"/>
+        </Troops>
+    </PartyTemplate>
+
+    <PartyTemplate>
+        <Id>battania_woodland_sentinel_squad</Id>
+        <Name>Battanian Woodland Sentinel Squad</Name>
+        <Culture>battania</Culture>
+        <Tier>7</Tier>
+        <Size>10</Size>
+        <Troops>
+            <Troop id="castle_recruit_battania_woodland_sentinel" probability="100" count="10"/>
+        </Troops>
+    </PartyTemplate>
+
+    <PartyTemplate>
+        <Id>battania_woad_warrior_squad</Id>
+        <Name>Battanian Woad Warrior Squad</Name>
+        <Culture>battania</Culture>
+        <Tier>5</Tier>
+        <Size>15</Size>
+        <Troops>
+            <Troop id="castle_recruit_battania_woad_warrior" probability="100" count="15"/>
+        </Troops>
+    </PartyTemplate>
+
+    <!-- Khuzait Templates -->
+    <PartyTemplate>
+        <Id>khuzait_elite_archer_squad</Id>
+        <Name>Khuzait Elite Archer Squad</Name>
+        <Culture>khuzait</Culture>
+        <Tier>6</Tier>
+        <Size>20</Size>
+        <Troops>
+            <Troop id="castle_recruit_khuzait_elite_archer" probability="100" count="20"/>
+        </Troops>
+    </PartyTemplate>
+
+    <PartyTemplate>
+        <Id>khuzait_heavy_lancer_squad</Id>
+        <Name>Khuzait Heavy Lancer Squad</Name>
+        <Culture>khuzait</Culture>
+        <Tier>7</Tier>
+        <Size>10</Size>
+        <Troops>
+            <Troop id="castle_recruit_khuzait_heavy_lancer" probability="100" count="10"/>
+        </Troops>
+    </PartyTemplate>
+
+    <PartyTemplate>
+        <Id>khuzait_strategist_squad</Id>
+        <Name>Khuzait Strategist Squad</Name>
+        <Culture>khuzait</Culture>
+        <Tier>5</Tier>
+        <Size>15</Size>
+        <Troops>
+            <Troop id="castle_recruit_khuzait_strategist" probability="100" count="15"/>
+        </Troops>
+    </PartyTemplate>
+
+    <!-- Nord Templates -->
+    <PartyTemplate>
+        <Id>nord_jarl_guard_squad</Id>
+        <Name>Nord Jarl Guard Squad</Name>
+        <Culture>nord</Culture>
+        <Tier>6</Tier>
+        <Size>20</Size>
+        <Troops>
+            <Troop id="castle_recruit_nord_jarl_guard" probability="100" count="20"/>
+        </Troops>
+    </PartyTemplate>
+
+    <PartyTemplate>
+        <Id>nord_berserker_squad</Id>
+        <Name>Nord Berserker Squad</Name>
+        <Culture>nord</Culture>
+        <Tier>7</Tier>
+        <Size>10</Size>
+        <Troops>
+            <Troop id="castle_recruit_nord_berserker" probability="100" count="10"/>
+        </Troops>
+    </PartyTemplate>
+
+    <PartyTemplate>
+        <Id>nord_siege_master_squad</Id>
+        <Name>Nord Siege Master Squad</Name>
+        <Culture>nord</Culture>
+        <Tier>5</Tier>
+        <Size>15</Size>
+        <Troops>
+            <Troop id="castle_recruit_nord_siege_master" probability="100" count="15"/>
+        </Troops>
+    </PartyTemplate>
+</ModuleData>

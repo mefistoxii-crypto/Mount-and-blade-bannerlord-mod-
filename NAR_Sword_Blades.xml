@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>
+  <!-- #region Sword Pieces -->
+  <!-- #region Used Sword Blade Pieces -->
+  
+   <CraftingPiece id="NAR_RBM_sturgian_blade_13"
+                 name="{=*}Vlandian Fullered Narrow Arming Sword Blade"
+                 tier="4"
+                 piece_type="Blade"
+                 mesh="sturgian_blade_13"
+                 culture="Culture.vlandia"
+                 length="75.174"
+                 weight="0.5">
+    <BladeData stack_amount="3"
+               physics_material="metal_weapon"
+               body_name="bo_sword_one_handed"
+               holster_mesh="sturgian_blade_13_scabbard_13"> <!--  -->
+      <Thrust damage_type="Pierce"
+              damage_factor="1.1" />
+      <Swing damage_type="Cut"
+             damage_factor="1.1" />
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian"
+            type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Iron5"
+                count="2" />
+    </Materials>
+  </CraftingPiece>
+    <CraftingPiece id="NAR_RBM_sturgian_blade_2" name="{=*}Vlandian Long Arming Sword Blade" tier="4" piece_type="Blade" mesh="sturgian_blade_2" culture="Culture.vlandia" length="86.9" weight="0.58">
+
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="sturgian_blade_2_scabbard_2">
+      <Thrust damage_type="Pierce" damage_factor="1.2" />
+      <Swing damage_type="Cut" damage_factor="1.2" />
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="3" />
+    </Materials>
+  </CraftingPiece>
+  
+  <CraftingPiece id="NAR_vlandian_blade_1" name="{=q7jHkLam}Fullered Narrow Arming Sword Blade" tier="4" piece_type="Blade" mesh="vlandian_blade_1" culture="Culture.vlandia" length="94.6" weight="0.65">
+
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="vlandian_blade_1_scabbard_1">
+      <Thrust damage_type="Pierce" damage_factor="1.1" />
+      <Swing damage_type="Cut" damage_factor="1.1" />
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Iron3" count="3" />
+    </Materials>
+  </CraftingPiece>
+
+</CraftingPieces>

@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<Items>
+
+	
+		  
+  <Item id="exp_monk_robe"
+        name="{=YxglkaXU}Vlandian Black Habit Over Mail Hauberk With Lion Insignia"
+        subtype="body_armor"
+        mesh="exp_monk_robe"
+        culture="Culture.vlandia"
+        weight="14"
+        difficulty="0"
+        appearance="1.2"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="80"
+             leg_armor="60"
+             arm_armor="60"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="false" />
+  </Item>
+  
+    <Item id="exp_monk_robe2"
+        name="{=YxglkaXU}Vlandian White Habit Over Mail Hauberk With Lion Insignia"
+        subtype="body_armor"
+        mesh="exp_monk_robe2"
+        culture="Culture.vlandia"
+        weight="14"
+        difficulty="0"
+        appearance="1.2"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="80"
+             leg_armor="60"
+             arm_armor="60"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="false" />
+  </Item>
+    <Item id="exp_monk_robe3"
+        name="{=YxglkaXU}Vlandian White Habit Over Mail Hauberk With Cross Insignia"
+        subtype="body_armor"
+        mesh="exp_monk_robe3"
+        culture="Culture.vlandia"
+        weight="14"
+        difficulty="0"
+        appearance="1.2"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="80"
+             leg_armor="60"
+             arm_armor="60"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="false" />
+  </Item>
+  <Item id="exp_monk_robe4"
+        name="{=YxglkaXU}Vlandian Black Habit Over Mail Hauberk With Cross Insignia"
+        subtype="body_armor"
+        mesh="exp_monk_robe4"
+        culture="Culture.vlandia"
+        weight="14"
+        difficulty="0"
+        appearance="1.2"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="80"
+             leg_armor="60"
+             arm_armor="60"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="false" />
+  </Item>
+  
+  <Item id="normanhauberk"
+        name="{=YxglkaXU}Vlandian Long Sleeved Mail Hauberk I"
+        subtype="body_armor"
+        mesh="normanhauberk"
+        culture="Culture.vlandia"
+        weight="14"
+        difficulty="0"
+        appearance="1.2"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="80"
+             leg_armor="60"
+             arm_armor="60"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  
+  
+      <Item id="normanhauberk_short_nobelt"
+        name="{=YxglkaXU}Vlandian Long Sleeved Mail Hauberk II"
+        subtype="body_armor"
+        mesh="normanhauberk_short_nobelt"
+        culture="Culture.vlandia"
+        weight="18"
+        difficulty="0"
+        appearance="1.2"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="85"
+             leg_armor="60"
+             arm_armor="60"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+
+  <Item id="normanhauberk_shortblue_nobelt"
+        name="{=YxglkaXU}Vlandian Long Sleeved Mail Hauberk III"
+        subtype="body_armor"
+        mesh="normanhauberk_shortblue_nobelt"
+        culture="Culture.vlandia"
+        weight="18"
+        difficulty="0"
+        appearance="1.2"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="85"
+             leg_armor="60"
+             arm_armor="60"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  
+  	<Item id="mail_shirt_nocolor" name="{=aGkXbDlr}Western Mail Shirt II" mesh="armor_roman_mail_shirt" culture="Culture.vlandia" weight="7.5" Type="BodyArmor" appearance="1.2" difficulty="0" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="40" leg_armor="30" covers_body="true" modifier_group="chain" material_type="Chainmail" arm_armor="33"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+
+		
+   <!--  Full rework -->
+  <Item id="easternhauberk"
+        name="{=YxglkaXU}Eastern Mail Hauberk I"
+        subtype="body_armor"
+        mesh="exp_eastern_chainmail"
+        culture="Culture.empire"
+        weight="14"
+        difficulty="0"
+        appearance="1.2"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="66"
+             leg_armor="38"
+             arm_armor="42"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="false" />
+  </Item>
+  
+  <Item id="exp_eastern_chainmail2"
+        name="{=YxglkaXU}Eastern Mail Hauberk II"
+        subtype="body_armor"
+        mesh="exp_eastern_chainmail2"
+        culture="Culture.empire"
+        weight="14"
+        difficulty="0"
+        appearance="1.2"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="66"
+             leg_armor="38"
+             arm_armor="42"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+	
+   
+<!--  decorated tabard -->
+  <Item id="white_coat_over_mail"
+        name="{=YxglkaXU}Surcoat Over Mail Hauberk I"
+        subtype="body_armor"
+        mesh="templar_a_white"
+        culture="Culture.vlandia"
+        weight="15"
+        difficulty="0"
+        appearance="1.2"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="80"
+             leg_armor="50"
+             arm_armor="70"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+
+
+<!-- red tabard -->	
+  <Item id="red_coat_over_mail"
+        name="{=aM2EPdXj}Surcoat Over Mail Hauberk II"
+        subtype="body_armor"
+        mesh="templar_a_red"
+		
+        culture="Culture.vlandia"
+        weight="15"
+        difficulty="0"
+        appearance="1.2"
+        Type="BodyArmor">	
+    <ItemComponent>
+      <Armor body_armor="80"
+             leg_armor="50"
+             arm_armor="70"
+             has_gender_variations="true"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />		 
+		</ItemComponent>
+			<Flags UseTeamColor="true"/>
+	</Item>
+
+
+	<!-- Revisit textures and use klibanion for other armor pieces -->
+	
+  <Item id="exp_byzantine_armor_1"
+        name="{=*}Imperial Klivanion over Embroidered Tunic I"
+        mesh="exp_byzantine_armor_1"
+        subtype="body_armor"
+        culture="Culture.empire"
+        weight="8.0"
+        difficulty="0"
+        appearance="6.0"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="70"
+             leg_armor="18"
+             arm_armor="18"
+             covers_body="true"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="false" />
+  </Item>
+  
+  <Item id="exp_byzantine_armor_1_clan"
+        name="{=*}Imperial Klivanion over Embroidered Tunic II"
+        mesh="exp_byzantine_armor_1_clan"
+        subtype="body_armor"
+        culture="Culture.empire"
+        weight="8.0"
+        difficulty="0"
+        appearance="6.0"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="70"
+             leg_armor="18"
+             arm_armor="18"
+             covers_body="true"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  
+  <Item id="exp_byzantine_armor_2"
+        name="{=*}Imperial Heavy Klivanion over Tunic I"
+        mesh="exp_byzantine_armor_2"
+        subtype="body_armor"
+        culture="Culture.empire"
+        weight="13.0"
+        difficulty="0"
+        appearance="6.0"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="80"
+             leg_armor="25"
+             arm_armor="30"
+             covers_body="true"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="false" />
+  </Item>
+  
+  <Item id="exp_byzantine_armor_2_clan"
+        name="{=*}Imperial Heavy Klivanion over Tunic II"
+        mesh="exp_byzantine_armor_2_clan"
+        subtype="body_armor"
+        culture="Culture.empire"
+        weight="13.0"
+        difficulty="0"
+        appearance="6.0"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="80"
+             leg_armor="25"
+             arm_armor="30"
+             covers_body="true"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+
+
+<!-- secondary decorated tabard	 -->
+ 
+	<Item id="asero_vlandic_robe"
+        name="{=aM2EPdXj}Asero-Vlandic Robe Over Mail Hauberk I"
+        subtype="body_armor"
+        mesh="asero_vlandic_mail"
+        culture="Culture.vlandia"
+		
+        weight="15"
+        difficulty="0"
+        appearance="1.2"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="70"
+             leg_armor="40"
+             arm_armor="60"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+
+<Item id="asero_vlandic_mail_crus"
+        name="{=aM2EPdXj}Asero-Vlandic Robe Over Mail Hauberk II"
+        subtype="body_armor"
+        mesh="asero_vlandic_mail_crus"
+        culture="Culture.vlandia"
+		
+        weight="15"
+        difficulty="0"
+        appearance="1.2"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="70"
+             leg_armor="40"
+             arm_armor="60"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>	
+
+<Item id="asero_vlandic_mail_crus_clan"
+        name="{=aM2EPdXj}Asero-Vlandic Robe Over Mail Hauberk III"
+        subtype="body_armor"
+        mesh="asero_vlandic_mail_crus_clan"
+        culture="Culture.vlandia"
+		
+        weight="15"
+        difficulty="0"
+        appearance="1.2"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="70"
+             leg_armor="40"
+             arm_armor="60"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>		
+  
+
+  
+  <Item id="vlandia_chainmail_baron"
+        name="{=atSRQkCE}Baron's Heavy Mail Hauberk"
+        mesh="exp_vlandia_chainmail_knight_heavy"
+        culture="Culture.vlandia"
+        weight="18"
+        appearance="1"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="90"
+             leg_armor="60"
+             arm_armor="60"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item> 
+  
+    <Item id="exp_vlandia_chainmail_baron"
+        name="{=atSRQkCE}Baron's Medium Mail Hauberk"
+        mesh="exp_vlandia_chainmail_knight"
+        culture="Culture.vlandia"
+        weight="15"
+        appearance="1"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="85"
+             leg_armor="55"
+             arm_armor="60"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item> 
+  
+  <Item id="vlandia_chainmailnobelt_baron"
+        name="{=atSRQkCE}Baron's Unbelted Medium Mail Hauberk"
+        mesh="exp_vlandia_chainmailnobelt_knight"
+        culture="Culture.vlandia"
+        weight="15"
+        appearance="1"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="85"
+             leg_armor="55"
+             arm_armor="60"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="false" />
+  </Item>
+  
+
+  <Item id="vlandia_chainmail_knight2"
+        name="{=atSRQkCE}Knight's Heavy Mail Hauberk"
+        mesh="exp_vlandia_chainmail_knight2_heavy"
+        culture="Culture.vlandia"
+        weight="18"
+        appearance="1"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="80"
+             leg_armor="55"
+             arm_armor="55"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  
+    <Item id="exp_vlandia_chainmail_knight2"
+        name="{=atSRQkCE}Knight's Medium Mail Hauberk"
+        mesh="exp_vlandia_chainmail_knight2"
+        culture="Culture.vlandia"
+        weight="15"
+        appearance="1"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="75"
+             leg_armor="50"
+             arm_armor="55"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  
+  <Item id="vlandia_chainmailnobelt_knight2"
+        name="{=atSRQkCE}Knight's Unbelted Medium Mail Hauberk"
+        mesh="exp_vlandia_chainmailnobelt_knight2"
+        culture="Culture.vlandia"
+        weight="15"
+        appearance="1"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="75"
+             leg_armor="50"
+             arm_armor="55"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  
+   <Item id="exp_vlandia_chainmail_a_heavy"
+        name="{=*}Cavalryman's Heavy Mail Hauberk"
+        mesh="exp_vlandia_chainmail_a_heavy"
+        culture="Culture.vlandia"
+        weight="18"
+        appearance="1"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="70"
+             leg_armor="50"
+             arm_armor="50"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="false" />
+  </Item> 
+  
+  <Item id="exp_vlandia_chainmail_a_heavy_clan"
+        name="{=*}Cavalryman's Clan Colored Heavy Mail Hauberk"
+        mesh="exp_vlandia_chainmail_a_heavy_clan"
+        culture="Culture.vlandia"
+        weight="18"
+        appearance="1"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="70"
+             leg_armor="50"
+             arm_armor="50"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  
+     <Item id="exp_vlandia_chainmail"
+        name="{=*}Cavalryman's Medium Mail Hauberk"
+        mesh="exp_vlandia_chainmail_a"
+        culture="Culture.vlandia"
+        weight="15"
+        appearance="1"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="65"
+             leg_armor="45"
+             arm_armor="50"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="false" />
+  </Item>
+  
+  <Item id="exp_vlandia_chainmail_a_clan"
+        name="{=*}Cavalryman's Clan Colored Medium Mail Hauberk"
+        mesh="exp_vlandia_chainmail_a_clan"
+        culture="Culture.vlandia"
+        weight="15"
+        appearance="1"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="65"
+             leg_armor="45"
+             arm_armor="50"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  
+       <Item id="vlandia_chainmailnobelt_a"
+        name="{=*}Cavalryman's Unbelted Medium Mail Hauberk"
+        mesh="exp_vlandia_chainmailnobelt_a"
+        culture="Culture.vlandia"
+        weight="15"
+        appearance="1"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="65"
+             leg_armor="45"
+             arm_armor="50"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="false" />
+  </Item>
+  
+  <Item id="exp_vlandia_chainmailnobelt_a_clan"
+        name="{=*}Cavalryman's Clan Colored Unbelted Medium Mail Hauberk"
+        mesh="exp_vlandia_chainmailnobelt_a_clan"
+        culture="Culture.vlandia"
+        weight="15"
+        appearance="1"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="65"
+             leg_armor="45"
+             arm_armor="50"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  
+  
+    <Item id="hauberk_sergeant"
+        name="{=CZvGrvzY}Serjeant's Double Mail Hauberk"
+        subtype="body_armor"
+        mesh="exp_mail_hauberk_sergeant"
+        culture="Culture.vlandia"
+        weight="16"
+        difficulty="0"
+        appearance="1"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="80"
+             leg_armor="45"
+             arm_armor="55"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  
+      <Item id="hauberk_sergeant_nocolor"
+        name="{=CZvGrvzY}Serjeant's Double Mail Hauberk II"
+        subtype="body_armor"
+        mesh="exp_mail_hauberk_sergeant"
+        culture="Culture.vlandia"
+        weight="16"
+        difficulty="0"
+        appearance="1"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="80"
+             leg_armor="45"
+             arm_armor="55"
+             has_gender_variations="false"
+             covers_body="true"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="false" />
+  </Item>
+  
+	<Item id="hauberk" name="Western Double Mail Hauberk" mesh="exp_mail_hauberk" culture="Culture.vlandia" weight="16" Type="BodyArmor" appearance="1" difficulty="0" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="70" leg_armor="40" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="false" arm_armor="40"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+
+	<Item id="hauberk_color" name="Western Double Mail Hauberk II" mesh="exp_mail_hauberk" culture="Culture.vlandia" weight="16" Type="BodyArmor" appearance="1" difficulty="0" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="70" leg_armor="40" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="false" arm_armor="40"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+  
+  <!-- import changes from original norman armory -->
+   <Item id="mail_shoulders"
+        name="{=W9bsRAfD}Mail Shoulder Guards"
+        mesh="shoulder_chain_a"
+        culture="Culture.neutral_culture"
+        subtype="body_armor"
+        weight="2.7"
+        difficulty="0"
+        appearance="1.6"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="30"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+  </Item> 
+  
+  <!-- delete -->
+   <Item id="aserai_archer_armor_new"
+        name="{=2cSOn9qb}Gambeson Over Plated Mail Armor"
+        lod_atlas_index="1"
+        subtype="body_armor"
+        mesh="aserai_archer_armor"
+        culture="Culture.aserai"
+        weight="15.0"
+        difficulty="0"
+        appearance="2"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="70"
+             leg_armor="27"
+             arm_armor="29"
+             has_gender_variations="true"
+             covers_body="true"
+             modifier_group="cloth"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  
+  <!-- Clothes -->
+
+	<Item id="tunic_with_rolled_cloth" name="{=*}Tunic With Rolled Cloth" mesh="armor_tunic_with_rolled_cloth" culture="Culture.vlandia" weight="0.7" Type="BodyArmor" appearance="1" difficulty="0" subtype="body_armor" value="120">
+		<ItemComponent>
+			<Armor body_armor="11" leg_armor="11" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" arm_armor="7"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	
+	<Item id="tunic_with_rolled_cloth_white" name="{=*}White Tunic With Rolled Cloth" mesh="armor_tunic_with_rolled_cloth" culture="Culture.vlandia" weight="0.7" Type="BodyArmor" appearance="1" difficulty="0" subtype="body_armor" value="120">
+		<ItemComponent>
+			<Armor body_armor="11" leg_armor="11" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" arm_armor="7"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true"/>
+	</Item>
+	
+	<Item id="exp_tunic_rolled_cloth_blue" name="{=*}Blue Tunic With Rolled Cloth" mesh="exp_tunic_rolled_cloth_blue" culture="Culture.vlandia" weight="0.7" Type="BodyArmor" appearance="1" difficulty="0" subtype="body_armor" value="120">
+		<ItemComponent>
+			<Armor body_armor="11" leg_armor="11" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" arm_armor="7"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true"/>
+	</Item>
+	<Item id="exp_tunic_rolled_cloth_green" name="{=*}Green Tunic With Rolled Cloth" mesh="exp_tunic_rolled_cloth_green" culture="Culture.vlandia" weight="0.7" Type="BodyArmor" appearance="1" difficulty="0" subtype="body_armor" value="120">
+		<ItemComponent>
+			<Armor body_armor="11" leg_armor="11" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" arm_armor="7"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true"/>
+	</Item>
+	<Item id="exp_tunic_rolled_cloth_orange" name="{=*}Orange Tunic With Rolled Cloth" mesh="exp_tunic_rolled_cloth_orange" culture="Culture.vlandia" weight="0.7" Type="BodyArmor" appearance="1" difficulty="0" subtype="body_armor" value="120">
+		<ItemComponent>
+			<Armor body_armor="11" leg_armor="11" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" arm_armor="7"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true"/>
+	</Item>
+	<Item id="exp_tunic_rolled_cloth_yellow" name="{=*}Yellow Tunic With Rolled Cloth" mesh="exp_tunic_rolled_cloth_yellow" culture="Culture.vlandia" weight="0.7" Type="BodyArmor" appearance="1" difficulty="0" subtype="body_armor" value="120">
+		<ItemComponent>
+			<Armor body_armor="11" leg_armor="11" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" arm_armor="7"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true"/>
+	</Item>
+	
+	<Item id="exp_vlandia_costume_clan" name="{=*}Northern Vlandian Tunic" mesh="exp_vlandia_costume_white" culture="Culture.vlandia" weight="0.6" Type="BodyArmor" appearance="0.6" difficulty="0" subtype="body_armor" value="120">
+		<ItemComponent>
+			<Armor body_armor="12" leg_armor="12" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" has_gender_variations="false" arm_armor="7"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	
+	<Item id="exp_vlandia_costume_white" name="{=*}White Northern Vlandian Tunic" mesh="exp_vlandia_costume_white" culture="Culture.vlandia" weight="0.6" Type="BodyArmor" appearance="0.6" difficulty="0" subtype="body_armor" value="120">
+		<ItemComponent>
+			<Armor body_armor="12" leg_armor="12" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" has_gender_variations="false" arm_armor="7"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true"/>
+	</Item>
+	<Item id="exp_vlandia_costume_red" name="{=*}Burgundy Northern Vlandian Tunic" mesh="exp_vlandia_costume_red" culture="Culture.vlandia" weight="0.6" Type="BodyArmor" appearance="0.6" difficulty="0" subtype="body_armor" value="120">
+		<ItemComponent>
+			<Armor body_armor="12" leg_armor="12" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" has_gender_variations="false" arm_armor="7"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true"/>
+	</Item>
+	<Item id="exp_vlandia_costume_orange" name="{=*}Orange Northern Vlandian Tunic" mesh="exp_vlandia_costume_orange" culture="Culture.vlandia" weight="0.6" Type="BodyArmor" appearance="0.6" difficulty="0" subtype="body_armor" value="120">
+		<ItemComponent>
+			<Armor body_armor="12" leg_armor="12" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" has_gender_variations="false" arm_armor="7"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true"/>
+	</Item>
+	<Item id="exp_vlandia_costume_yellow" name="{=*}Yellow Northern Vlandian Tunic" mesh="exp_vlandia_costume_yellow" culture="Culture.vlandia" weight="0.6" Type="BodyArmor" appearance="0.6" difficulty="0" subtype="body_armor" value="120">
+		<ItemComponent>
+			<Armor body_armor="12" leg_armor="12" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" has_gender_variations="false" arm_armor="7"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true"/>
+	</Item>
+	<Item id="exp_vlandia_costume_green" name="{=*}Green Northern Vlandian Tunic" mesh="exp_vlandia_costume_green" culture="Culture.vlandia" weight="0.6" Type="BodyArmor" appearance="0.6" difficulty="0" subtype="body_armor" value="120">
+		<ItemComponent>
+			<Armor body_armor="12" leg_armor="12" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" has_gender_variations="false" arm_armor="7"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true"/>
+	</Item>
+	<Item id="exp_vlandia_costume_blue" name="{=*}Blue Northern Vlandian Tunic" mesh="exp_vlandia_costume_blue" culture="Culture.vlandia" weight="0.6" Type="BodyArmor" appearance="0.6" difficulty="0" subtype="body_armor" value="120">
+		<ItemComponent>
+			<Armor body_armor="12" leg_armor="12" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" has_gender_variations="false" arm_armor="7"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true"/>
+	</Item>
+	
+	<Item id="exp_casual_02_red" name="{=*}Red Decorated Vlandian Tunic" mesh="exp_casual_02_red" culture="Culture.vlandia" weight="0.6" Type="BodyArmor" appearance="0.6" difficulty="0" subtype="body_armor" value="120">
+		<ItemComponent>
+			<Armor body_armor="13" leg_armor="12" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" has_gender_variations="false" arm_armor="7"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true"/>
+	</Item>
+	<Item id="exp_casual_02_tur" name="{=*}Turquoise Decorated Vlandian Tunic" mesh="exp_casual_02_tur" culture="Culture.vlandia" weight="0.6" Type="BodyArmor" appearance="0.6" difficulty="0" subtype="body_armor" value="120">
+		<ItemComponent>
+			<Armor body_armor="13" leg_armor="12" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" has_gender_variations="false" arm_armor="7"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true"/>
+	</Item>
+	<Item id="exp_casual_02_green" name="{=*}Green Decorated Vlandian Tunic" mesh="exp_casual_02_green" culture="Culture.vlandia" weight="0.6" Type="BodyArmor" appearance="0.6" difficulty="0" subtype="body_armor" value="120">
+		<ItemComponent>
+			<Armor body_armor="13" leg_armor="12" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" has_gender_variations="false" arm_armor="7"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true"/>
+	</Item>
+	<Item id="exp_casual_02_yellow" name="{=*}Yellow Decorated Vlandian Tunic" mesh="exp_casual_02_yellow" culture="Culture.vlandia" weight="0.6" Type="BodyArmor" appearance="0.6" difficulty="0" subtype="body_armor" value="120">
+		<ItemComponent>
+			<Armor body_armor="13" leg_armor="12" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" has_gender_variations="false" arm_armor="7"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true"/>
+	</Item>
+	<Item id="exp_casual_02_white" name="{=*}White Decorated Vlandian Tunic" mesh="exp_casual_02_white" culture="Culture.vlandia" weight="0.6" Type="BodyArmor" appearance="0.6" difficulty="0" subtype="body_armor" value="120">
+		<ItemComponent>
+			<Armor body_armor="13" leg_armor="12" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" has_gender_variations="false" arm_armor="7"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true"/>
+	</Item>
+	
+	
+
+	
+	
+	
+	<!-- Shields. some shields are described using blazonry terms for immersion-->
+ 
+ 
+</Items>

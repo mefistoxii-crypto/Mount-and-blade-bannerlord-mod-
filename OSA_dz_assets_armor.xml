@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Vanilla Balance -->
+	<!-- Arm Armors -->
+	<!-- Leg Armors -->
+	<Item id="DZ_battania_boots_a" name="{=osa_dz_battania_boots_a}Chainmail Boots" mesh="DZ_battania_boots_a" culture="Culture.battania" weight="1.8" appearance="1" Type="LegArmor" difficulty="0">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="DZ_empire_boots_a" name="{=osa_dz_empire_boots_a}Wrapped Leather Boots" mesh="DZ_empire_boots_a" culture="Culture.empire" weight="0.9" difficulty="0" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="5" covers_legs="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="DZ_empire_boots_b" name="{=osa_dz_empire_boots_b}Tied Leather Shoes" mesh="DZ_empire_boots_b" culture="Culture.empire" weight="0.7" difficulty="0" appearance="0.3" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="3" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="DZ_vlandia_boots_a" name="{=osa_dz_vlandia_boots_a}Mail Boots" mesh="DZ_vlandia_boots_a" culture="Culture.vlandia" weight="1.8" appearance="1" Type="LegArmor" difficulty="0">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<!-- Shoulder Armors -->
+	<Item id="DZ_empire_shoulder_a" name="{=osa_dz_empire_shoulder_a}Imperial Plumed Lamellar Pauldrons Over Leather" mesh="DZ_empire_shoulder_a" culture="Culture.empire" weight="3.9" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="16" arm_armor="8" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="DZ_empire_shoulder_b" name="{=osa_dz_empire_shoulder_b}Imperial Plumed Lamellar Pauldrons Over Leather With Cape" mesh="DZ_empire_shoulder_b" culture="Culture.empire" weight="3.9" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="16" arm_armor="8" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="DZ_khuzait_shoulder_a" name="{=osa_dz_khuzait_shoulder_a}Eastern Heavy Leather Pauldrons" mesh="DZ_khuzait_shoulder_a" culture="Culture.khuzait" weight="4.1" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="8" modifier_group="leather" material_type="Leather" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="DZ_sturgia_shoulder_a" name="{=osa_dz_sturgia_shoulder_a}Eastern Lamellar Pauldrons" mesh="DZ_sturgia_shoulder_a" culture="Culture.khuzait" weight="4.1" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="8" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="DZ_sturgia_shoulder_b" name="{=osa_dz_sturgia_shoulder_b}Northern Brass Lamellar Pauldrons" mesh="DZ_sturgia_shoulder_b" culture="Culture.sturgia" weight="4.1" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="8" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="DZ_sturgia_shoulder_c" name="{=osa_dz_sturgia_shoulder_c}Northern Iron Lamellar Pauldrons" mesh="DZ_sturgia_shoulder_c" culture="Culture.sturgia" weight="4.1" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="8" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="DZ_vlandia_shoulders_a" name="{=osa_dz_vlandia_shoulders_a}Western Rough Chainmail Shoulders" mesh="DZ_vlandia_shoulders_a" culture="Culture.vlandia" subtype="body_armor" weight="2.8" difficulty="0" appearance="0.6" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="14" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="DZ_vlandia_shoulders_b" name="{=osa_dz_vlandia_shoulders_b}Western Rough Mail Shoulders" mesh="DZ_vlandia_shoulders_b" culture="Culture.vlandia" subtype="body_armor" weight="2.8" difficulty="0" appearance="0.6" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="14" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<!-- Body Armors -->
+	<Item id="DZ_empire_armor_d" name="{=osa_dz_empire_armor_d}Imperial Steel Scale Armor" mesh="DZ_empire_armor_d" culture="Culture.empire" weight="20.0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="47" leg_armor="12" arm_armor="12" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="DZ_empire_armor_d2" name="{=osa_dz_empire_armor_d2}Imperial Brass Scale Armor" mesh="DZ_empire_armor_d2" culture="Culture.empire" weight="20.0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="47" leg_armor="12" arm_armor="12" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="DZ_khuzait_armor_a" name="{=osa_dz_khuzait_armor_a}Eastern Luxury Silk Robes" mesh="DZ_khuzait_armor_a" culture="Culture.khuzait" weight="2.7" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6" leg_armor="3" arm_armor="3" has_gender_variations="true" covers_body="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="DZ_khuzait_armor_b" name="{=osa_dz_khuzait_armor_b}Eastern Decorated Coat With Belt" mesh="DZ_khuzait_armor_b" culture="Culture.khuzait" weight="2.4" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="8" leg_armor="3" arm_armor="3" has_gender_variations="true" covers_body="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="DZ_sturgia_armor_a" name="{=osa_dz_sturgia_armor_a}Northern Lamellar Vest Over Gambeson" mesh="DZ_sturgia_armor_a" culture="Culture.sturgia" subtype="body_armor" weight="9.5" difficulty="0" appearance="1.5" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="37" leg_armor="8" arm_armor="2" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="DZ_sturgia_armor_a2" name="{=osa_dz_sturgia_armor_a2}Northern Decorated Lamellar Vest Over Gambeson" mesh="DZ_sturgia_armor_a2" culture="Culture.sturgia" subtype="body_armor" weight="9.5" difficulty="0" appearance="1.5" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="37" leg_armor="8" arm_armor="2" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="DZ_sturgia_armor_a3" name="{=osa_dz_sturgia_armor_a3}Northern Gilded Lamellar Vest Over Gambeson" mesh="DZ_sturgia_armor_a3" culture="Culture.sturgia" subtype="body_armor" weight="9.5" difficulty="0" appearance="1.5" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="37" leg_armor="8" arm_armor="2" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="DZ_sturgia_armor_b" name="{=osa_dz_sturgia_armor_b}Northern Lamellar Vest Over Mailled Gambeson" mesh="DZ_sturgia_armor_b" subtype="body_armor" culture="Culture.sturgia" weight="15.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="48" leg_armor="12" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="DZ_sturgia_armor_b2" name="{=osa_dz_sturgia_armor_b2}Northern Decorated Lamellar Vest Over Mailled Gambeson" mesh="DZ_sturgia_armor_b2" subtype="body_armor" culture="Culture.sturgia" weight="15.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="48" leg_armor="12" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="DZ_sturgia_armor_b3" name="{=osa_dz_sturgia_armor_b3}Northern Gilded Lamellar Vest Over Mailled Gambeson" mesh="DZ_sturgia_armor_b3" subtype="body_armor" culture="Culture.sturgia" weight="15.1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="48" leg_armor="12" arm_armor="10" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="DZ_vlandia_armor_a" name="{=osa_dz_vlandia_armor_a}Western Noble Robes" mesh="DZ_vlandia_armor_a" culture="Culture.vlandia" weight="2.7" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6" leg_armor="3" arm_armor="3" has_gender_variations="true" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+</Items>

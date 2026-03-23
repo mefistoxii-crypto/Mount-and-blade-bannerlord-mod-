@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+<!-- ============================================== -->
+<!-- RUTHENIA UNITS - FROM USER FILE              -->
+<!-- Total units extracted from spnpccharacters    -->
+<!-- ============================================== -->
+
+<NPCCharacter
+    id="ruthenia_recruit_tactical"
+    default_group="Infantry"
+    level="6"
+    name="{=!}Ruthenian Recruit"
+    occupation="Soldier"
+    is_basic_troop="true"
+    culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Athletics" value="24" />
+        <skill id="Riding" value="10" />
+        <skill id="OneHanded" value="20" />
+        <skill id="TwoHanded" value="18" />
+        <skill id="Polearm" value="22" />
+        <skill id="Bow" value="20" />
+        <skill id="Throwing" value="18" />
+    </skills>
+    <upgrade_targets>
+        <upgrade_target id="NPCCharacter.ruthenia_archer_recruit" />
+        <upgrade_target id="NPCCharacter.ruthenia_horse_archer_recruit" />
+        <upgrade_target id="NPCCharacter.ruthenia_light_infantryman" />
+        <upgrade_target id="NPCCharacter.ruthenia_spearman" />
+        <upgrade_target id="NPCCharacter.ruthenia_light_cavalry" />
+    </upgrade_targets>
+    <Equipments><EquipmentSet id="sturgia_bat_template_heavy" /></Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_archer_recruit" default_group="Ranged" level="6" name="{=!}Ruthenian Archer Recruit" occupation="Soldier" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Athletics" value="30" />
+        <skill id="Bow" value="40" />
+        <skill id="OneHanded" value="20" />
+        <skill id="Throwing" value="20" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.ruthenia_archer" /></upgrade_targets>
+    <Equipments><EquipmentSet id="battania_bat_template_medium" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_archer" default_group="Ranged" level="11" name="{=!}Ruthenian Archer" occupation="Soldier" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Athletics" value="50" />
+        <skill id="Bow" value="70" />
+        <skill id="OneHanded" value="40" />
+        <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.ruthenia_veteran_archer" /></upgrade_targets>
+    <Equipments><EquipmentSet id="battania_bat_template_medium" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_veteran_archer" default_group="Ranged" level="21" name="{=!}Ruthenian Veteran Archer" occupation="Soldier" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Athletics" value="90" />
+        <skill id="Bow" value="120" />
+        <skill id="OneHanded" value="80" />
+        <skill id="Throwing" value="70" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.ruthenia_master_archer" /></upgrade_targets>
+    <Equipments><EquipmentSet id="battania_bat_template_medium" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_master_archer" default_group="Ranged" level="31" name="{=!}Ruthenian Master Archer" occupation="Soldier" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Athletics" value="140" />
+        <skill id="Bow" value="190" />
+        <skill id="OneHanded" value="120" />
+        <skill id="Throwing" value="100" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments><EquipmentSet id="battania_bat_template_medium" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_horse_archer_recruit" default_group="HorseArcher" level="6" name="{=!}Ruthenian Horse Archer Recruit" occupation="Soldier" upgrade_requires="ItemCategory.horse" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+        <skill id="Riding" value="40" />
+        <skill id="Bow" value="35" />
+        <skill id="OneHanded" value="20" />
+        <skill id="Athletics" value="25" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.ruthenia_horse_archer" /></upgrade_targets>
+    <Equipments><EquipmentSet id="khuzait_bat_template_medium" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_horse_archer" default_group="HorseArcher" level="11" name="{=!}Ruthenian Horse Archer" occupation="Soldier" upgrade_requires="ItemCategory.horse" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+        <skill id="Riding" value="75" />
+        <skill id="Bow" value="65" />
+        <skill id="OneHanded" value="45" />
+        <skill id="Athletics" value="40" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.ruthenia_veteran_horse_archer" /></upgrade_targets>
+    <Equipments><EquipmentSet id="khuzait_bat_template_medium" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_veteran_horse_archer" default_group="HorseArcher" level="21" name="{=!}Ruthenian Veteran Horse Archer" occupation="Soldier" upgrade_requires="ItemCategory.horse" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+        <skill id="Riding" value="125" />
+        <skill id="Bow" value="115" />
+        <skill id="OneHanded" value="85" />
+        <skill id="Athletics" value="70" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.ruthenia_elite_horse_archer" /></upgrade_targets>
+    <Equipments><EquipmentSet id="khuzait_bat_template_medium" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_elite_horse_archer" default_group="HorseArcher" level="31" name="{=!}Ruthenian Elite Horse Archer" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+        <skill id="Riding" value="180" />
+        <skill id="Bow" value="175" />
+        <skill id="OneHanded" value="130" />
+        <skill id="Athletics" value="110" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments><EquipmentSet id="khuzait_bat_template_medium" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_light_infantryman" default_group="Infantry" level="11" name="{=!}Ruthenian Light Infantryman" occupation="Soldier" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Athletics" value="70" />
+        <skill id="OneHanded" value="60" />
+        <skill id="TwoHanded" value="50" />
+        <skill id="Throwing" value="45" />
+        <skill id="Polearm" value="40" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.ruthenia_veteran_light_infantryman" /></upgrade_targets>
+    <Equipments><EquipmentSet id="sturgia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_veteran_light_infantryman" default_group="Infantry" level="21" name="{=!}Ruthenian Veteran Light Infantryman" occupation="Soldier" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Athletics" value="110" />
+        <skill id="OneHanded" value="100" />
+        <skill id="TwoHanded" value="80" />
+        <skill id="Throwing" value="70" />
+        <skill id="Polearm" value="65" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.ruthenia_elite_light_infantryman" /></upgrade_targets>
+    <Equipments><EquipmentSet id="sturgia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_elite_light_infantryman" default_group="Infantry" level="31" name="{=!}Ruthenian Elite Light Infantryman" occupation="Soldier" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Athletics" value="160" />
+        <skill id="OneHanded" value="150" />
+        <skill id="TwoHanded" value="120" />
+        <skill id="Throwing" value="100" />
+        <skill id="Polearm" value="95" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments><EquipmentSet id="sturgia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_spearman" default_group="HeavyInfantry" level="11" name="{=!}Ruthenian Spearman" occupation="Soldier" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Athletics" value="50" />
+        <skill id="Polearm" value="70" />
+        <skill id="OneHanded" value="40" />
+        <skill id="TwoHanded" value="30" />
+        <skill id="Throwing" value="35" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.ruthenia_veteran_spearman" /></upgrade_targets>
+    <Equipments><EquipmentSet id="sturgia_bat_template_medium" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_veteran_spearman" default_group="HeavyInfantry" level="21" name="{=!}Ruthenian Veteran Spearman" occupation="Soldier" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Athletics" value="90" />
+        <skill id="Polearm" value="120" />
+        <skill id="OneHanded" value="75" />
+        <skill id="TwoHanded" value="55" />
+        <skill id="Throwing" value="60" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.ruthenia_elite_spearman" /></upgrade_targets>
+    <Equipments><EquipmentSet id="sturgia_bat_template_medium" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_elite_spearman" default_group="HeavyInfantry" level="31" name="{=!}Ruthenian Elite Spearman" occupation="Soldier" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Athletics" value="130" />
+        <skill id="Polearm" value="180" />
+        <skill id="OneHanded" value="110" />
+        <skill id="TwoHanded" value="80" />
+        <skill id="Throwing" value="90" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments><EquipmentSet id="sturgia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_light_cavalry" default_group="LightCavalry" level="11" name="{=!}Ruthenian Light Cavalry" occupation="Soldier" upgrade_requires="ItemCategory.horse" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Riding" value="75" />
+        <skill id="OneHanded" value="55" />
+        <skill id="Polearm" value="50" />
+        <skill id="Throwing" value="45" />
+        <skill id="Athletics" value="50" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.ruthenia_veteran_light_cavalry" /></upgrade_targets>
+    <Equipments><EquipmentSet id="sturgia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_veteran_light_cavalry" default_group="LightCavalry" level="21" name="{=!}Ruthenian Veteran Light Cavalry" occupation="Soldier" upgrade_requires="ItemCategory.horse" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Riding" value="115" />
+        <skill id="OneHanded" value="95" />
+        <skill id="Polearm" value="85" />
+        <skill id="Throwing" value="75" />
+        <skill id="Athletics" value="85" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.ruthenia_elite_light_cavalry" /></upgrade_targets>
+    <Equipments><EquipmentSet id="sturgia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_elite_light_cavalry" default_group="LightCavalry" level="31" name="{=!}Ruthenian Elite Light Cavalry" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Riding" value="165" />
+        <skill id="OneHanded" value="145" />
+        <skill id="Polearm" value="125" />
+        <skill id="Throwing" value="115" />
+        <skill id="Athletics" value="125" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments><EquipmentSet id="sturgia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_castle_castle_recruit" default_group="Infantry" level="10" name="{=!}Ruthenian Castle Recruit" occupation="Soldier" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Athletics" value="40" />
+        <skill id="OneHanded" value="40" />
+        <skill id="TwoHanded" value="35" />
+        <skill id="Polearm" value="40" />
+        <skill id="Bow" value="30" />
+    </skills>
+    <upgrade_targets>
+        <upgrade_target id="NPCCharacter.ruthenia_castle_druzhina" />
+        <upgrade_target id="NPCCharacter.ruthenia_castle_horse_archer" />
+    </upgrade_targets>
+    <Equipments><EquipmentSet id="sturgia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_castle_druzhina" default_group="HeavyInfantry" level="16" name="{=!}Ruthenian Druzhina" occupation="Soldier" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Athletics" value="70" />
+        <skill id="OneHanded" value="85" />
+        <skill id="TwoHanded" value="70" />
+        <skill id="Polearm" value="80" />
+        <skill id="Throwing" value="50" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.ruthenia_castle_boyar_guard" /></upgrade_targets>
+    <Equipments><EquipmentSet id="sturgia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_castle_boyar_guard" default_group="Infantry" level="26" name="{=!}Ruthenian Boyar Guard" occupation="Soldier" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Athletics" value="110" />
+        <skill id="OneHanded" value="145" />
+        <skill id="TwoHanded" value="120" />
+        <skill id="Polearm" value="140" />
+        <skill id="Throwing" value="80" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.ruthenia_castle_bogatyr" /></upgrade_targets>
+    <Equipments><EquipmentSet id="sturgia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_castle_bogatyr" default_group="Bodyguard" level="36" name="{=!}Ruthenian Bogatyr" occupation="Soldier" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Athletics" value="160" />
+        <skill id="OneHanded" value="220" />
+        <skill id="TwoHanded" value="190" />
+        <skill id="Polearm" value="210" />
+        <skill id="Throwing" value="120" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments><EquipmentSet id="sturgia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_castle_horse_archer" default_group="HorseArcher" level="16" name="{=!}Ruthenian Castle Horse Archer" occupation="Soldier" upgrade_requires="ItemCategory.horse" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+        <skill id="Riding" value="95" />
+        <skill id="Bow" value="100" />
+        <skill id="OneHanded" value="60" />
+        <skill id="Athletics" value="60" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.ruthenia_castle_elite_horse_archer" /></upgrade_targets>
+    <Equipments><EquipmentSet id="khuzait_bat_template_medium" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_castle_elite_horse_archer" default_group="HorseArcher" level="26" name="{=!}Ruthenian Elite Castle Horse Archer" occupation="Soldier" upgrade_requires="ItemCategory.horse" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+        <skill id="Riding" value="150" />
+        <skill id="Bow" value="170" />
+        <skill id="OneHanded" value="100" />
+        <skill id="Athletics" value="95" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.ruthenia_castle_master_horse_archer" /></upgrade_targets>
+    <Equipments><EquipmentSet id="khuzait_bat_template_medium" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_castle_master_horse_archer" default_group="HorseArcher" level="36" name="{=!}Ruthenian Master Horse Archer" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+        <skill id="Riding" value="210" />
+        <skill id="Bow" value="240" />
+        <skill id="OneHanded" value="150" />
+        <skill id="Athletics" value="140" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments><EquipmentSet id="khuzait_bat_template_medium" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_castle_light_cavalry" default_group="LightCavalry" level="20" name="{=!}Ruthenian Castle Light Cavalry" occupation="Soldier" upgrade_requires="ItemCategory.horse" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Riding" value="120" />
+        <skill id="OneHanded" value="100" />
+        <skill id="Polearm" value="110" />
+        <skill id="Throwing" value="85" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.ruthenia_castle_elite_light_cavalry" /></upgrade_targets>
+    <Equipments><EquipmentSet id="sturgia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_castle_elite_light_cavalry" default_group="LightCavalry" level="30" name="{=!}Ruthenian Elite Castle Light Cavalry" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Riding" value="180" />
+        <skill id="OneHanded" value="160" />
+        <skill id="Polearm" value="180" />
+        <skill id="Throwing" value="135" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.ruthenia_castle_champion_cavalry" /></upgrade_targets>
+    <Equipments><EquipmentSet id="sturgia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="ruthenia_castle_champion_cavalry" default_group="HeavyInfantry" level="40" name="{=!}Ruthenian Champion Cavalry" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.ruthenia">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+        <skill id="Riding" value="240" />
+        <skill id="OneHanded" value="230" />
+        <skill id="Polearm" value="250" />
+        <skill id="Throwing" value="195" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments><EquipmentSet id="sturgia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+</NPCCharacters>

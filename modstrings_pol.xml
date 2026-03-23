@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <!-- NORMANDY Kingdom -->
+    <string id="normandy_kingdom_name" text="Normandia"/>
+    <string id="normandy_kingdom_short" text="Normanowie"/>
+    <string id="normandy_kingdom_title" text="Księstwo Normandii"/>
+    <string id="normandy_ruler_title" text="Książę"/>
+    
+    <!-- RUTHENIA Kingdom -->
+    <string id="ruthenia_kingdom_name" text="Ruś"/>
+    <string id="ruthenia_kingdom_short" text="Rusini"/>
+    <string id="ruthenia_kingdom_title" text="Księstwo Rusi"/>
+    <string id="ruthenia_ruler_title" text="Wielki Książę"/>
+    
+    <!-- NORMANDY Cities (już są w std_settlements_xml_pol.xml) -->
+    <!-- Ortyzja, Lageta, Weron, Taraktor, Hertogea -->
+    
+    <!-- RUTHENIA Cities (już są w std_settlements_xml_pol.xml) -->
+    <!-- Mizea, Amprela, Argoron, Lochana, Epinosa -->
+  </strings>
+</base>

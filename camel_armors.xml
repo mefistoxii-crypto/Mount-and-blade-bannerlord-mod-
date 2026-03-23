@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!-- #region Camels -->
+
+  <Item id="camel_scale_armor_1"
+        name="Camel Scale Armor Bronze Short"
+        mesh="camel_scale_armor_1"
+        culture="Culture.aserai"
+        weight="120"
+        appearance="1"
+        Type="HorseHarness">
+    <ItemComponent>
+      <Armor body_armor="50"
+             head_armor="55"
+             arm_armor="45"
+             leg_armor="40"
+             mane_cover_type="none"
+             family_type="2"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+    <Flags />
+  </Item>
+  
+  <Item id="camel_lamellar_armor_1"
+        name="Camel Lamellar Armor"
+        mesh="camel_lamellar_armor_1"
+        culture="Culture.aserai"
+        weight="120"
+        appearance="1"
+        Type="HorseHarness">
+    <ItemComponent>
+      <Armor body_armor="75"
+             head_armor="90"
+             arm_armor="75"
+             leg_armor="65"
+             mane_cover_type="none"
+             family_type="2"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+    <Flags />
+  </Item>  
+  
+  <Item id="camel_lamellar_armor_1b"
+        name="Camel Lamellar Armor B"
+        mesh="camel_lamellar_armor_1b"
+        culture="Culture.aserai"
+        weight="120"
+        appearance="1"
+        Type="HorseHarness">
+    <ItemComponent>
+      <Armor body_armor="75"
+             head_armor="90"
+             arm_armor="75"
+             leg_armor="65"
+             mane_cover_type="none"
+             family_type="2"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+    <Flags />
+  </Item> 
+
+  <Item id="camel_chainmail_armor_1"
+        name="Camel Chainmail Armor"
+        mesh="camel_chainmail_armor_1"
+        culture="Culture.aserai"
+        weight="130"
+        appearance="1"
+        Type="HorseHarness">
+    <ItemComponent>
+      <Armor body_armor="60"
+             head_armor="70"
+             arm_armor="60"
+             leg_armor="50"
+             mane_cover_type="none"
+             family_type="2"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+    <Flags />
+  </Item>  
+  
+  
+<!-- #region Camels Sizes-->
+  
+
+  <Item id="camel_cataphract"
+        name="Camel Cataphract"
+        mesh="camel_mesh"
+        item_category="horse"
+        culture="Culture.aserai"
+        weight="600"
+        difficulty="10"
+        appearance="0"
+        Type="Horse">
+    <ItemComponent>
+      <Horse monster="Monster.camel"
+             maneuver="60"
+             speed="54"
+             charge_damage="40"
+             body_length="100"
+             extra_health="50"
+             is_pack_animal="false"
+             is_mountable="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  
+  <Item id="camel_cataphract_m"
+        name="Camel Cataphract M"
+        mesh="camel_mesh"
+        item_category="horse"
+        culture="Culture.aserai"
+        weight="700"
+        difficulty="10"
+        appearance="0"
+        Type="Horse">
+    <ItemComponent>
+      <Horse monster="Monster.camel"
+             maneuver="55"
+             speed="54"
+             charge_damage="0"
+             body_length="110"
+             extra_health="5"
+             is_pack_animal="false"
+             is_mountable="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>  
+  
+  <Item id="camel_cataphract_l"
+        name="Camel Cataphract L"
+        mesh="camel_mesh"
+        item_category="horse"
+        culture="Culture.aserai"
+        weight="800"
+        difficulty="10"
+        appearance="0"
+        Type="Horse">
+    <ItemComponent>
+      <Horse monster="Monster.camel"
+             maneuver="50"
+             speed="54"
+             charge_damage="0"
+             body_length="120"
+             extra_health="5"
+             is_pack_animal="false"
+             is_mountable="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item> 
+
+  <Item id="camel_cataphract_xl"
+        name="Camel Cataphract XL"
+        mesh="camel_mesh"
+        item_category="horse"
+        culture="Culture.aserai"
+        weight="900"
+        difficulty="10"
+        appearance="0"
+        Type="Horse">
+    <ItemComponent>
+      <Horse monster="Monster.camel"
+             maneuver="45"
+             speed="54"
+             charge_damage="0"
+             body_length="130"
+             extra_health="5"
+             is_pack_animal="false"
+             is_mountable="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>   
+  
+  <CraftedItem id="aserai_camel_lance_1"
+               name="Camel Cataphract Lance 1"
+               crafting_template="TwoHandedPolearm"
+               culture="Culture.aserai"
+               modifier_group="polearm">
+    <Pieces>
+      <Piece id="spear_blade_6"
+             Type="Blade"
+             scale_factor="110" />
+      <Piece id="spear_handle_24"
+             Type="Handle"
+             scale_factor="150" />
+      <Piece id="spear_pommel_10"
+             Type="Pommel"
+             scale_factor="100" />			 
+    </Pieces>
+  </CraftedItem>  
+  
+  <!-- #endregion -->
+</Items>

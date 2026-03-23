@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<Items>
+  <!-- Clothes -->
+
+  <Item id="empire_cape_a"
+        name="{=*}Heavy Cloak with Main Clan Color"
+        mesh="exp_vanilla_cloak_1"
+        culture="Culture.neutral_culture"
+        subtype="body_armor"
+        weight="0.5"
+        difficulty="0"
+        appearance="3"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="12"
+             arm_armor="3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="true" />
+  </Item> 
+  
+   <Item id="empire_cape_a2"
+        name="{=*}Heavy Cloak with Secondary Clan Color"
+        mesh="exp_vanilla_cloak_2"
+        culture="Culture.neutral_culture"
+        subtype="body_armor"
+        weight="0.5"
+        difficulty="0"
+        appearance="3"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="12"
+             arm_armor="3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="true" />
+  </Item>
+
+ <Item id="exp_vanilla_cloak_1"
+        name="{=*}Natural Heavy Cloak"
+        mesh="exp_vanilla_cloak_1"
+        culture="Culture.neutral_culture"
+        subtype="body_armor"
+        weight="0.5"
+        difficulty="0"
+        appearance="3"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="12"
+             arm_armor="3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="false" />
+  </Item>
+  
+   <Item id="exp_vanilla_cloak_blue"
+        name="{=*}Blue Heavy Cloak"
+        mesh="exp_vanilla_cloak_blue"
+        culture="Culture.neutral_culture"
+        subtype="body_armor"
+        weight="0.5"
+        difficulty="0"
+        appearance="3"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="12"
+             arm_armor="3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="false" />
+  </Item>
+  <Item id="exp_vanilla_cloak_burg"
+        name="{=*}Burgundy Heavy Cloak"
+        mesh="exp_vanilla_cloak_burg"
+        culture="Culture.neutral_culture"
+        subtype="body_armor"
+        weight="0.5"
+        difficulty="0"
+        appearance="3"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="12"
+             arm_armor="3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="false" />
+  </Item>
+  <Item id="exp_vanilla_cloak_green"
+        name="{=*}Green Heavy Cloak"
+        mesh="exp_vanilla_cloak_green"
+        culture="Culture.neutral_culture"
+        subtype="body_armor"
+        weight="0.5"
+        difficulty="0"
+        appearance="3"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="12"
+             arm_armor="3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="false" />
+  </Item>
+  <Item id="exp_vanilla_cloak_orange"
+        name="{=*}Orange Heavy Cloak"
+        mesh="exp_vanilla_cloak_orange"
+        culture="Culture.neutral_culture"
+        subtype="body_armor"
+        weight="0.5"
+        difficulty="0"
+        appearance="3"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="12"
+             arm_armor="3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="false" />
+  </Item>
+  <Item id="exp_vanilla_cloak_yellow"
+        name="{=*}Yellow Heavy Cloak"
+        mesh="exp_vanilla_cloak_yellow"
+        culture="Culture.neutral_culture"
+        subtype="body_armor"
+        weight="0.5"
+        difficulty="0"
+        appearance="3"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="12"
+             arm_armor="3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="false" />
+  </Item>
+  
+    <Item id="exp_noble_cloak_1"
+        name="{=*}Burgundy Noble Cloak"
+        mesh="exp_noble_cloak_1"
+        culture="Culture.neutral_culture"
+        subtype="body_armor"
+        weight="0.5"
+        difficulty="0"
+        appearance="3"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="12"
+             arm_armor="3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="false" />
+  </Item>
+  
+    <Item id="exp_noble_cloak_black"
+        name="{=*}Black Noble Cloak"
+        mesh="exp_noble_cloak_black"
+        culture="Culture.neutral_culture"
+        subtype="body_armor"
+        weight="0.5"
+        difficulty="0"
+        appearance="3"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="12"
+             arm_armor="3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="false" />
+  </Item>
+  
+    <Item id="exp_noble_cloak_main"
+        name="{=*}Clan Color Noble Cloak"
+        mesh="exp_noble_cloak_main"
+        culture="Culture.neutral_culture"
+        subtype="body_armor"
+        weight="0.5"
+        difficulty="0"
+        appearance="3"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="12"
+             arm_armor="3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="true" />
+  </Item>
+  
+  
+  
+  
+  
+ 
+   <Item id="vlandia_knightly_cape"
+        name="{=*}Western Decorated Cape I"
+        mesh="vlandia_knightly_cape"
+        culture="Culture.vlandia"
+        subtype="body_armor"
+        weight="0.5"
+        difficulty="0"
+        appearance="3"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="12"
+             arm_armor="3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="true" />
+  </Item>   
+  <Item id="vlandia_knightly_cape2"
+        name="{=*}Western Decorated Cape II"
+        mesh="vlandia_knightly_cape2"
+        culture="Culture.vlandia"
+        subtype="body_armor"
+        weight="0.5"
+        difficulty="0"
+        appearance="3"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="12"
+             arm_armor="3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="true" />
+  </Item>   
+  <Item id="vlandia_knightly_cape3"
+        name="{=*}Western Decorated Cape III"
+        mesh="vlandia_knightly_cape3"
+        culture="Culture.vlandia"
+        subtype="body_armor"
+        weight="0.5"
+        difficulty="0"
+        appearance="3"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="12"
+             arm_armor="3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="true" />
+  </Item>  
+<Item id="vlandia_knightly_cape4"
+        name="{=*}Western Decorated Cape IV"
+        mesh="vlandia_knightly_cape4"
+        culture="Culture.vlandia"
+        subtype="body_armor"
+        weight="0.5"
+        difficulty="0"
+        appearance="3"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="12"
+             arm_armor="3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="true" />
+  </Item>   
+ 
+  
+  
+  <Item id="exp_varangian_bra"
+        name="{=*}Vlandian Officier's Chest Harness I"
+        culture="Culture.vlandia"
+        mesh="exp_varangian_bra"
+        subtype="body_armor"
+        weight="1"
+        difficulty="0"
+        appearance="2"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="15"
+             modifier_group="leather"
+             material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="false" />
+  </Item>
+  
+  <Item id="exp_varangian_bra2"
+        name="{=*}Vlandian Officier's Chest Harness II"
+        culture="Culture.vlandia"
+        mesh="exp_varangian_bra2"
+        subtype="body_armor"
+        weight="1"
+        difficulty="0"
+        appearance="2"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="15"
+             modifier_group="leather"
+             material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="false" />
+  </Item>
+  
+</Items>

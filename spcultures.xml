@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Cultures>
+
+    <!-- ============================================== -->
+    <!-- NORMANDY CULTURE - z Twojego XSLT            -->
+    <!-- ============================================== -->
+    <Culture id="normandy"
+             name="{=!}Norman"
+             text="{=bLTkig9T}The Normans are a seafaring people originating from the lands of Normandy in northern Francia. Renowned for their maritime prowess, they have established settlements across the Mediterranean and beyond. Their ships are swift and sturdy, capable of both trade and warfare, reflecting their dual heritage as both Scandinavian raiders and Frankish nobles."
+             color="FF8B4513"
+             color2="FFD2691E"
+             is_main_culture="true"
+             faction_banner_key="11.218.218.4345.4345.764.764.1.0.0.175.219.219.512.512.764.764.1.0.0"
+             encounter_background_mesh="encounter_nord"
+             naval_factor="2.4"
+             default_party_template="PartyTemplate.kingdom_hero_party_normandy_template"
+             villager_party_template="PartyTemplate.villager_normandy_template"
+             bandit_boss_party_template="PartyTemplate.sea_raiders_boss_party_template"
+             militia_party_template="PartyTemplate.militia_normandy_template"
+             rebels_party_template="PartyTemplate.rebels_normandy_template"
+             vassal_reward_party_template="PartyTemplate.vassal_reward_troops_normandy"
+             settlement_patrol_template_level_1="PartyTemplate.patrol_party_normandy_template_level_1"
+             settlement_patrol_template_level_2="PartyTemplate.patrol_party_normandy_template_level_2"
+             settlement_patrol_template_level_3="PartyTemplate.patrol_party_normandy_template_level_3"
+             settlement_patrol_template_coastal="PartyTemplate.patrol_party_normandy_template_coastal"
+             basic_troop="NPCCharacter.normandy_recruit_tactical"
+             elite_basic_troop="NPCCharacter.normandy_warrior"
+             melee_militia_troop="NPCCharacter.normandy_militia_spearman"
+             melee_elite_militia_troop="NPCCharacter.normandy_militia_veteran_spearman"
+             ranged_militia_troop="NPCCharacter.normandy_militia_archer"
+             ranged_elite_militia_troop="NPCCharacter.normandy_militia_veteran_archer"
+             tournament_master="NPCCharacter.tournament_master_normandy"
+             caravan_master="NPCCharacter.caravan_master_normandy"
+             caravan_guard="NPCCharacter.caravan_guard_normandy"
+             veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_normandy"
+             prison_guard="NPCCharacter.prison_guard_normandy"
+             guard="NPCCharacter.guard_normandy"
+             blacksmith="NPCCharacter.blacksmith_normandy"
+             weaponsmith="NPCCharacter.weaponsmith_normandy"
+             townswoman="NPCCharacter.townswoman_normandy"
+             townswoman_infant="NPCCharacter.townswoman_infant_normandy"
+             townswoman_child="NPCCharacter.townswoman_child_normandy"
+             townswoman_teenager="NPCCharacter.townswoman_teenager_normandy"
+             townsman="NPCCharacter.townsman_normandy"
+             townsman_infant="NPCCharacter.townsman_infant_normandy"
+             townsman_child="NPCCharacter.townsman_child_normandy"
+             townsman_teenager="NPCCharacter.townsman_teenager_normandy"
+             villager="NPCCharacter.villager_normandy"
+             village_woman="NPCCharacter.village_woman_normandy"
+             villager_male_child="NPCCharacter.villager_child_normandy"
+             villager_male_teenager="NPCCharacter.villager_teenager_normandy"
+             villager_female_child="NPCCharacter.village_woman_child_normandy"
+             villager_female_teenager="NPCCharacter.village_woman_teenager_normandy"
+             ransom_broker="NPCCharacter.ransom_broker_normandy"
+             gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_normandy"
+             merchant_notary="NPCCharacter.merchant_notary_normandy"
+             artisan_notary="NPCCharacter.artisan_notary_normandy"
+             preacher_notary="NPCCharacter.preacher_notary_normandy"
+             rural_notable_notary="NPCCharacter.rural_notable_notary_normandy"
+             shop_worker="NPCCharacter.shop_worker_normandy"
+             tavernkeeper="NPCCharacter.tavernkeeper_normandy"
+             taverngamehost="NPCCharacter.taverngamehost_normandy"
+             musician="NPCCharacter.musician_normandy"
+             tavern_wench="NPCCharacter.tavern_wench_normandy"
+             armorer="NPCCharacter.armorer_normandy"
+             horseMerchant="NPCCharacter.horseMerchant_normandy"
+             barber="NPCCharacter.barber_normandy"
+             merchant="NPCCharacter.merchant_normandy"
+             beggar="NPCCharacter.beggar_normandy"
+             female_beggar="NPCCharacter.female_beggar_normandy"
+             female_dancer="NPCCharacter.female_dancer_normandy"
+             board_game_type="Konane"
+             default_battle_equipment_roster="EquipmentRoster.normandy_civ_template_default"
+             default_civilian_equipment_roster="EquipmentRoster.normandy_civ_template_default"
+             duel_preset_equipment_roster="EquipmentRoster.normandy_duel_preset_template"
+             marriage_bride_equipment_roster="EquipmentRoster.marriage_female_normandy_cutscene_template"
+             default_character_creation_body_property="BodyProperty.default_character_creation_body_property_normandy"
+             start_point_position_x="725"
+             start_point_position_y="811"
+             shipwright="NPCCharacter.shipwright_normandy"
+             fishing_party_template="PartyTemplate.fishing_party_template_normandy">
+        
+        <!-- Vassal Reward Items -->
+        <vassal_reward_items>
+            <item id="Item.normandy_shield_tier_6_a"/>
+        </vassal_reward_items>
+        
+        <!-- Default Policies -->
+        <default_policies>
+            <policy id="policy_lawspeakers"/>
+            <policy id="policy_precarial_land_tenure"/>
+        </default_policies>
+        
+        <!-- Clan Names -->
+        <clan_names>
+            <name name="{=gxVFrAeB}Aeralding"/>
+            <name name="{=lPawN1SA}Bjulsing"/>
+            <name name="{=RYfJBt0i}Erking"/>
+            <name name="{=XchQmB3I}Froring"/>
+            <name name="{=GalY0PDs}Gisalding"/>
+            <name name="{=HgEWXVtd}Gutviding"/>
+            <name name="{=VHCZzWcs}Hravalding"/>
+            <name name="{=TbW9YbK2}Knalring"/>
+            <name name="{=C5J5zymb}Lyffing"/>
+            <name name="{=qYuwCoyc}Mjalnoring"/>
+            <name name="{=qq24oTjG}Njarthing"/>
+            <name name="{=ZAdbpTo1}Surthuring"/>
+            <name name="{=0sawS3aZ}Thulgrimming"/>
+            <name name="{=KXP0b8ra}Torving"/>
+            <name name="{=Odcn2awi}Vulstaning"/>
+        </clan_names>
+        
+        <!-- Cultural Feats -->
+        <cultural_feats>
+            <feat id="normandy_hostile_action_bonus"/>
+            <feat id="normandy_ship_movemenet_increase"/>
+            <feat id="normandy_decreased_cohesion_rate"/>
+        </cultural_feats>
+        
+        <!-- Possible Clan Banner Icons -->
+        <possible_clan_banner_icon_ids>
+            <icon id="166"/>
+            <icon id="167"/>
+            <icon id="168"/>
+            <icon id="169"/>
+            <icon id="170"/>
+            <icon id="171"/>
+            <icon id="172"/>
+            <icon id="173"/>
+            <icon id="174"/>
+            <icon id="165"/>
+            <icon id="307"/>
+            <icon id="331"/>
+            <icon id="407"/>
+            <icon id="408"/>
+            <icon id="409"/>
+            <icon id="410"/>
+            <icon id="439"/>
+            <icon id="440"/>
+            <icon id="441"/>
+            <icon id="442"/>
+            <icon id="443"/>
+            <icon id="444"/>
+            <icon id="445"/>
+        </possible_clan_banner_icon_ids>
+        
+        <!-- Notable Templates -->
+        <notable_templates>
+            <template name="NPCCharacter.spc_notable_normandy_0"/>
+            <template name="NPCCharacter.spc_notable_normandy_0b"/>
+            <template name="NPCCharacter.spc_notable_normandy_1"/>
+            <template name="NPCCharacter.spc_notable_normandy_2"/>
+            <template name="NPCCharacter.spc_notable_normandy_2b"/>
+            <template name="NPCCharacter.spc_notable_normandy_3"/>
+            <template name="NPCCharacter.spc_notable_normandy_3b"/>
+            <template name="NPCCharacter.spc_notable_normandy_3c"/>
+            <template name="NPCCharacter.spc_notable_normandy_4"/>
+            <template name="NPCCharacter.spc_notable_normandy_5"/>
+            <template name="NPCCharacter.spc_notable_normandy_6"/>
+            <template name="NPCCharacter.spc_notable_normandy_7"/>
+            <template name="NPCCharacter.spc_notable_normandy_8"/>
+            <template name="NPCCharacter.spc_notable_normandy_9"/>
+            <template name="NPCCharacter.spc_notable_normandy_10"/>
+            <template name="NPCCharacter.spc_normandy_headman_1"/>
+            <template name="NPCCharacter.spc_normandy_headman_2"/>
+            <template name="NPCCharacter.spc_normandy_headman_3"/>
+        </notable_templates>
+        
+        <!-- Lord Templates -->
+        <lord_templates>
+            <template name="NPCCharacter.spc_normandy_leader_0"/>
+            <template name="NPCCharacter.spc_normandy_leader_1"/>
+            <template name="NPCCharacter.spc_normandy_leader_2"/>
+            <template name="NPCCharacter.spc_normandy_leader_3"/>
+        </lord_templates>
+        
+        <!-- Rebellion Hero Templates -->
+        <rebellion_hero_templates>
+            <template name="NPCCharacter.spc_normandy_leader_0"/>
+            <template name="NPCCharacter.spc_normandy_leader_1"/>
+            <template name="NPCCharacter.spc_normandy_leader_2"/>
+            <template name="NPCCharacter.spc_normandy_leader_3"/>
+        </rebellion_hero_templates>
+        
+        <!-- Tournament Team Templates -->
+        <tournament_team_templates_one_participant>
+            <template name="NPCCharacter.tournament_template_normandy_one_participant_set_v1"/>
+            <template name="NPCCharacter.tournament_template_normandy_one_participant_set_v2"/>
+            <template name="NPCCharacter.tournament_template_normandy_one_participant_set_v3"/>
+        </tournament_team_templates_one_participant>
+        
+        <tournament_team_templates_two_participant>
+            <template name="NPCCharacter.tournament_template_normandy_two_participant_set_v1"/>
+            <template name="NPCCharacter.tournament_template_normandy_two_participant_set_v2"/>
+            <template name="NPCCharacter.tournament_template_normandy_two_participant_set_v3"/>
+        </tournament_team_templates_two_participant>
+        
+        <tournament_team_templates_four_participant>
+            <template name="NPCCharacter.tournament_template_normandy_four_participant_set_v1"/>
+            <template name="NPCCharacter.tournament_template_normandy_four_participant_set_v2"/>
+            <template name="NPCCharacter.tournament_template_normandy_four_participant_set_v3"/>
+            <template name="NPCCharacter.tournament_template_normandy_four_participant_set_v4"/>
+        </tournament_team_templates_four_participant>
+        
+        <!-- Basic Mercenary Troops -->
+        <basic_mercenary_troops>
+            <template name="NPCCharacter.eastern_mercenary"/>
+            <template name="NPCCharacter.western_mercenary"/>
+            <template name="NPCCharacter.sword_sisters_sister_t3"/>
+        </basic_mercenary_troops>
+        
+        <!-- Available Ship Hulls -->
+        <available_ship_hulls>
+            <ship_hull id="ShipHull.northern_light_ship"/>
+            <ship_hull id="ShipHull.northern_medium_ship"/>
+            <ship_hull id="ShipHull.nord_medium_ship"/>
+            <ship_hull id="ShipHull.northern_trade_ship"/>
+        </available_ship_hulls>
+    </Culture>
+
+    <!-- ============================================== -->
+    <!-- RUTHENIA CULTURE - z Twojego XSLT            -->
+    <!-- ============================================== -->
+    <Culture id="ruthenia"
+             name="{=!}Ruthenian"
+             text="{=bLTkig9T}The Ruthenians are an Eastern people inhabiting the lands between the Sturgian forests and the Aserai deserts. Their culture is a blend of steppe traditions and Slavic heritage, reflected in their warfare and shipbuilding. Ruthenian ships are sturdy river vessels, adapted for both commerce and defense along the great waterways of their homeland."
+             color="FF800080"
+             color2="FF9932CC"
+             is_main_culture="true"
+             faction_banner_key="11.218.218.4345.4345.764.764.1.0.0.175.219.219.512.512.764.764.1.0.0"
+             encounter_background_mesh="encounter_sturgia"
+             naval_factor="2.2"
+             default_party_template="PartyTemplate.kingdom_hero_party_ruthenia_template"
+             villager_party_template="PartyTemplate.villager_ruthenia_template"
+             bandit_boss_party_template="PartyTemplate.sea_raiders_boss_party_template"
+             militia_party_template="PartyTemplate.militia_ruthenia_template"
+             rebels_party_template="PartyTemplate.rebels_ruthenia_template"
+             vassal_reward_party_template="PartyTemplate.vassal_reward_troops_ruthenia"
+             settlement_patrol_template_level_1="PartyTemplate.patrol_party_ruthenia_template_level_1"
+             settlement_patrol_template_level_2="PartyTemplate.patrol_party_ruthenia_template_level_2"
+             settlement_patrol_template_level_3="PartyTemplate.patrol_party_ruthenia_template_level_3"
+             settlement_patrol_template_coastal="PartyTemplate.patrol_party_ruthenia_template_coastal"
+             basic_troop="NPCCharacter.ruthenia_recruit_tactical"
+             elite_basic_troop="NPCCharacter.ruthenia_warrior"
+             melee_militia_troop="NPCCharacter.ruthenia_militia_spearman"
+             melee_elite_militia_troop="NPCCharacter.ruthenia_militia_veteran_spearman"
+             ranged_militia_troop="NPCCharacter.ruthenia_militia_archer"
+             ranged_elite_militia_troop="NPCCharacter.ruthenia_militia_veteran_archer"
+             tournament_master="NPCCharacter.tournament_master_ruthenia"
+             caravan_master="NPCCharacter.caravan_master_ruthenia"
+             caravan_guard="NPCCharacter.caravan_guard_ruthenia"
+             veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_ruthenia"
+             prison_guard="NPCCharacter.prison_guard_ruthenia"
+             guard="NPCCharacter.guard_ruthenia"
+             blacksmith="NPCCharacter.blacksmith_ruthenia"
+             weaponsmith="NPCCharacter.weaponsmith_ruthenia"
+             townswoman="NPCCharacter.townswoman_ruthenia"
+             townswoman_infant="NPCCharacter.townswoman_infant_ruthenia"
+             townswoman_child="NPCCharacter.townswoman_child_ruthenia"
+             townswoman_teenager="NPCCharacter.townswoman_teenager_ruthenia"
+             townsman="NPCCharacter.townsman_ruthenia"
+             townsman_infant="NPCCharacter.townsman_infant_ruthenia"
+             townsman_child="NPCCharacter.townsman_child_ruthenia"
+             townsman_teenager="NPCCharacter.townsman_teenager_ruthenia"
+             villager="NPCCharacter.villager_ruthenia"
+             village_woman="NPCCharacter.village_woman_ruthenia"
+             villager_male_child="NPCCharacter.villager_child_ruthenia"
+             villager_male_teenager="NPCCharacter.villager_teenager_ruthenia"
+             villager_female_child="NPCCharacter.village_woman_child_ruthenia"
+             villager_female_teenager="NPCCharacter.village_woman_teenager_ruthenia"
+             ransom_broker="NPCCharacter.ransom_broker_ruthenia"
+             gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_ruthenia"
+             merchant_notary="NPCCharacter.merchant_notary_ruthenia"
+             artisan_notary="NPCCharacter.artisan_notary_ruthenia"
+             preacher_notary="NPCCharacter.preacher_notary_ruthenia"
+             rural_notable_notary="NPCCharacter.rural_notable_notary_ruthenia"
+             shop_worker="NPCCharacter.shop_worker_ruthenia"
+             tavernkeeper="NPCCharacter.tavernkeeper_ruthenia"
+             taverngamehost="NPCCharacter.taverngamehost_ruthenia"
+             musician="NPCCharacter.musician_ruthenia"
+             tavern_wench="NPCCharacter.tavern_wench_ruthenia"
+             armorer="NPCCharacter.armorer_ruthenia"
+             horseMerchant="NPCCharacter.horseMerchant_ruthenia"
+             barber="NPCCharacter.barber_ruthenia"
+             merchant="NPCCharacter.merchant_ruthenia"
+             beggar="NPCCharacter.beggar_ruthenia"
+             female_beggar="NPCCharacter.female_beggar_ruthenia"
+             female_dancer="NPCCharacter.female_dancer_ruthenia"
+             board_game_type="Chess"
+             default_battle_equipment_roster="EquipmentRoster.ruthenia_civ_template_default"
+             default_civilian_equipment_roster="EquipmentRoster.ruthenia_civ_template_default"
+             duel_preset_equipment_roster="EquipmentRoster.ruthenia_duel_preset_template"
+             marriage_bride_equipment_roster="EquipmentRoster.marriage_female_ruthenia_cutscene_template"
+             default_character_creation_body_property="BodyProperty.default_character_creation_body_property_ruthenia"
+             start_point_position_x="523"
+             start_point_position_y="603"
+             shipwright="NPCCharacter.shipwright_ruthenia"
+             fishing_party_template="PartyTemplate.fishing_party_template_ruthenia">
+        
+        <!-- Vassal Reward Items -->
+        <vassal_reward_items>
+            <item id="Item.ruthenia_shield_tier_6_a"/>
+        </vassal_reward_items>
+        
+        <!-- Default Policies -->
+        <default_policies>
+            <policy id="policy_coastal_guard_edict"/>
+        </default_policies>
+        
+        <!-- Clan Names -->
+        <clan_names>
+            <name name="{=VyQz8p2R}Volodymyr"/>
+            <name name="{=mR6cL3sP}Oleg"/>
+            <name name="{=tK9aG2bE}Igor"/>
+            <name name="{=pX7fD5qA}Sviatoslav"/>
+            <name name="{=rB3nW8cT}Yaroslav"/>
+            <name name="{=gH6mK1vF}Vladimir"/>
+            <name name="{=uZ9jL4wD}Mstislav"/>
+            <name name="{=iC2pO7rN}Rurik"/>
+            <name name="{=fY5sT3gK}Gleb"/>
+            <name name="{=dA8uQ6bH}Boris"/>
+            <name name="{=jE1vR9mP}Roman"/>
+            <name name="{=kF4wC2nL}David"/>
+            <name name="{=lG5xD8vM}Sergei"/>
+            <name name="{=mH6yJ1qN}Ivan"/>
+            <name name="{=nI7zK5pO}Petr"/>
+        </clan_names>
+        
+        <!-- Cultural Feats -->
+        <cultural_feats>
+            <feat id="ruthenia_river_navigation_bonus"/>
+            <feat id="ruthenia_cavalry_bonus_in_forest"/>
+            <feat id="ruthenia_decreased_morale_loss"/>
+        </cultural_feats>
+        
+        <!-- Possible Clan Banner Icons -->
+        <possible_clan_banner_icon_ids>
+            <icon id="454"/>
+            <icon id="455"/>
+            <icon id="456"/>
+            <icon id="457"/>
+            <icon id="458"/>
+            <icon id="459"/>
+            <icon id="460"/>
+            <icon id="461"/>
+            <icon id="462"/>
+            <icon id="463"/>
+            <icon id="464"/>
+            <icon id="465"/>
+            <icon id="466"/>
+            <icon id="467"/>
+            <icon id="468"/>
+            <icon id="469"/>
+            <icon id="470"/>
+            <icon id="471"/>
+            <icon id="472"/>
+            <icon id="473"/>
+            <icon id="474"/>
+            <icon id="475"/>
+            <icon id="476"/>
+            <icon id="477"/>
+            <icon id="478"/>
+        </possible_clan_banner_icon_ids>
+        
+        <!-- Notable Templates -->
+        <notable_templates>
+            <template name="NPCCharacter.spc_notable_ruthenia_0"/>
+            <template name="NPCCharacter.spc_notable_ruthenia_0b"/>
+            <template name="NPCCharacter.spc_notable_ruthenia_1"/>
+            <template name="NPCCharacter.spc_notable_ruthenia_2"/>
+            <template name="NPCCharacter.spc_notable_ruthenia_2b"/>
+            <template name="NPCCharacter.spc_notable_ruthenia_3"/>
+            <template name="NPCCharacter.spc_notable_ruthenia_3b"/>
+            <template name="NPCCharacter.spc_notable_ruthenia_3c"/>
+            <template name="NPCCharacter.spc_notable_ruthenia_4"/>
+            <template name="NPCCharacter.spc_notable_ruthenia_5"/>
+            <template name="NPCCharacter.spc_notable_ruthenia_6"/>
+            <template name="NPCCharacter.spc_notable_ruthenia_7"/>
+            <template name="NPCCharacter.spc_notable_ruthenia_8"/>
+            <template name="NPCCharacter.spc_notable_ruthenia_9"/>
+            <template name="NPCCharacter.spc_notable_ruthenia_10"/>
+            <template name="NPCCharacter.spc_ruthenia_headman_1"/>
+            <template name="NPCCharacter.spc_ruthenia_headman_2"/>
+            <template name="NPCCharacter.spc_ruthenia_headman_3"/>
+        </notable_templates>
+        
+        <!-- Lord Templates -->
+        <lord_templates>
+            <template name="NPCCharacter.spc_ruthenia_leader_0"/>
+            <template name="NPCCharacter.spc_ruthenia_leader_1"/>
+            <template name="NPCCharacter.spc_ruthenia_leader_2"/>
+            <template name="NPCCharacter.spc_ruthenia_leader_3"/>
+        </lord_templates>
+        
+        <!-- Rebellion Hero Templates -->
+        <rebellion_hero_templates>
+            <template name="NPCCharacter.spc_ruthenia_leader_0"/>
+            <template name="NPCCharacter.spc_ruthenia_leader_1"/>
+            <template name="NPCCharacter.spc_ruthenia_leader_2"/>
+            <template name="NPCCharacter.spc_ruthenia_leader_3"/>
+        </rebellion_hero_templates>
+        
+        <!-- Tournament Team Templates -->
+        <tournament_team_templates_one_participant>
+            <template name="NPCCharacter.tournament_template_ruthenia_one_participant_set_v1"/>
+            <template name="NPCCharacter.tournament_template_ruthenia_one_participant_set_v2"/>
+            <template name="NPCCharacter.tournament_template_ruthenia_one_participant_set_v3"/>
+        </tournament_team_templates_one_participant>
+        
+        <tournament_team_templates_two_participant>
+            <template name="NPCCharacter.tournament_template_ruthenia_two_participant_set_v1"/>
+            <template name="NPCCharacter.tournament_template_ruthenia_two_participant_set_v2"/>
+            <template name="NPCCharacter.tournament_template_ruthenia_two_participant_set_v3"/>
+        </tournament_team_templates_two_participant>
+        
+        <tournament_team_templates_four_participant>
+            <template name="NPCCharacter.tournament_template_ruthenia_four_participant_set_v1"/>
+            <template name="NPCCharacter.tournament_template_ruthenia_four_participant_set_v2"/>
+            <template name="NPCCharacter.tournament_template_ruthenia_four_participant_set_v3"/>
+            <template name="NPCCharacter.tournament_template_ruthenia_four_participant_set_v4"/>
+        </tournament_team_templates_four_participant>
+        
+        <!-- Basic Mercenary Troops -->
+        <basic_mercenary_troops>
+            <template name="NPCCharacter.eastern_mercenary"/>
+            <template name="NPCCharacter.western_mercenary"/>
+            <template name="NPCCharacter.sword_sisters_sister_t3"/>
+        </basic_mercenary_troops>
+        
+        <!-- Available Ship Hulls -->
+        <available_ship_hulls>
+            <ship_hull id="ShipHull.northern_medium_ship"/>
+            <ship_hull id="ShipHull.northern_light_ship"/>
+            <ship_hull id="ShipHull.sturgia_heavy_ship"/>
+            <ship_hull id="ShipHull.northern_trade_ship"/>
+        </available_ship_hulls>
+    </Culture>
+
+</Cultures>

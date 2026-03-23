@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+<!-- ============================================== -->
+<!-- NORMANDY UNITS - FROM USER FILE              -->
+<!-- Total units extracted from spnpccharacters    -->
+<!-- ============================================== -->
+
+<NPCCharacter
+    id="normandy_recruit_tactical"
+    default_group="Infantry"
+    level="6"
+    name="{=!}Norman Recruit"
+    occupation="Soldier"
+    is_basic_troop="true"
+    culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="22" />
+        <skill id="Riding" value="5" />
+        <skill id="OneHanded" value="22" />
+        <skill id="TwoHanded" value="15" />
+        <skill id="Polearm" value="22" />
+        <skill id="Bow" value="18" />
+        <skill id="Crossbow" value="18" />
+        <skill id="Throwing" value="15" />
+    </skills>
+    <upgrade_targets>
+        <upgrade_target id="NPCCharacter.normandy_archer_recruit" />
+        <upgrade_target id="NPCCharacter.normandy_crossbowman_recruit" />
+        <upgrade_target id="NPCCharacter.normandy_light_infantryman" />
+        <upgrade_target id="NPCCharacter.normandy_heavy_infantryman" />
+        <upgrade_target id="NPCCharacter.normandy_spearman" />
+        <upgrade_target id="NPCCharacter.normandy_heavy_cavalry" />
+    </upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_light" /></Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_archer_recruit" default_group="Ranged" level="6" name="{=!}Norman Archer Recruit" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="28" />
+        <skill id="Bow" value="38" />
+        <skill id="OneHanded" value="18" />
+        <skill id="Throwing" value="15" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_archer" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_light" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_archer" default_group="Ranged" level="11" name="{=!}Norman Archer" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="48" />
+        <skill id="Bow" value="65" />
+        <skill id="OneHanded" value="38" />
+        <skill id="Throwing" value="30" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_veteran_archer" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_light" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_veteran_archer" default_group="Ranged" level="21" name="{=!}Norman Veteran Archer" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="85" />
+        <skill id="Bow" value="115" />
+        <skill id="OneHanded" value="75" />
+        <skill id="Throwing" value="55" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_master_archer" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_light" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_master_archer" default_group="Ranged" level="31" name="{=!}Norman Master Archer" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="135" />
+        <skill id="Bow" value="185" />
+        <skill id="OneHanded" value="115" />
+        <skill id="Throwing" value="85" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_light" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_crossbowman_recruit" default_group="Skirmisher" level="6" name="{=!}Norman Crossbowman Recruit" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="22" />
+        <skill id="Crossbow" value="42" />
+        <skill id="OneHanded" value="22" />
+        <skill id="Polearm" value="15" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_crossbowman" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_medium" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_crossbowman" default_group="Skirmisher" level="11" name="{=!}Norman Crossbowman" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="38" />
+        <skill id="Crossbow" value="75" />
+        <skill id="OneHanded" value="48" />
+        <skill id="Polearm" value="30" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_veteran_crossbowman" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_medium" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_veteran_crossbowman" default_group="Skirmisher" level="21" name="{=!}Norman Veteran Crossbowman" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="75" />
+        <skill id="Crossbow" value="135" />
+        <skill id="OneHanded" value="90" />
+        <skill id="Polearm" value="55" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_master_crossbowman" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_medium" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_master_crossbowman" default_group="Skirmisher" level="31" name="{=!}Norman Master Crossbowman" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="115" />
+        <skill id="Crossbow" value="205" />
+        <skill id="OneHanded" value="135" />
+        <skill id="Polearm" value="85" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_medium" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_light_infantryman" default_group="Infantry" level="11" name="{=!}Norman Light Infantryman" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="65" />
+        <skill id="OneHanded" value="55" />
+        <skill id="TwoHanded" value="45" />
+        <skill id="Throwing" value="40" />
+        <skill id="Polearm" value="35" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_veteran_light_infantryman" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_light" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_veteran_light_infantryman" default_group="Infantry" level="21" name="{=!}Norman Veteran Light Infantryman" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="105" />
+        <skill id="OneHanded" value="95" />
+        <skill id="TwoHanded" value="75" />
+        <skill id="Throwing" value="65" />
+        <skill id="Polearm" value="60" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_elite_light_infantryman" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_light" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_elite_light_infantryman" default_group="Infantry" level="31" name="{=!}Norman Elite Light Infantryman" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="155" />
+        <skill id="OneHanded" value="145" />
+        <skill id="TwoHanded" value="115" />
+        <skill id="Throwing" value="95" />
+        <skill id="Polearm" value="90" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_light" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_heavy_infantryman" default_group="HeavyInfantry" level="11" name="{=!}Norman Heavy Infantryman" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="45" />
+        <skill id="OneHanded" value="60" />
+        <skill id="TwoHanded" value="50" />
+        <skill id="Polearm" value="40" />
+        <skill id="Throwing" value="25" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_veteran_heavy_infantryman" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_veteran_heavy_infantryman" default_group="HeavyInfantry" level="21" name="{=!}Norman Veteran Heavy Infantryman" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="75" />
+        <skill id="OneHanded" value="110" />
+        <skill id="TwoHanded" value="90" />
+        <skill id="Polearm" value="70" />
+        <skill id="Throwing" value="45" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_elite_heavy_infantryman" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_elite_heavy_infantryman" default_group="HeavyInfantry" level="31" name="{=!}Norman Elite Heavy Infantryman" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="115" />
+        <skill id="OneHanded" value="170" />
+        <skill id="TwoHanded" value="140" />
+        <skill id="Polearm" value="110" />
+        <skill id="Throwing" value="70" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_spearman" default_group="HeavyInfantry" level="11" name="{=!}Norman Spearman" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="48" />
+        <skill id="Polearm" value="65" />
+        <skill id="OneHanded" value="38" />
+        <skill id="TwoHanded" value="28" />
+        <skill id="Throwing" value="30" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_veteran_spearman" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_medium" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_veteran_spearman" default_group="HeavyInfantry" level="21" name="{=!}Norman Veteran Spearman" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="85" />
+        <skill id="Polearm" value="115" />
+        <skill id="OneHanded" value="70" />
+        <skill id="TwoHanded" value="50" />
+        <skill id="Throwing" value="55" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_elite_spearman" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_medium" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_elite_spearman" default_group="HeavyInfantry" level="31" name="{=!}Norman Elite Spearman" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="125" />
+        <skill id="Polearm" value="175" />
+        <skill id="OneHanded" value="105" />
+        <skill id="TwoHanded" value="75" />
+        <skill id="Throwing" value="85" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_heavy_cavalry" default_group="Cavalry" level="16" name="{=!}Norman Heavy Cavalry" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Riding" value="90" />
+        <skill id="OneHanded" value="75" />
+        <skill id="Polearm" value="80" />
+        <skill id="TwoHanded" value="45" />
+        <skill id="Throwing" value="35" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_veteran_heavy_cavalry" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_veteran_heavy_cavalry" default_group="Cavalry" level="26" name="{=!}Norman Veteran Heavy Cavalry" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Riding" value="135" />
+        <skill id="OneHanded" value="125" />
+        <skill id="Polearm" value="135" />
+        <skill id="TwoHanded" value="75" />
+        <skill id="Throwing" value="60" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_elite_heavy_cavalry" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_elite_heavy_cavalry" default_group="Cavalry" level="36" name="{=!}Norman Elite Heavy Cavalry" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Riding" value="195" />
+        <skill id="OneHanded" value="185" />
+        <skill id="Polearm" value="195" />
+        <skill id="TwoHanded" value="115" />
+        <skill id="Throwing" value="90" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_castle_castle_recruit" default_group="Infantry" level="10" name="{=!}Norman Castle Recruit" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="38" />
+        <skill id="OneHanded" value="38" />
+        <skill id="TwoHanded" value="30" />
+        <skill id="Polearm" value="38" />
+        <skill id="Bow" value="25" />
+        <skill id="Crossbow" value="25" />
+    </skills>
+    <upgrade_targets>
+        <upgrade_target id="NPCCharacter.normandy_castle_men_at_arms" />
+        <upgrade_target id="NPCCharacter.normandy_castle_marksman" />
+    </upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_castle_men_at_arms" default_group="HeavyInfantry" level="16" name="{=!}Norman Men-at-Arms" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="65" />
+        <skill id="OneHanded" value="80" />
+        <skill id="TwoHanded" value="65" />
+        <skill id="Polearm" value="75" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_castle_household_guard" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_castle_household_guard" default_group="HeavyInfantry" level="26" name="{=!}Norman Household Guard" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="105" />
+        <skill id="OneHanded" value="140" />
+        <skill id="TwoHanded" value="115" />
+        <skill id="Polearm" value="135" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_castle_royal_guard" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_castle_royal_guard" default_group="Bodyguard" level="36" name="{=!}Norman Royal Guard" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="155" />
+        <skill id="OneHanded" value="215" />
+        <skill id="TwoHanded" value="185" />
+        <skill id="Polearm" value="205" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_castle_marksman" default_group="Ranged" level="16" name="{=!}Norman Castle Marksman" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="65" />
+        <skill id="Bow" value="95" />
+        <skill id="Crossbow" value="95" />
+        <skill id="OneHanded" value="55" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_castle_elite_marksman" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_castle_elite_marksman" default_group="Ranged" level="26" name="{=!}Norman Elite Castle Marksman" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="105" />
+        <skill id="Bow" value="165" />
+        <skill id="Crossbow" value="165" />
+        <skill id="OneHanded" value="95" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_castle_master_marksman" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_castle_master_marksman" default_group="Ranged" level="36" name="{=!}Norman Master Marksman" occupation="Soldier" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Athletics" value="155" />
+        <skill id="Bow" value="235" />
+        <skill id="Crossbow" value="235" />
+        <skill id="OneHanded" value="145" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_castle_knight_commander" default_group="Cavalry" level="20" name="{=!}Norman Knight Commander" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Riding" value="115" />
+        <skill id="OneHanded" value="95" />
+        <skill id="Polearm" value="105" />
+        <skill id="TwoHanded" value="60" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_castle_elite_knight_commander" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_castle_elite_knight_commander" default_group="Cavalry" level="30" name="{=!}Norman Elite Knight Commander" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Riding" value="175" />
+        <skill id="OneHanded" value="155" />
+        <skill id="Polearm" value="175" />
+        <skill id="TwoHanded" value="105" />
+    </skills>
+    <upgrade_targets><upgrade_target id="NPCCharacter.normandy_castle_banner_knight" /></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="normandy_castle_banner_knight" default_group="Cavalry" level="40" name="{=!}Norman Banner Knight" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.normandy">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+        <skill id="Riding" value="235" />
+        <skill id="OneHanded" value="225" />
+        <skill id="Polearm" value="245" />
+        <skill id="TwoHanded" value="165" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments><EquipmentSet id="vlandia_bat_template_heavy" /><!-- OSA_INTEGRATED -->
+    </Equipments>
+</NPCCharacter>
+
+</NPCCharacters>

@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PartyTemplates>
+
+<!-- ============================================== -->
+<!-- TACTICAL OVERHAUL PARTY TEMPLATES            -->
+<!-- 50+ Templates for 9 Factions                 -->
+<!-- ============================================== -->
+
+
+<!-- ========== EMPIRE FACTION ========== -->
+
+<!-- Lord Party -->
+<MBPartyTemplate id="empire_kingdom_hero_party_template">
+    <stacks>
+        <PartyMemberStack id="empire_recruit" min_value="5" max_value="10" />
+        <PartyMemberStack id="empire_infantry" min_value="10" max_value="20" />
+        <PartyMemberStack id="empire_archer" min_value="8" max_value="15" />
+        <PartyMemberStack id="empire_cavalry" min_value="5" max_value="12" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Patrol Party -->
+<MBPartyTemplate id="empire_patrol_template">
+    <stacks>
+        <PartyMemberStack id="empire_infantry" min_value="15" max_value="25" />
+        <PartyMemberStack id="empire_archer" min_value="10" max_value="15" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Garrison Template -->
+<MBPartyTemplate id="empire_garrison_template">
+    <stacks>
+        <PartyMemberStack id="empire_recruit" min_value="20" max_value="40" />
+        <PartyMemberStack id="empire_infantry" min_value="30" max_value="50" />
+        <PartyMemberStack id="empire_archer" min_value="20" max_value="35" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Caravan Template -->
+<MBPartyTemplate id="empire_caravan_template">
+    <stacks>
+        <PartyMemberStack id="empire_infantry" min_value="8" max_value="15" />
+        <PartyMemberStack id="empire_cavalry" min_value="3" max_value="8" />
+    </stacks>
+</MBPartyTemplate>
+
+
+<!-- ========== VLANDIA FACTION ========== -->
+
+<!-- Lord Party -->
+<MBPartyTemplate id="vlandia_kingdom_hero_party_template">
+    <stacks>
+        <PartyMemberStack id="vlandia_recruit" min_value="5" max_value="10" />
+        <PartyMemberStack id="vlandia_infantry" min_value="10" max_value="20" />
+        <PartyMemberStack id="vlandia_archer" min_value="8" max_value="15" />
+        <PartyMemberStack id="vlandia_cavalry" min_value="5" max_value="12" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Patrol Party -->
+<MBPartyTemplate id="vlandia_patrol_template">
+    <stacks>
+        <PartyMemberStack id="vlandia_infantry" min_value="15" max_value="25" />
+        <PartyMemberStack id="vlandia_archer" min_value="10" max_value="15" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Garrison Template -->
+<MBPartyTemplate id="vlandia_garrison_template">
+    <stacks>
+        <PartyMemberStack id="vlandia_recruit" min_value="20" max_value="40" />
+        <PartyMemberStack id="vlandia_infantry" min_value="30" max_value="50" />
+        <PartyMemberStack id="vlandia_archer" min_value="20" max_value="35" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Caravan Template -->
+<MBPartyTemplate id="vlandia_caravan_template">
+    <stacks>
+        <PartyMemberStack id="vlandia_infantry" min_value="8" max_value="15" />
+        <PartyMemberStack id="vlandia_cavalry" min_value="3" max_value="8" />
+    </stacks>
+</MBPartyTemplate>
+
+
+<!-- ========== BATTANIA FACTION ========== -->
+
+<!-- Lord Party -->
+<MBPartyTemplate id="battania_kingdom_hero_party_template">
+    <stacks>
+        <PartyMemberStack id="battania_recruit" min_value="5" max_value="10" />
+        <PartyMemberStack id="battania_infantry" min_value="10" max_value="20" />
+        <PartyMemberStack id="battania_archer" min_value="8" max_value="15" />
+        <PartyMemberStack id="battania_cavalry" min_value="5" max_value="12" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Patrol Party -->
+<MBPartyTemplate id="battania_patrol_template">
+    <stacks>
+        <PartyMemberStack id="battania_infantry" min_value="15" max_value="25" />
+        <PartyMemberStack id="battania_archer" min_value="10" max_value="15" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Garrison Template -->
+<MBPartyTemplate id="battania_garrison_template">
+    <stacks>
+        <PartyMemberStack id="battania_recruit" min_value="20" max_value="40" />
+        <PartyMemberStack id="battania_infantry" min_value="30" max_value="50" />
+        <PartyMemberStack id="battania_archer" min_value="20" max_value="35" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Caravan Template -->
+<MBPartyTemplate id="battania_caravan_template">
+    <stacks>
+        <PartyMemberStack id="battania_infantry" min_value="8" max_value="15" />
+        <PartyMemberStack id="battania_cavalry" min_value="3" max_value="8" />
+    </stacks>
+</MBPartyTemplate>
+
+
+<!-- ========== KHUZAIT FACTION ========== -->
+
+<!-- Lord Party -->
+<MBPartyTemplate id="khuzait_kingdom_hero_party_template">
+    <stacks>
+        <PartyMemberStack id="khuzait_recruit" min_value="5" max_value="10" />
+        <PartyMemberStack id="khuzait_infantry" min_value="10" max_value="20" />
+        <PartyMemberStack id="khuzait_archer" min_value="8" max_value="15" />
+        <PartyMemberStack id="khuzait_cavalry" min_value="5" max_value="12" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Patrol Party -->
+<MBPartyTemplate id="khuzait_patrol_template">
+    <stacks>
+        <PartyMemberStack id="khuzait_infantry" min_value="15" max_value="25" />
+        <PartyMemberStack id="khuzait_archer" min_value="10" max_value="15" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Garrison Template -->
+<MBPartyTemplate id="khuzait_garrison_template">
+    <stacks>
+        <PartyMemberStack id="khuzait_recruit" min_value="20" max_value="40" />
+        <PartyMemberStack id="khuzait_infantry" min_value="30" max_value="50" />
+        <PartyMemberStack id="khuzait_archer" min_value="20" max_value="35" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Caravan Template -->
+<MBPartyTemplate id="khuzait_caravan_template">
+    <stacks>
+        <PartyMemberStack id="khuzait_infantry" min_value="8" max_value="15" />
+        <PartyMemberStack id="khuzait_cavalry" min_value="3" max_value="8" />
+    </stacks>
+</MBPartyTemplate>
+
+
+<!-- ========== STURGIA FACTION ========== -->
+
+<!-- Lord Party -->
+<MBPartyTemplate id="sturgia_kingdom_hero_party_template">
+    <stacks>
+        <PartyMemberStack id="sturgia_recruit" min_value="5" max_value="10" />
+        <PartyMemberStack id="sturgia_infantry" min_value="10" max_value="20" />
+        <PartyMemberStack id="sturgia_archer" min_value="8" max_value="15" />
+        <PartyMemberStack id="sturgia_cavalry" min_value="5" max_value="12" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Patrol Party -->
+<MBPartyTemplate id="sturgia_patrol_template">
+    <stacks>
+        <PartyMemberStack id="sturgia_infantry" min_value="15" max_value="25" />
+        <PartyMemberStack id="sturgia_archer" min_value="10" max_value="15" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Garrison Template -->
+<MBPartyTemplate id="sturgia_garrison_template">
+    <stacks>
+        <PartyMemberStack id="sturgia_recruit" min_value="20" max_value="40" />
+        <PartyMemberStack id="sturgia_infantry" min_value="30" max_value="50" />
+        <PartyMemberStack id="sturgia_archer" min_value="20" max_value="35" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Caravan Template -->
+<MBPartyTemplate id="sturgia_caravan_template">
+    <stacks>
+        <PartyMemberStack id="sturgia_infantry" min_value="8" max_value="15" />
+        <PartyMemberStack id="sturgia_cavalry" min_value="3" max_value="8" />
+    </stacks>
+</MBPartyTemplate>
+
+
+<!-- ========== ASERAI FACTION ========== -->
+
+<!-- Lord Party -->
+<MBPartyTemplate id="aserai_kingdom_hero_party_template">
+    <stacks>
+        <PartyMemberStack id="aserai_recruit" min_value="5" max_value="10" />
+        <PartyMemberStack id="aserai_infantry" min_value="10" max_value="20" />
+        <PartyMemberStack id="aserai_archer" min_value="8" max_value="15" />
+        <PartyMemberStack id="aserai_cavalry" min_value="5" max_value="12" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Patrol Party -->
+<MBPartyTemplate id="aserai_patrol_template">
+    <stacks>
+        <PartyMemberStack id="aserai_infantry" min_value="15" max_value="25" />
+        <PartyMemberStack id="aserai_archer" min_value="10" max_value="15" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Garrison Template -->
+<MBPartyTemplate id="aserai_garrison_template">
+    <stacks>
+        <PartyMemberStack id="aserai_recruit" min_value="20" max_value="40" />
+        <PartyMemberStack id="aserai_infantry" min_value="30" max_value="50" />
+        <PartyMemberStack id="aserai_archer" min_value="20" max_value="35" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Caravan Template -->
+<MBPartyTemplate id="aserai_caravan_template">
+    <stacks>
+        <PartyMemberStack id="aserai_infantry" min_value="8" max_value="15" />
+        <PartyMemberStack id="aserai_cavalry" min_value="3" max_value="8" />
+    </stacks>
+</MBPartyTemplate>
+
+
+<!-- ========== NORD FACTION ========== -->
+
+<!-- Lord Party -->
+<MBPartyTemplate id="nord_kingdom_hero_party_template">
+    <stacks>
+        <PartyMemberStack id="nord_recruit" min_value="5" max_value="10" />
+        <PartyMemberStack id="nord_infantry" min_value="10" max_value="20" />
+        <PartyMemberStack id="nord_archer" min_value="8" max_value="15" />
+        <PartyMemberStack id="nord_cavalry" min_value="5" max_value="12" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Patrol Party -->
+<MBPartyTemplate id="nord_patrol_template">
+    <stacks>
+        <PartyMemberStack id="nord_infantry" min_value="15" max_value="25" />
+        <PartyMemberStack id="nord_archer" min_value="10" max_value="15" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Garrison Template -->
+<MBPartyTemplate id="nord_garrison_template">
+    <stacks>
+        <PartyMemberStack id="nord_recruit" min_value="20" max_value="40" />
+        <PartyMemberStack id="nord_infantry" min_value="30" max_value="50" />
+        <PartyMemberStack id="nord_archer" min_value="20" max_value="35" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Caravan Template -->
+<MBPartyTemplate id="nord_caravan_template">
+    <stacks>
+        <PartyMemberStack id="nord_infantry" min_value="8" max_value="15" />
+        <PartyMemberStack id="nord_cavalry" min_value="3" max_value="8" />
+    </stacks>
+</MBPartyTemplate>
+
+
+<!-- ========== NORMANDY FACTION ========== -->
+
+<!-- Lord Party -->
+<MBPartyTemplate id="normandy_kingdom_hero_party_template">
+    <stacks>
+        <PartyMemberStack id="normandy_recruit_tactical" min_value="5" max_value="10" />
+        <PartyMemberStack id="normandy_heavy_infantryman" min_value="10" max_value="20" />
+        <PartyMemberStack id="normandy_archer" min_value="8" max_value="15" />
+        <PartyMemberStack id="normandy_heavy_cavalry" min_value="5" max_value="12" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Patrol Party -->
+<MBPartyTemplate id="normandy_patrol_template">
+    <stacks>
+        <PartyMemberStack id="normandy_heavy_infantryman" min_value="15" max_value="25" />
+        <PartyMemberStack id="normandy_archer" min_value="10" max_value="15" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Garrison Template -->
+<MBPartyTemplate id="normandy_garrison_template">
+    <stacks>
+        <PartyMemberStack id="normandy_recruit_tactical" min_value="20" max_value="40" />
+        <PartyMemberStack id="normandy_heavy_infantryman" min_value="30" max_value="50" />
+        <PartyMemberStack id="normandy_archer" min_value="20" max_value="35" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Caravan Template -->
+<MBPartyTemplate id="normandy_caravan_template">
+    <stacks>
+        <PartyMemberStack id="normandy_heavy_infantryman" min_value="8" max_value="15" />
+        <PartyMemberStack id="normandy_heavy_cavalry" min_value="3" max_value="8" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Elite Caravan Template -->
+<MBPartyTemplate id="elite_caravan_template_normandy">
+    <stacks>
+        <PartyMemberStack id="normandy_heavy_infantryman" min_value="15" max_value="25" />
+        <PartyMemberStack id="normandy_archer" min_value="10" max_value="20" />
+        <PartyMemberStack id="normandy_heavy_cavalry" min_value="5" max_value="12" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Naval Caravan Template -->
+<MBPartyTemplate id="naval_caravan_template_normandy">
+    <stacks>
+        <PartyMemberStack id="normandy_heavy_infantryman" min_value="10" max_value="20" />
+        <PartyMemberStack id="normandy_archer" min_value="5" max_value="15" />
+        <PartyMemberStack id="normandy_heavy_cavalry" min_value="3" max_value="8" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Elite Naval Caravan Template -->
+<MBPartyTemplate id="elite_naval_caravan_template_normandy">
+    <stacks>
+        <PartyMemberStack id="normandy_heavy_infantryman" min_value="15" max_value="25" />
+        <PartyMemberStack id="normandy_archer" min_value="10" max_value="20" />
+        <PartyMemberStack id="normandy_heavy_cavalry" min_value="5" max_value="12" />
+    </stacks>
+</MBPartyTemplate>
+
+
+<!-- ========== RUTHENIA FACTION ========== -->
+
+<!-- Lord Party -->
+<MBPartyTemplate id="ruthenia_kingdom_hero_party_template">
+    <stacks>
+        <PartyMemberStack id="ruthenia_recruit_tactical" min_value="5" max_value="10" />
+        <PartyMemberStack id="ruthenia_spearman" min_value="10" max_value="20" />
+        <PartyMemberStack id="ruthenia_archer" min_value="8" max_value="15" />
+        <PartyMemberStack id="ruthenia_light_cavalry" min_value="5" max_value="12" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Patrol Party -->
+<MBPartyTemplate id="ruthenia_patrol_template">
+    <stacks>
+        <PartyMemberStack id="ruthenia_spearman" min_value="15" max_value="25" />
+        <PartyMemberStack id="ruthenia_archer" min_value="10" max_value="15" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Garrison Template -->
+<MBPartyTemplate id="ruthenia_garrison_template">
+    <stacks>
+        <PartyMemberStack id="ruthenia_recruit_tactical" min_value="20" max_value="40" />
+        <PartyMemberStack id="ruthenia_spearman" min_value="30" max_value="50" />
+        <PartyMemberStack id="ruthenia_archer" min_value="20" max_value="35" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Militia Template -->
+<MBPartyTemplate id="militia_ruthenia_template">
+    <stacks>
+        <PartyMemberStack id="ruthenia_recruit_tactical" min_value="15" max_value="25" />
+        <PartyMemberStack id="ruthenia_spearman" min_value="20" max_value="30" />
+        <PartyMemberStack id="ruthenia_archer" min_value="10" max_value="20" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Caravan Template -->
+<MBPartyTemplate id="ruthenia_caravan_template">
+    <stacks>
+        <PartyMemberStack id="ruthenia_spearman" min_value="8" max_value="15" />
+        <PartyMemberStack id="ruthenia_light_cavalry" min_value="3" max_value="8" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Patrol Party Level 1 -->
+<MBPartyTemplate id="patrol_party_ruthenia_template_level_1">
+    <stacks>
+        <PartyMemberStack id="ruthenia_recruit_tactical" min_value="10" max_value="20" />
+        <PartyMemberStack id="ruthenia_spearman" min_value="15" max_value="25" />
+        <PartyMemberStack id="ruthenia_archer" min_value="5" max_value="15" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Patrol Party Level 2 -->
+<MBPartyTemplate id="patrol_party_ruthenia_template_level_2">
+    <stacks>
+        <PartyMemberStack id="ruthenia_recruit_tactical" min_value="5" max_value="15" />
+        <PartyMemberStack id="ruthenia_spearman" min_value="20" max_value="30" />
+        <PartyMemberStack id="ruthenia_archer" min_value="10" max_value="20" />
+        <PartyMemberStack id="ruthenia_light_cavalry" min_value="5" max_value="10" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Patrol Party Level 3 -->
+<MBPartyTemplate id="patrol_party_ruthenia_template_level_3">
+    <stacks>
+        <PartyMemberStack id="ruthenia_spearman" min_value="25" max_value="35" />
+        <PartyMemberStack id="ruthenia_archer" min_value="15" max_value="25" />
+        <PartyMemberStack id="ruthenia_light_cavalry" min_value="10" max_value="15" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Coastal Patrol Party -->
+<MBPartyTemplate id="patrol_party_ruthenia_template_coastal">
+    <stacks>
+        <PartyMemberStack id="ruthenia_spearman" min_value="20" max_value="30" />
+        <PartyMemberStack id="ruthenia_archer" min_value="15" max_value="25" />
+        <PartyMemberStack id="ruthenia_light_cavalry" min_value="5" max_value="10" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Naval Party (DLC) -->
+<MBPartyTemplate id="empire_naval_party_template">
+    <stacks>
+        <PartyMemberStack id="empire_infantry" min_value="25" max_value="40" />
+        <PartyMemberStack id="empire_archer" min_value="15" max_value="25" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Naval Party (DLC) -->
+<MBPartyTemplate id="vlandia_naval_party_template">
+    <stacks>
+        <PartyMemberStack id="vlandia_infantry" min_value="25" max_value="40" />
+        <PartyMemberStack id="vlandia_archer" min_value="15" max_value="25" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Naval Party (DLC) -->
+<MBPartyTemplate id="battania_naval_party_template">
+    <stacks>
+        <PartyMemberStack id="battania_infantry" min_value="25" max_value="40" />
+        <PartyMemberStack id="battania_archer" min_value="15" max_value="25" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Naval Party (DLC) -->
+<MBPartyTemplate id="nord_naval_party_template">
+    <stacks>
+        <PartyMemberStack id="nord_infantry" min_value="25" max_value="40" />
+        <PartyMemberStack id="nord_archer" min_value="15" max_value="25" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Naval Party (DLC) -->
+<MBPartyTemplate id="normandy_naval_party_template">
+    <stacks>
+        <PartyMemberStack id="normandy_heavy_infantryman" min_value="25" max_value="40" />
+        <PartyMemberStack id="normandy_archer" min_value="15" max_value="25" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Naval Party (DLC) -->
+<MBPartyTemplate id="ruthenia_naval_party_template">
+    <stacks>
+        <PartyMemberStack id="ruthenia_spearman" min_value="25" max_value="40" />
+        <PartyMemberStack id="ruthenia_archer" min_value="15" max_value="25" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Naval Caravan Template -->
+<MBPartyTemplate id="naval_caravan_template_ruthenia">
+    <stacks>
+        <PartyMemberStack id="ruthenia_spearman" min_value="10" max_value="20" />
+        <PartyMemberStack id="ruthenia_archer" min_value="5" max_value="15" />
+        <PartyMemberStack id="ruthenia_light_cavalry" min_value="3" max_value="8" />
+    </stacks>
+</MBPartyTemplate>
+
+<!-- Elite Naval Caravan Template -->
+<MBPartyTemplate id="elite_naval_caravan_template_ruthenia">
+    <stacks>
+        <PartyMemberStack id="ruthenia_spearman" min_value="15" max_value="25" />
+        <PartyMemberStack id="ruthenia_archer" min_value="10" max_value="20" />
+        <PartyMemberStack id="ruthenia_light_cavalry" min_value="5" max_value="12" />
+    </stacks>
+</MBPartyTemplate>
+
+
+<!-- ========== MERCENARY TEMPLATES ========== -->
+
+<MBPartyTemplate id="mercenary_camp_template_1">
+    <stacks>
+        <PartyMemberStack id="mercenary_swordsman" min_value="10" max_value="20" />
+        <PartyMemberStack id="mercenary_crossbowman" min_value="8" max_value="15" />
+    </stacks>
+</MBPartyTemplate>
+
+<MBPartyTemplate id="mercenary_camp_template_2">
+    <stacks>
+        <PartyMemberStack id="mercenary_cavalry" min_value="8" max_value="15" />
+        <PartyMemberStack id="mercenary_archer" min_value="10" max_value="18" />
+    </stacks>
+</MBPartyTemplate>
+
+<MBPartyTemplate id="mercenary_camp_template_3">
+    <stacks>
+        <PartyMemberStack id="mercenary_spearman" min_value="12" max_value="20" />
+        <PartyMemberStack id="mercenary_heavy_infantry" min_value="8" max_value="15" />
+    </stacks>
+</MBPartyTemplate>
+
+</PartyTemplates>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+
+<!-- NORMANDY KINGDOM -->
+<Kingdom
+    id="normandy"
+    initial_home_settlement="Settlement.town_EW1"
+    owner="Hero.lord_normandy_1"
+    banner_key="11.4.4.4345.4345.764.764.1.0.0.505.143.143.512.512.764.764.1.0.0"
+    primary_banner_color="0xFF1A3D5C"
+    secondary_banner_color="0xFFC0C0C0"
+    color="FF1A3D5C"
+    color2="FFC0C0C0"
+    culture="Culture.normandy"
+    settlement_banner_mesh="encounter_flag_a"
+    flag_mesh="info_screen_flags_b"
+    name="{=!}Normandy"
+    short_name="{=!}Normans"
+    title="{=!}Duchy of Normandy"
+    ruler_title="{=!}Duke"
+    text="{=!}The Normans are a warrior people who carved their domain from the western territories of the old Empire. Blending Vlandian martial prowess with Nordic seafaring traditions, they control vital coastal settlements and command fleets of longships. Currently locked in conflict with the Aserai sultanates to the south, the Normans seek to expand their influence through both land campaigns and naval raids. Their heavy cavalry is feared across Calradia, while their ability to strike from the sea makes them a formidable foe.">
+    <relationships>
+        <relationship kingdom="Kingdom.aserai" value="-2" isAtWar="true" />
+        <relationship kingdom="Kingdom.empire" value="-1" isAtWar="false" />
+        <relationship kingdom="Kingdom.vlandia" value="0" isAtWar="false" />
+        <relationship kingdom="Kingdom.nord" value="1" isAtWar="false" />
+    </relationships>
+    <policies>
+        <policy id="policy_royal_guard" />
+        <policy id="policy_council_of_the_commons" />
+    </policies>
+</Kingdom>
+
+<!-- RUTHENIA KINGDOM -->
+<Kingdom
+    id="ruthenia"
+    initial_home_settlement="Settlement.town_EN6"
+    owner="Hero.lord_ruthenia_1"
+    banner_key="11.14.14.4345.4345.764.764.1.0.0.500.116.116.512.512.764.764.1.0.0"
+    primary_banner_color="0xFF2D5016"
+    secondary_banner_color="0xFFD4AF37"
+    color="FF2D5016"
+    color2="FFD4AF37"
+    culture="Culture.ruthenia"
+    settlement_banner_mesh="encounter_flag_a"
+    flag_mesh="info_screen_flags_b"
+    name="{=!}Ruthenia"
+    short_name="{=!}Ruthenians"
+    title="{=!}Principality of Ruthenia"
+    ruler_title="{=!}Grand Prince"
+    text="{=!}The Ruthenians are the original inhabitants of the northeastern forests, a proud warrior people who blend the martial traditions of Sturgia, Nord, and the steppes. For generations they endured imperial occupation, hiding in the deep woods and maintaining their ancient ways. Now, as the Empire weakens, they have emerged to reclaim their ancestral lands. Masters of forest warfare and river navigation, they strike from hidden lodya boats and melt back into the wilderness. Their horse archers harry imperial supply lines while their druzhina hold the reclaimed settlements.">
+    <relationships>
+        <relationship kingdom="Kingdom.empire" value="-3" isAtWar="true" />
+        <relationship kingdom="Kingdom.sturgia" value="1" isAtWar="false" />
+        <relationship kingdom="Kingdom.khuzait" value="0" isAtWar="false" />
+        <relationship kingdom="Kingdom.nord" value="1" isAtWar="false" />
+    </relationships>
+    <policies>
+        <policy id="policy_lawspeakers" />
+        <policy id="policy_hunting_rights" />
+    </policies>
+</Kingdom>
+
+</Kingdoms>
+

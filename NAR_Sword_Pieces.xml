@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>
+  <!-- #region Sword Pieces -->
+  <!-- #region Used Sword Guard Pieces -->
+ <CraftingPiece id="vlandian_grip_20" name="{=QXqd6MLV}Brass Bound Fine Leather Covered Two Handed Sword Grip" tier="4" piece_type="Handle" mesh="vlandian_grip_20" culture="Culture.vlandia" length="19.8" weight="0.15">
+
+    <BuildData piece_offset="-0.7" previous_piece_offset="0.358" />
+    <Materials>
+      <Material id="Iron4" count="1" />
+    </Materials>
+  </CraftingPiece>
+  
+   <CraftingPiece id="battania_grip_7" name="{=jzzZDEw7}Long Wire Grip" tier="3" piece_type="Handle" mesh="battania_grip_7" culture="Culture.battania" length="18.7" weight="0.2">
+
+    <BuildData piece_offset="-2" next_piece_offset="0.133" previous_piece_offset="0.417" />
+    <Materials>
+      <Material id="Iron3" count="1" />
+    </Materials>
+  </CraftingPiece>
+  
+   <CraftingPiece id="vlandian_grip_21" name="{=CE1IQiEU}Spiral Fine Leather Arming Sword Grip" tier="3" piece_type="Handle" mesh="vlandian_grip_21" culture="Culture.vlandia" length="15.4" weight="0.15">
+
+    <BuildData piece_offset="-1.5" previous_piece_offset="0.358" />
+    <Materials>
+      <Material id="Iron3" count="1" />
+    </Materials>
+  </CraftingPiece>
+  
+   <CraftingPiece id="sturgian_noble_grip_3" name="{=ueCf3sde}Leather Wrapped Thin One Handed Grip" tier="3" piece_type="Handle" mesh="sturgian_noble_grip_3" culture="Culture.sturgia" length="15" weight="0.2">
+
+    <BuildData piece_offset="-0.7" previous_piece_offset="0.2" next_piece_offset="0.3" />
+    <Materials>
+      <Material id="Iron3" count="1" />
+    </Materials>
+  </CraftingPiece>
+  
+  <CraftingPiece id="vlandian_grip_24" name="{=g60SQjOR}Leather Wrapped Horn Longsword Grip" tier="3" piece_type="Handle" mesh="vlandian_grip_24" culture="Culture.vlandia" length="17.1" weight="0.15">
+
+    <BuildData piece_offset="-0.5" previous_piece_offset="0.358" />
+    <Materials>
+      <Material id="Iron3" count="1" />
+    </Materials>
+  </CraftingPiece>
+  
+   <CraftingPiece id="sturgian_noble_grip_2" name="{=Nk924YlG}Decorated Fine Steel One Handed Grip" tier="5" piece_type="Handle" mesh="sturgian_noble_grip_2" culture="Culture.sturgia" length="15" weight="0.2">
+
+    <BuildData piece_offset="-0.3" previous_piece_offset="0.2" next_piece_offset="0.3" />
+    <Materials>
+      <Material id="Iron5" count="2" />
+    </Materials>
+  </CraftingPiece>
+  
+   <CraftingPiece id="sturgian_noble_grip_4" name="{=9T2KA9sk}Gold Bound Decorated Steel Grip" tier="5" piece_type="Handle" mesh="sturgian_noble_grip_4" culture="Culture.sturgia" length="15.7" weight="0.2">
+
+    <BuildData piece_offset="-0.5" previous_piece_offset="0.2" next_piece_offset="0.3" />
+    <Materials>
+      <Material id="Iron5" count="1" />
+    </Materials>
+  </CraftingPiece>
+  
+    <CraftingPiece id="vlandian_noble_grip_3" name="{=3VoW9qZs}Gold Bound Arming Sword Grip" tier="5" piece_type="Handle" mesh="vlandian_noble_grip_3" culture="Culture.vlandia" length="17.5" weight="0.15">
+
+    <BuildData piece_offset="-0.3" previous_piece_offset="0.358" />
+    <Materials>
+      <Material id="Iron5" count="2" />
+    </Materials>
+  </CraftingPiece>
+  <!-- #endregion -->
+</CraftingPieces>

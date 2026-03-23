@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<Items>
+
+	<!-- Shields. some shields are described using blazonry terms for immersion-->
+ 
+
+
+   <Item id="western_kite_shield2"
+        name="{=uqO6e6vN}Linen Teardrop Shield"
+		is_merchandise="true"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="teardrop_kite_shield3"
+        culture="Culture.vlandia"
+        using_tableau="true"
+        weight="4.0"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true"
+           />
+  </Item>
+
+  <Item id="western_kite_shield3"
+        name="{=uqO6e6vN}Teardrop Shield Blassoné"
+		is_merchandise="true"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="teardrop_kite_shield"
+        culture="Culture.vlandia"
+        using_tableau="true"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  
+  <Item id="western_kite_shield5"
+        name="{=uqO6e6vN}Teardrop Shield Blassoné Without Boss"
+		is_merchandise="true"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="teardrop_kite_shield2"
+        culture="Culture.vlandia"
+        using_tableau="true"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  
+  <Item id="tall_heater_shield"
+        name="{=*}Flat Top Kite Shield"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="exp_flat_top_kite_shield"
+        culture="Culture.vlandia"
+        using_tableau="true"
+        weight="2.1"
+        appearance="0.6"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+     <ItemComponent>
+     <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+
+<!-- Byzantine kite shields -->
+
+  <!-- Byzantine shield 1: Gules, a Greek Chrismon Or -->
+  <!-- Gold Chi-Ro in a red background -->
+  <!-- Final: Teardrop Shield Gules, a Calradic Monogram Or -->
+  
+
+  <Item id="teardrop_imp"
+        name="{=uqO6e6vN}Teardrop Shield Gules, A Calradic Monogram Or"
+		is_merchandise="true"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="teardrop_kite_shield_imp"
+        culture="Culture.empire"                          
+        using_tableau="true"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  
+  <!-- Byzantine shield 2: Argent two Vergina suns in pale within a single orle engrailed on its inner edge Gules -->
+<!-- Argent two Calradic suns in pale within a single tressure Gules engrailed on its inner edge -->
+<!-- Two Red Vertical Vergina suns on a white background on an engrailed red inner border all within a white background -->
+<!-- Final: Teardrop Shield Argent, Two Calradic Suns In Pale Gules -->
+ 
+
+    <Item id="teardrop_imp2"
+        name="{=uqO6e6vN}Teardrop Shield Argent, Two Calradic Suns In Pale Gules"
+        body_name="bo_cap_heater_shield_k"
+		is_merchandise="true"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="teardrop_kite_shield_imp2"
+        culture="Culture.empire"
+        using_tableau="true"
+        weight="4.7"                                
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  
+   <!-- Byzantine shield 3, Chevronné Or and Purpure-->
+   <!-- Red and purple chevron pattern -->
+   <!-- Clan colors chevron pattern -->
+   <!-- Chebronado de oro y de púrpura -->
+   <!-- Final: Teardrop Shield Chevronné Argent and Blason Tinctures -->
+   
+    <Item id="teardrop_imp3"
+        name="{=uqO6e6vN}Teardrop Shield Chevronné Argent and Blason Tincture"
+		is_merchandise="true"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="teardrop_kite_shield_imp3"
+        culture="Culture.empire"
+		using_tableau="true"
+        weight="4.0"
+        appearance="6"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+       <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" 
+		   />
+  </Item>
+  
+   <Item id="teardrop_imp4"
+        name="{=uqO6e6vN}Teardrop Shield Chevronné Or and Blason Tincture"
+		is_merchandise="true"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="teardrop_kite_shield_imp4"
+        culture="Culture.empire"
+		using_tableau="true"
+        weight="4.0"
+        appearance="6"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+     <ItemComponent>
+       <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" 
+		   />
+  </Item>
+  
+
+<!-- Norman Shields. All Norman shields are described using blazonry (Anglo-Norman descriptions of heraldry) 
+ Proto-heraldry existed in some form in Western Europe in the 11th century but Norman shields aren't heraldic.
+ Not all names are accurate in terminology since proper heraldry only began to develop after 1135 (51 years after 1084)
+ and several norman emblems are simply romanesque decoration, and are non-existent in blazonry (though some were used later).
+ Consider these as immersive anglo-norman descriptions instead of actual attempts at blazoning.-->
+ 
+ <!-- Argent means Silver and is White
+ "Or" means Gold and is Yellow (Or is French for Gold.)
+ Azure is Blue
+ Gules is Red
+ Purpure is Purple
+ Vert is Green
+ Sable is Black -->
+ 
+ 
+ 
+ 
+
+<!-- Norman Shield 1. Red Background, blue dragon facing right expanded wings, colored wings alternating red and yellow.
+       Gules, A Dragon with Tail Nowed Contourné Azure, With Wings Expanded in Barrée of Five and Three Gules And Or.
+	      When a name is too long like this, I will only use the main emblem as the item description-->
+
+  <Item id="lk_norman_shield"
+        name="{=uqO6e6vN}Teardrop Shield Gules, A Wyvern Segreant Contourné Azure"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="true"
+        mesh="lk_norman_shield"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+<!-- Norman Shield 2. Yellow Background, blue dragon expanded wings facing right, colored wings. 
+     Or, A Dragon with Tail Nowed Contourné Azure, With Wings Expanded in Barrée of Five and Three Gules And Or)--> 
+
+  <Item id="lk_norman_shield2"
+        name="{=uqO6e6vN}Teardrop Shield Or, A Wyvern Segreant Contourné Azure"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield2"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+       <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+<!-- Norman shield 3. White Background, blue dragon expanded wings facing right, colored wings.
+        Argent, A Dragon with Tail Nowed Contourné Azure, With Wings Expanded Gules And Or, Within A Bordure Indented Gules-->
+  <Item id="lk_norman_shield3"
+        name="{=uqO6e6vN}Teardrop Shield Argent, A Wyvern Segreant Contourné Azure"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield3"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+<!-- Norman shield 4. Red Background white x shaped spiraled cross-->
+  <Item id="lk_norman_shield4"
+        name="{=uqO6e6vN}Teardrop Shield Gules, A Saltire En Spirale Argent"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield4"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+     <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  
+<!-- Norman shield 5. Yellow Background white x shaped spiraled cross-->
+  <Item id="lk_norman_shield5"
+        name="{=uqO6e6vN}Teardrop Shield Or, A Saltire En Spirale Argent"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield5"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+<!-- Norman shield 6. Red background, blue spiraled cross with white outline decorated with quarterly three gold triangle shaped dots-->
+  <Item id="lk_norman_shield6"
+        name="{=uqO6e6vN}Teardrop Shield Gyronny Of Eight Azure and Gules"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield6"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+<!-- Norman shield 7. White Background, yellow cross patoncé with black outline, decorated with three circular dots in cross-->
+  <Item id="lk_norman_shield7"
+        name="{=uqO6e6vN}Teardrop Shield Argent, A Cross Patoncé Or"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield7"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+     <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+<!-- Norman shield 8. White background, spiral cross left and top limbs red, right and bottom limbs yellow, all outlined-->
+  <Item id="lk_norman_shield8"
+        name="{=uqO6e6vN}Teardrop Shield Gyronny Gules and Argent, Sinister Base Or and Argent"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield8"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+     <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+<!-- Norman shield 9. red background, plate in honor point circled by smaller plates, Bordured by semy plates
+      Gules, A Plate Within Semy Plates In Annulet All Within Semy Plates In Bordure-->
+  <Item id="lk_norman_shield9"
+        name="{=uqO6e6vN}Teardrop Shield Gules, A Plate Within Platé In Annulet"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield9"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+<!-- Norman shield 10 . Blue, a white x shaped spiraled cross -->
+	  
+  <Item id="lk_norman_shield10"
+        name="{=uqO6e6vN}Teardrop Shield Azure, A Saltire En Spirale Argent"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield10"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+
+<!-- Norman shield 11. Red, Three Bezants in Pile Reversed Quarterly (So, a yellow "Therefore" sign 4 times as in a quadrant) Within A Single Orle (Thin border) Yellow 
+      Gules, Three Bezants in Pile Reversed Quarterly All Within An Orle Or-->
+	  
+	 <!--  NO BOSS -->
+	  
+  <Item id="lk_norman_shield11"
+        name="{=uqO6e6vN}Teardrop Shield Gules, Three Bezants in Pile Reversed Quarterly"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield11"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+   <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+<!-- Norman shield 12. Azure, An Annulet Gules Within A Cinquefoil Of The First// Blue, a red ring within a red flower with 5 petals, all within a red edge -->
+ <!--  NO BOSS -->
+ 
+  <Item id="lk_norman_shield12"
+        name="{=uqO6e6vN}Teardrop Shield Azure, An Annulet Gules Within A Cinquefoil Of The First"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield12"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+<!-- Norman shield 13. Azure (Blue), A Dragon Contourné (Facing Right in front view) Segreant (Both wings on its side, rampant) Argent (White), Above it Three Bezants in Pile -->
+
+  <Item id="lk_norman_shield13"
+        name="{=uqO6e6vN}Teardrop Shield Azure, A Wyvern Segreant Contourné Argent"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield13"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+
+<!-- Norman shield 14. White Background, annulet encircled by semy red roundels, encircled by an annulet, 
+     between four "three dot" signs, within a red border, all within a semy red roundels
+	 
+      Argent,An Annulet Within Tortelly In Annulet, 
+	  Within an Annulet Between Quarterly Three Torteaux In Pile Within an Orle Gules, All Within Tortelly in Bordure-->
+	  
+	   <!--  NO BOSS -->
+
+  <Item id="lk_norman_shield14"
+        name="{=uqO6e6vN}Teardrop Shield Argent, An Annulet Within Tortelly In Annulet Gules"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield14"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+
+<!-- Shield 15. White Background, 9 triangular wedges coming from the left side (wearer's view), Bent towards the base of the shield, alternating green and yellow -->
+  <Item id="lk_norman_shield15"
+        name="{=uqO6e6vN}Teardrop Shield Argent, Issuant From Sinister Nine Demi-Pendents Or And Vert"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield15"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+
+<!-- Shield 16. No boss. Red background, estoile in fess point, legend in bordure: In nomine patris, et filii et spiritus sancti, Bordured White and lining red also-->
+
+  <Item id="lk_norman_shield16"
+        name="{=uqO6e6vN}Teardrop Shield Gules, An Estoile Within A Bordure Argent"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield16"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+<!-- Shield 17. Red background and 3 gryons green, outlined white and decorated with white spots-->
+  <Item id="lk_norman_shield17"
+        name="{=uqO6e6vN}Teardrop Shield Gyronny of Six Vert and Gules"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield17"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+     <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+
+<!-- Shield 18 White Background, Green Spiraled Saltire -->
+  <Item id="lk_norman_shield18"
+        name="{=uqO6e6vN}Teardrop Shield Argent, A Saltire En Spirale Vert"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield18"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+<!-- Shield 19. Plain Red, Leather lining Red also -->
+
+  <Item id="lk_norman_shield19"
+        name="{=uqO6e6vN}Teardrop Shield Gules"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield19"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+<!-- Shield 20. Plain Blue, Leather lining Blue also -->
+  <Item id="lk_norman_shield20"
+        name="{=uqO6e6vN}Teardrop Shield Azure"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield20"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+     <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+<!-- Shield 21. Plain Yellow, Leather lining Yellow also -->
+  <Item id="lk_norman_shield21"
+        name="{=uqO6e6vN}Teardrop Shield Or"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield21"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+     <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+<!-- Shield 22. Plain Green, Leather lining Green also -->
+  <Item id="lk_norman_shield22"
+        name="{=uqO6e6vN}Teardrop Shield Vert"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield22"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+     <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+<!-- Shield 23. White background, completely Red saltire in spiral--> 
+  <Item id="lk_norman_shield23"
+        name="{=uqO6e6vN}Teardrop Shield Argent, A Saltire En Spirale Gules"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield23"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+<!-- Shield 24. White background, Red dragon figure with Green Outline -->
+  <Item id="lk_norman_shield24"
+        name="{=uqO6e6vN}Teardrop Shield Argent, A Wyvern Segreant Gules"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield24"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+
+<!-- Shield 25. White background, Yellow Cross patty Over all the shield -->
+
+  <Item id="lk_norman_shield25"
+        name="{=uqO6e6vN}Teardrop Shield Argent, A Cross Patty Or"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield25"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+     <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+
+<!-- Shield 26.  Blue background, Yellow spiraled saltire, decorated edges in romanesque style-->
+  <Item id="lk_norman_shield26"
+        name="{=uqO6e6vN}Teardrop Shield Azure, A Saltire En Spirale Or"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield26"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  
+  
+  
+ <!-- Shield 28. No Boss. Gules, Issuant From Dexter Nine Demi-Pendents Argent--> 
+ 
+ 
+  <Item id="lk_norman_shield28"
+        name="{=uqO6e6vN}Teardrop Shield Gules, Issuant From Dexter Nine Demi-Pendents Argent"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield28"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  
+  
+ <!--  Shield 29. Green, A Serpent Hauriant Nowed Langued Yellow-->
+ 
+  <Item id="lk_norman_shield29"
+        name="{=uqO6e6vN}Teardrop Shield Vert, A Serpent Hauriant Nowed Or"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield29"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  
+  
+ <!--  Shield 30. Bendy of Azure and Blason Tincture -->
+ 
+  <Item id="lk_norman_shield30"
+        name="{=uqO6e6vN}Teardrop Shield Bendy Of Azure And Gules"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield30"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  
+ 
+  <!--  Shield 31. Bendy of Or and Blason Tincture --> 
+  
+  <Item id="lk_norman_shield31"
+        name="{=uqO6e6vN}Teardrop Shield Bendy Of Or And Gules"
+        body_name="bo_cap_heater_shield_k"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="lk_norman_shield31"
+        culture="Culture.vlandia"
+        using_tableau="false"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+   <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="-0.06,-0.01,0.00"
+              rotation="0.0,15.0,40.00"
+              weapon_length="100"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="630"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+
+<!-- Native shield edits -->
+
+  <Item id="western_kite_shield"
+        name="{=uqO6e6vN}Kite Shield"
+        body_name="bo_cap_shield_vlandia_infantary_a"
+        shield_body_name="bo_heater_shield_k"
+        recalculate_body="false"
+        mesh="shield_vlandia_infantary_a"
+        culture="Culture.vlandia"
+        using_tableau="true"
+        weight="4.7"
+        appearance="1"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="0.0, 0.00, 0.00"
+              rotation="0.0,10.0,40.00"
+              weapon_length="85"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="450"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="ironrim_kite_shield"
+        name="{=WpdmIlU5}Iron Rimmed Kite Shield"
+        body_name="bo_cap_shield_vlandia_infantary_a"
+        shield_body_name="bo_shield_vlandia_infantary_b"
+        recalculate_body="false"
+        mesh="shield_vlandia_infantary_b"
+        culture="Culture.vlandia"
+        using_tableau="true"
+        weight="4.7"
+        appearance="0.7"
+        Type="Shield"
+        item_holsters="shield_kite:shield_2:shield_3:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="4"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="0.0, 0.00, 0.00"
+              rotation="0.0,10.0,40.00"
+              weapon_length="85"
+              center_of_mass="-0.070,0.0,0.05"
+              hit_points="490"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+</Items>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <Platforms>x64</Platforms>
+    <LangVersion>9.0</LangVersion>
+    <OutputPath>bin\Win64_Shipping_Client\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Bannerlord Core DLLs - TWOJE POPRAWNE ŚCIEŻKI -->
+    <Reference Include="TaleWorlds.CampaignSystem">
+      <HintPath>D:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.CampaignSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    
+    <Reference Include="TaleWorlds.Core">
+      <HintPath>D:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    
+    <Reference Include="TaleWorlds.MountAndBlade">
+      <HintPath>D:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    
+    <Reference Include="TaleWorlds.Library">
+      <HintPath>D:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.Library.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    
+    <Reference Include="TaleWorlds.Localization">
+      <HintPath>D:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.Localization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    
+    <Reference Include="TaleWorlds.ObjectSystem">
+      <HintPath>D:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.ObjectSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+  <!-- Komunikat po udanej kompilacji -->
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Message Text="=========================================" Importance="high" />
+    <Message Text="TacticalOverhaul mod compiled successfully!" Importance="high" />
+    <Message Text="Output: $(OutputPath)TacticalOverhaul.dll" Importance="high" />
+    <Message Text="=========================================" Importance="high" />
+  </Target>
+
+  <!-- AUTOMATYCZNE KOPIOWANIE DLL -->
+  <Target Name="CopyToModFolder" AfterTargets="PostBuild">
+    <Copy SourceFiles="$(OutputPath)TacticalOverhaul.dll" 
+          DestinationFolder="D:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\TacticalOverhaul\bin\Win64_Shipping_Client\" 
+          SkipUnchangedFiles="true"
+          Condition="Exists('$(OutputPath)TacticalOverhaul.dll')" />
+    <Message Text="Skopiowano DLL do folderu moda!" Importance="high" />
+  </Target>
+
+</Project>

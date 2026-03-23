@@ -1,0 +1,1769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+<!-- ============================================== -->
+<!-- MERCENARY UNITS - POPRAWIONY FORMAT          -->
+<!-- 50 Units w Bannerlord NPCCharacter format    -->
+<!-- Custom data (wages, upkeep) w C# behavior    -->
+<!-- ============================================== -->
+
+<NPCCharacter id="merc_light_infantry_01"
+             name="{=!}Forest Footman"
+             occupation="Mercenary"
+             culture="Culture.battania"
+             level="15"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_battania" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="120" />
+            <skill id="TwoHanded" value="110" />
+            <skill id="Polearm" value="130" />
+            <skill id="Bow" value="80" />
+            <skill id="Crossbow" value="70" />
+            <skill id="Throwing" value="90" />
+            <skill id="Riding" value="100" />
+            <skill id="Athletics" value="150" />
+            <skill id="Tactics" value="80" />
+            <skill id="Leadership" value="60" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.NAR_TypeXI_Sword"/>
+            <equipment slot="Item1" id="Item.western_kite_shield3"/>
+            <equipment slot="Head" id="Item.normannasalnew"/>
+            <equipment slot="Body" id="Item.normanhauberk"/>
+            <equipment slot="Leg" id="Item.NAR_battian_boots_light"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_light_infantry_02"
+             name="{=!}Desert Raider"
+             occupation="Mercenary"
+             culture="Culture.aserai"
+             level="15"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_aserai" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="130" />
+            <skill id="TwoHanded" value="110" />
+            <skill id="Polearm" value="120" />
+            <skill id="Bow" value="140" />
+            <skill id="Crossbow" value="80" />
+            <skill id="Throwing" value="150" />
+            <skill id="Riding" value="110" />
+            <skill id="Athletics" value="160" />
+            <skill id="Tactics" value="90" />
+            <skill id="Leadership" value="70" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.NAR_TypeXI_Sword"/>
+            <equipment slot="Item1" id="Item.western_kite_shield3"/>
+            <equipment slot="Head" id="Item.paintednormannasalnew7"/>
+            <equipment slot="Body" id="Item.exp_monk_robe2"/>
+            <equipment slot="Leg" id="Item.NAR_aserai_boots_light"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_light_infantry_03"
+             name="{=!}Northern Skirmisher"
+             occupation="Mercenary"
+             culture="Culture.sturgia"
+             level="15"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="110" />
+            <skill id="TwoHanded" value="100" />
+            <skill id="Polearm" value="120" />
+            <skill id="Bow" value="100" />
+            <skill id="Crossbow" value="90" />
+            <skill id="Throwing" value="140" />
+            <skill id="Riding" value="120" />
+            <skill id="Athletics" value="150" />
+            <skill id="Tactics" value="85" />
+            <skill id="Leadership" value="65" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+            <equipment slot="Item1" id="Item.NAR_sturgia_javelin"/>
+            <equipment slot="Head" id="Item.normannasalnew4"/>
+            <equipment slot="Body" id="Item.normanhauberk"/>
+            <equipment slot="Leg" id="Item.NAR_sturgia_boots_light"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_light_infantry_04"
+             name="{=!}Southern Levy"
+             occupation="Mercenary"
+             culture="Culture.empire"
+             level="15"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="120" />
+            <skill id="TwoHanded" value="100" />
+            <skill id="Polearm" value="110" />
+            <skill id="Bow" value="90" />
+            <skill id="Crossbow" value="100" />
+            <skill id="Throwing" value="80" />
+            <skill id="Riding" value="90" />
+            <skill id="Athletics" value="120" />
+            <skill id="Tactics" value="75" />
+            <skill id="Leadership" value="60" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.broad_arming_sword_t4"/>
+            <equipment slot="Item1" id="Item.western_kite_shield2"/>
+            <equipment slot="Head" id="Item.paintednormannasalnew6"/>
+            <equipment slot="Body" id="Item.exp_monk_robe"/>
+            <equipment slot="Leg" id="Item.NAR_empire_boots_light"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_light_infantry_05"
+             name="{=!}Steppe Rider"
+             occupation="Mercenary"
+             culture="Culture.khuzait"
+             level="15"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="130" />
+            <skill id="TwoHanded" value="110" />
+            <skill id="Polearm" value="140" />
+            <skill id="Bow" value="160" />
+            <skill id="Crossbow" value="70" />
+            <skill id="Throwing" value="120" />
+            <skill id="Riding" value="170" />
+            <skill id="Athletics" value="140" />
+            <skill id="Tactics" value="95" />
+            <skill id="Leadership" value="75" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+            <equipment slot="Item1" id="Item.NAR_khuzait_bow"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.normannasalnew3"/>
+            <equipment slot="Body" id="Item.exp_monk_robe3"/>
+            <equipment slot="Leg" id="Item.NAR_khuzait_boots_light"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_light_infantry_06"
+             name="{=!}Highland Scout"
+             occupation="Mercenary"
+             culture="Culture.battania"
+             level="15"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_battania" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="110" />
+            <skill id="TwoHanded" value="120" />
+            <skill id="Polearm" value="130" />
+            <skill id="Bow" value="150" />
+            <skill id="Crossbow" value="80" />
+            <skill id="Throwing" value="100" />
+            <skill id="Riding" value="110" />
+            <skill id="Athletics" value="170" />
+            <skill id="Tactics" value="90" />
+            <skill id="Leadership" value="70" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.NAR_battania_bow"/>
+            <equipment slot="Item1" id="Item.vlandia_noble_sword_1_t5"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.normannasalnew2"/>
+            <equipment slot="Body" id="Item.exp_monk_robe4"/>
+            <equipment slot="Leg" id="Item.NAR_battian_boots_light"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_light_infantry_07"
+             name="{=!}Nomadic Hunter"
+             occupation="Mercenary"
+             culture="Culture.khuzait"
+             level="15"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="120" />
+            <skill id="TwoHanded" value="110" />
+            <skill id="Polearm" value="130" />
+            <skill id="Bow" value="170" />
+            <skill id="Crossbow" value="60" />
+            <skill id="Throwing" value="140" />
+            <skill id="Riding" value="180" />
+            <skill id="Athletics" value="160" />
+            <skill id="Tactics" value="100" />
+            <skill id="Leadership" value="80" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.NAR_khuzait_bow"/>
+            <equipment slot="Item1" id="Item.vlandia_noble_sword_3_t5"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.normannasalnew"/>
+            <equipment slot="Body" id="Item.exp_monk_robe2"/>
+            <equipment slot="Leg" id="Item.NAR_khuzait_boots_light"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_light_infantry_08"
+             name="{=!}Southern Bandit"
+             occupation="Mercenary"
+             culture="Culture.empire"
+             level="15"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="130" />
+            <skill id="TwoHanded" value="120" />
+            <skill id="Polearm" value="110" />
+            <skill id="Bow" value="100" />
+            <skill id="Crossbow" value="90" />
+            <skill id="Throwing" value="110" />
+            <skill id="Riding" value="100" />
+            <skill id="Athletics" value="140" />
+            <skill id="Tactics" value="85" />
+            <skill id="Leadership" value="65" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+            <equipment slot="Item1" id="Item.western_kite_shield5"/>
+            <equipment slot="Head" id="Item.paintednormannasalnew7"/>
+            <equipment slot="Body" id="Item.exp_monk_robe"/>
+            <equipment slot="Leg" id="Item.NAR_empire_boots_light"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_light_infantry_09"
+             name="{=!}Eastern Brigand"
+             occupation="Mercenary"
+             culture="Culture.aserai"
+             level="15"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_aserai" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="125" />
+            <skill id="TwoHanded" value="115" />
+            <skill id="Polearm" value="105" />
+            <skill id="Bow" value="110" />
+            <skill id="Crossbow" value="95" />
+            <skill id="Throwing" value="130" />
+            <skill id="Riding" value="120" />
+            <skill id="Athletics" value="150" />
+            <skill id="Tactics" value="80" />
+            <skill id="Leadership" value="70" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.vlandia_noble_sword_4_t5"/>
+            <equipment slot="Item1" id="Item.western_kite_shield3"/>
+            <equipment slot="Head" id="Item.paintednormannasalnew6"/>
+            <equipment slot="Body" id="Item.exp_monk_robe3"/>
+            <equipment slot="Leg" id="Item.NAR_aserai_boots_light"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_light_infantry_10"
+             name="{=!}Northern Trapper"
+             occupation="Mercenary"
+             culture="Culture.sturgia"
+             level="15"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="115" />
+            <skill id="TwoHanded" value="105" />
+            <skill id="Polearm" value="125" />
+            <skill id="Bow" value="130" />
+            <skill id="Crossbow" value="85" />
+            <skill id="Throwing" value="120" />
+            <skill id="Riding" value="110" />
+            <skill id="Athletics" value="160" />
+            <skill id="Tactics" value="90" />
+            <skill id="Leadership" value="70" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.NAR_battania_bow"/>
+            <equipment slot="Item1" id="Item.vlandia_noble_sword_2_t5"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.normannasalnew4"/>
+            <equipment slot="Body" id="Item.normanhauberk"/>
+            <equipment slot="Leg" id="Item.NAR_sturgia_boots_light"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_heavy_infantry_01"
+             name="{=!}Ironclad Guard"
+             occupation="Mercenary"
+             culture="Culture.empire"
+             level="25"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="180" />
+            <skill id="TwoHanded" value="170" />
+            <skill id="Polearm" value="190" />
+            <skill id="Bow" value="120" />
+            <skill id="Crossbow" value="130" />
+            <skill id="Throwing" value="110" />
+            <skill id="Riding" value="140" />
+            <skill id="Athletics" value="130" />
+            <skill id="Tactics" value="150" />
+            <skill id="Leadership" value="140" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+            <equipment slot="Item1" id="Item.western_kite_shield3"/>
+            <equipment slot="Head" id="Item.normannasalnew"/>
+            <equipment slot="Body" id="Item.exp_monk_robe"/>
+            <equipment slot="Leg" id="Item.NAR_empire_boots_light"/>
+            <equipment slot="Gloves" id="Item.empire_gauntlets"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_heavy_infantry_02"
+             name="{=!}Northern Huscarl"
+             occupation="Mercenary"
+             culture="Culture.sturgia"
+             level="25"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="190" />
+            <skill id="TwoHanded" value="180" />
+            <skill id="Polearm" value="200" />
+            <skill id="Bow" value="110" />
+            <skill id="Crossbow" value="120" />
+            <skill id="Throwing" value="100" />
+            <skill id="Riding" value="130" />
+            <skill id="Athletics" value="140" />
+            <skill id="Tactics" value="160" />
+            <skill id="Leadership" value="150" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+            <equipment slot="Item1" id="Item.western_kite_shield5"/>
+            <equipment slot="Head" id="Item.normannasalnew3"/>
+            <equipment slot="Body" id="Item.normanhauberk"/>
+            <equipment slot="Leg" id="Item.NAR_sturgia_boots_light"/>
+            <equipment slot="Gloves" id="Item.sturgia_gauntlets"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_heavy_infantry_03"
+             name="{=!}Southern Legionnaire"
+             occupation="Mercenary"
+             culture="Culture.empire"
+             level="25"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="185" />
+            <skill id="TwoHanded" value="175" />
+            <skill id="Polearm" value="195" />
+            <skill id="Bow" value="125" />
+            <skill id="Crossbow" value="135" />
+            <skill id="Throwing" value="115" />
+            <skill id="Riding" value="145" />
+            <skill id="Athletics" value="135" />
+            <skill id="Tactics" value="155" />
+            <skill id="Leadership" value="145" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.broad_arming_sword_t4"/>
+            <equipment slot="Item1" id="Item.western_kite_shield3"/>
+            <equipment slot="Head" id="Item.paintednormannasalnew7"/>
+            <equipment slot="Body" id="Item.exp_monk_robe"/>
+            <equipment slot="Leg" id="Item.NAR_empire_boots_light"/>
+            <equipment slot="Gloves" id="Item.empire_gauntlets"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_heavy_infantry_04"
+             name="{=!}Western Knight Errant"
+             occupation="Mercenary"
+             culture="Culture.vlandia"
+             level="25"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="200" />
+            <skill id="TwoHanded" value="190" />
+            <skill id="Polearm" value="210" />
+            <skill id="Bow" value="130" />
+            <skill id="Crossbow" value="140" />
+            <skill id="Throwing" value="120" />
+            <skill id="Riding" value="180" />
+            <skill id="Athletics" value="150" />
+            <skill id="Tactics" value="170" />
+            <skill id="Leadership" value="160" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.vlandia_noble_sword_4_t5"/>
+            <equipment slot="Item1" id="Item.western_kite_shield2"/>
+            <equipment slot="Head" id="Item.normannasalnew4"/>
+            <equipment slot="Body" id="Item.exp_monk_robe2"/>
+            <equipment slot="Leg" id="Item.NAR_vlandia_boots_light"/>
+            <equipment slot="Gloves" id="Item.vlandia_gauntlets"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_heavy_infantry_05"
+             name="{=!}Eastern Mamluk"
+             occupation="Mercenary"
+             culture="Culture.aserai"
+             level="25"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_aserai" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="195" />
+            <skill id="TwoHanded" value="185" />
+            <skill id="Polearm" value="205" />
+            <skill id="Bow" value="140" />
+            <skill id="Crossbow" value="150" />
+            <skill id="Throwing" value="130" />
+            <skill id="Riding" value="170" />
+            <skill id="Athletics" value="160" />
+            <skill id="Tactics" value="165" />
+            <skill id="Leadership" value="155" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.vlandia_noble_sword_1_t5"/>
+            <equipment slot="Item1" id="Item.western_kite_shield3"/>
+            <equipment slot="Head" id="Item.paintednormannasalnew6"/>
+            <equipment slot="Body" id="Item.exp_monk_robe3"/>
+            <equipment slot="Leg" id="Item.NAR_aserai_boots_light"/>
+            <equipment slot="Gloves" id="Item.aserai_gauntlets"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_heavy_infantry_06"
+             name="{=!}Northern Caravan Guard"
+             occupation="Mercenary"
+             culture="Culture.sturgia"
+             level="25"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="175" />
+            <skill id="TwoHanded" value="165" />
+            <skill id="Polearm" value="185" />
+            <skill id="Bow" value="115" />
+            <skill id="Crossbow" value="125" />
+            <skill id="Throwing" value="105" />
+            <skill id="Riding" value="135" />
+            <skill id="Athletics" value="145" />
+            <skill id="Tactics" value="150" />
+            <skill id="Leadership" value="140" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+            <equipment slot="Item1" id="Item.western_kite_shield5"/>
+            <equipment slot="Head" id="Item.normannasalnew4"/>
+            <equipment slot="Body" id="Item.normanhauberk"/>
+            <equipment slot="Leg" id="Item.NAR_sturgia_boots_light"/>
+            <equipment slot="Gloves" id="Item.sturgia_gauntlets"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_heavy_infantry_07"
+             name="{=!}Southern Iron Guard"
+             occupation="Mercenary"
+             culture="Culture.empire"
+             level="25"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="190" />
+            <skill id="TwoHanded" value="180" />
+            <skill id="Polearm" value="200" />
+            <skill id="Bow" value="130" />
+            <skill id="Crossbow" value="140" />
+            <skill id="Throwing" value="120" />
+            <skill id="Riding" value="150" />
+            <skill id="Athletics" value="140" />
+            <skill id="Tactics" value="160" />
+            <skill id="Leadership" value="150" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.empire_gladius"/>
+            <equipment slot="Item1" id="Item.empire_heavy_shield"/>
+            <equipment slot="Head" id="Item.empire_plate_helmet"/>
+            <equipment slot="Body" id="Item.empire_plate_armor"/>
+            <equipment slot="Leg" id="Item.empire_plate_boots"/>
+            <equipment slot="Gloves" id="Item.empire_gauntlets"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_heavy_infantry_08"
+             name="{=!}Eastern Hashashin"
+             occupation="Mercenary"
+             culture="Culture.aserai"
+             level="25"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_aserai" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="185" />
+            <skill id="TwoHanded" value="175" />
+            <skill id="Polearm" value="190" />
+            <skill id="Bow" value="150" />
+            <skill id="Crossbow" value="160" />
+            <skill id="Throwing" value="140" />
+            <skill id="Riding" value="165" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="165" />
+            <skill id="Leadership" value="155" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.aserai_dagger"/>
+            <equipment slot="Item1" id="Item.aserai_light_shield"/>
+            <equipment slot="Head" id="Item.aserai_heavy_helmet"/>
+            <equipment slot="Body" id="Item.aserai_medium_armor"/>
+            <equipment slot="Leg" id="Item.aserai_medium_boots"/>
+            <equipment slot="Gloves" id="Item.aserai_gauntlets"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_heavy_infantry_09"
+             name="{=!}Western Crusader"
+             occupation="Mercenary"
+             culture="Culture.vlandia"
+             level="25"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="195" />
+            <skill id="TwoHanded" value="185" />
+            <skill id="Polearm" value="205" />
+            <skill id="Bow" value="135" />
+            <skill id="Crossbow" value="145" />
+            <skill id="Throwing" value="125" />
+            <skill id="Riding" value="175" />
+            <skill id="Athletics" value="165" />
+            <skill id="Tactics" value="170" />
+            <skill id="Leadership" value="165" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.vlandia_sword"/>
+            <equipment slot="Item1" id="Item.vlandia_heavy_shield"/>
+            <equipment slot="Head" id="Item.vlandia_heavy_helmet"/>
+            <equipment slot="Body" id="Item.vlandia_plate_armor"/>
+            <equipment slot="Leg" id="Item.vlandia_plate_boots"/>
+            <equipment slot="Gloves" id="Item.vlandia_gauntlets"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_heavy_infantry_10"
+             name="{=!}Northern Berserker"
+             occupation="Mercenary"
+             culture="Culture.battania"
+             level="25"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_battania" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="200" />
+            <skill id="TwoHanded" value="210" />
+            <skill id="Polearm" value="195" />
+            <skill id="Bow" value="110" />
+            <skill id="Crossbow" value="120" />
+            <skill id="Throwing" value="100" />
+            <skill id="Riding" value="140" />
+            <skill id="Athletics" value="160" />
+            <skill id="Tactics" value="155" />
+            <skill id="Leadership" value="145" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.battia_two_handed_axe"/>
+            <equipment slot="Head" id="Item.battania_heavy_helmet"/>
+            <equipment slot="Body" id="Item.battania_heavy_armor"/>
+            <equipment slot="Leg" id="Item.battania_heavy_boots"/>
+            <equipment slot="Gloves" id="Item.battania_gauntlets"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_archer_01"
+             name="{=!}Imperial Crossbowman"
+             occupation="Mercenary"
+             culture="Culture.empire"
+             level="20"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="140" />
+            <skill id="TwoHanded" value="130" />
+            <skill id="Polearm" value="150" />
+            <skill id="Bow" value="110" />
+            <skill id="Crossbow" value="180" />
+            <skill id="Throwing" value="120" />
+            <skill id="Riding" value="130" />
+            <skill id="Athletics" value="140" />
+            <skill id="Tactics" value="130" />
+            <skill id="Leadership" value="110" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.empire_crossbow"/>
+            <equipment slot="Item1" id="Item.empire_sword"/>
+            <equipment slot="Item2" id="Item.bolts"/>
+            <equipment slot="Head" id="Item.empire_medium_helmet"/>
+            <equipment slot="Body" id="Item.empire_medium_armor"/>
+            <equipment slot="Leg" id="Item.empire_medium_boots"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_archer_02"
+             name="{=!}Steppe Horse Archer"
+             occupation="Mercenary"
+             culture="Culture.khuzait"
+             level="20"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="130" />
+            <skill id="TwoHanded" value="120" />
+            <skill id="Polearm" value="140" />
+            <skill id="Bow" value="200" />
+            <skill id="Crossbow" value="100" />
+            <skill id="Throwing" value="130" />
+            <skill id="Riding" value="190" />
+            <skill id="Athletics" value="150" />
+            <skill id="Tactics" value="140" />
+            <skill id="Leadership" value="120" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.khuzait_bow"/>
+            <equipment slot="Item1" id="Item.khuzait_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.khuzait_light_helmet"/>
+            <equipment slot="Body" id="Item.khuzait_light_armor"/>
+            <equipment slot="Leg" id="Item.khuzait_light_boots"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_archer_03"
+             name="{=!}Desert Bowman"
+             occupation="Mercenary"
+             culture="Culture.aserai"
+             level="20"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_aserai" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="135" />
+            <skill id="TwoHanded" value="125" />
+            <skill id="Polearm" value="145" />
+            <skill id="Bow" value="190" />
+            <skill id="Crossbow" value="110" />
+            <skill id="Throwing" value="140" />
+            <skill id="Riding" value="140" />
+            <skill id="Athletics" value="160" />
+            <skill id="Tactics" value="135" />
+            <skill id="Leadership" value="115" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.aserai_bow"/>
+            <equipment slot="Item1" id="Item.aserai_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.aserai_light_helmet"/>
+            <equipment slot="Body" id="Item.aserai_light_armor"/>
+            <equipment slot="Leg" id="Item.aserai_light_boots"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_archer_04"
+             name="{=!}Northern Longbowman"
+             occupation="Mercenary"
+             culture="Culture.sturgia"
+             level="20"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="130" />
+            <skill id="TwoHanded" value="140" />
+            <skill id="Polearm" value="150" />
+            <skill id="Bow" value="195" />
+            <skill id="Crossbow" value="105" />
+            <skill id="Throwing" value="125" />
+            <skill id="Riding" value="120" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="140" />
+            <skill id="Leadership" value="110" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.sturgia_bow"/>
+            <equipment slot="Item1" id="Item.sturgia_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.sturgia_light_helmet"/>
+            <equipment slot="Body" id="Item.sturgia_light_armor"/>
+            <equipment slot="Leg" id="Item.sturgia_light_boots"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_archer_05"
+             name="{=!}Forest Skirmisher"
+             occupation="Mercenary"
+             culture="Culture.battania"
+             level="20"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_battania" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="125" />
+            <skill id="TwoHanded" value="135" />
+            <skill id="Polearm" value="145" />
+            <skill id="Bow" value="185" />
+            <skill id="Crossbow" value="115" />
+            <skill id="Throwing" value="130" />
+            <skill id="Riding" value="110" />
+            <skill id="Athletics" value="165" />
+            <skill id="Tactics" value="135" />
+            <skill id="Leadership" value="105" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.battania_bow"/>
+            <equipment slot="Item1" id="Item.battian_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.battania_light_helmet"/>
+            <equipment slot="Body" id="Item.battania_light_armor"/>
+            <equipment slot="Leg" id="Item.battania_light_boots"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_archer_06"
+             name="{=!}Imperial Archer"
+             occupation="Mercenary"
+             culture="Culture.empire"
+             level="20"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="145" />
+            <skill id="TwoHanded" value="135" />
+            <skill id="Polearm" value="155" />
+            <skill id="Bow" value="170" />
+            <skill id="Crossbow" value="125" />
+            <skill id="Throwing" value="135" />
+            <skill id="Riding" value="135" />
+            <skill id="Athletics" value="145" />
+            <skill id="Tactics" value="140" />
+            <skill id="Leadership" value="115" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.empire_bow"/>
+            <equipment slot="Item1" id="Item.empire_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.empire_medium_helmet"/>
+            <equipment slot="Body" id="Item.empire_medium_armor"/>
+            <equipment slot="Leg" id="Item.empire_medium_boots"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_archer_07"
+             name="{=!}Southern Slinger"
+             occupation="Mercenary"
+             culture="Culture.aserai"
+             level="20"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_aserai" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="130" />
+            <skill id="TwoHanded" value="120" />
+            <skill id="Polearm" value="140" />
+            <skill id="Bow" value="150" />
+            <skill id="Crossbow" value="100" />
+            <skill id="Throwing" value="180" />
+            <skill id="Riding" value="130" />
+            <skill id="Athletics" value="160" />
+            <skill id="Tactics" value="130" />
+            <skill id="Leadership" value="110" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.aserai_sling"/>
+            <equipment slot="Item1" id="Item.aserai_sword"/>
+            <equipment slot="Item2" id="Item.stones"/>
+            <equipment slot="Head" id="Item.aserai_light_helmet"/>
+            <equipment slot="Body" id="Item.aserai_light_armor"/>
+            <equipment slot="Leg" id="Item.aserai_light_boots"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_archer_08"
+             name="{=!}Eastern Horse Archer"
+             occupation="Mercenary"
+             culture="Culture.khuzait"
+             level="20"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="135" />
+            <skill id="TwoHanded" value="125" />
+            <skill id="Polearm" value="145" />
+            <skill id="Bow" value="195" />
+            <skill id="Crossbow" value="105" />
+            <skill id="Throwing" value="140" />
+            <skill id="Riding" value="185" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="145" />
+            <skill id="Leadership" value="120" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.khuzait_bow"/>
+            <equipment slot="Item1" id="Item.khuzait_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.khuzait_light_helmet"/>
+            <equipment slot="Body" id="Item.khuzait_light_armor"/>
+            <equipment slot="Leg" id="Item.khuzait_light_boots"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_archer_09"
+             name="{=!}Western Crossbowman"
+             occupation="Mercenary"
+             culture="Culture.vlandia"
+             level="20"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="150" />
+            <skill id="TwoHanded" value="140" />
+            <skill id="Polearm" value="160" />
+            <skill id="Bow" value="120" />
+            <skill id="Crossbow" value="190" />
+            <skill id="Throwing" value="130" />
+            <skill id="Riding" value="140" />
+            <skill id="Athletics" value="150" />
+            <skill id="Tactics" value="145" />
+            <skill id="Leadership" value="120" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.vlandia_crossbow"/>
+            <equipment slot="Item1" id="Item.vlandia_sword"/>
+            <equipment slot="Item2" id="Item.bolts"/>
+            <equipment slot="Head" id="Item.vlandia_medium_helmet"/>
+            <equipment slot="Body" id="Item.vlandia_medium_armor"/>
+            <equipment slot="Leg" id="Item.vlandia_medium_boots"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_archer_10"
+             name="{=!}Northern Hunter"
+             occupation="Mercenary"
+             culture="Culture.sturgia"
+             level="20"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="120" />
+            <skill id="TwoHanded" value="130" />
+            <skill id="Polearm" value="140" />
+            <skill id="Bow" value="185" />
+            <skill id="Crossbow" value="100" />
+            <skill id="Throwing" value="125" />
+            <skill id="Riding" value="110" />
+            <skill id="Athletics" value="160" />
+            <skill id="Tactics" value="130" />
+            <skill id="Leadership" value="100" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.sturgia_bow"/>
+            <equipment slot="Item1" id="Item.sturgia_sword"/>
+            <equipment slot="Item2" id="Item.arrows"/>
+            <equipment slot="Head" id="Item.sturgia_light_helmet"/>
+            <equipment slot="Body" id="Item.sturgia_light_armor"/>
+            <equipment slot="Leg" id="Item.sturgia_light_boots"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_cavalry_01"
+             name="{=!}Empire Cataphract"
+             occupation="Mercenary"
+             culture="Culture.empire"
+             level="25"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="180" />
+            <skill id="TwoHanded" value="170" />
+            <skill id="Polearm" value="200" />
+            <skill id="Bow" value="130" />
+            <skill id="Crossbow" value="140" />
+            <skill id="Throwing" value="120" />
+            <skill id="Riding" value="190" />
+            <skill id="Athletics" value="150" />
+            <skill id="Tactics" value="160" />
+            <skill id="Leadership" value="150" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.empire_lance"/>
+            <equipment slot="Item1" id="Item.empire_sword_cavalry"/>
+            <equipment slot="Head" id="Item.empire_heavy_helmet"/>
+            <equipment slot="Body" id="Item.empire_plate_armor"/>
+            <equipment slot="Leg" id="Item.empire_plate_boots"/>
+            <equipment slot="Gloves" id="Item.empire_gauntlets"/>
+            <equipment slot="Horse" id="Item.empire_horse_heavy"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_cavalry_02"
+             name="{=!}Khuzait Light Horseman"
+             occupation="Mercenary"
+             culture="Culture.khuzait"
+             level="20"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="160" />
+            <skill id="TwoHanded" value="150" />
+            <skill id="Polearm" value="180" />
+            <skill id="Bow" value="190" />
+            <skill id="Crossbow" value="110" />
+            <skill id="Throwing" value="140" />
+            <skill id="Riding" value="200" />
+            <skill id="Athletics" value="160" />
+            <skill id="Tactics" value="150" />
+            <skill id="Leadership" value="130" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.khuzait_lance"/>
+            <equipment slot="Item1" id="Item.khuzait_sword_cavalry"/>
+            <equipment slot="Head" id="Item.khuzait_light_helmet"/>
+            <equipment slot="Body" id="Item.khuzait_light_armor"/>
+            <equipment slot="Leg" id="Item.khuzait_light_boots"/>
+            <equipment slot="Horse" id="Item.khuzait_horse"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_cavalry_03"
+             name="{=!}Vlandian Knight"
+             occupation="Mercenary"
+             culture="Culture.vlandia"
+             level="25"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="190" />
+            <skill id="TwoHanded" value="180" />
+            <skill id="Polearm" value="210" />
+            <skill id="Bow" value="140" />
+            <skill id="Crossbow" value="150" />
+            <skill id="Throwing" value="130" />
+            <skill id="Riding" value="195" />
+            <skill id="Athletics" value="160" />
+            <skill id="Tactics" value="170" />
+            <skill id="Leadership" value="160" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.vlandia_lance"/>
+            <equipment slot="Item1" id="Item.vlandia_sword_cavalry"/>
+            <equipment slot="Head" id="Item.vlandia_heavy_helmet"/>
+            <equipment slot="Body" id="Item.vlandia_plate_armor"/>
+            <equipment slot="Leg" id="Item.vlandia_plate_boots"/>
+            <equipment slot="Gloves" id="Item.vlandia_gauntlets"/>
+            <equipment slot="Horse" id="Item.vlandia_horse_heavy"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_cavalry_04"
+             name="{=!}Aserai Camel Rider"
+             occupation="Mercenary"
+             culture="Culture.aserai"
+             level="20"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_aserai" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="150" />
+            <skill id="TwoHanded" value="140" />
+            <skill id="Polearm" value="170" />
+            <skill id="Bow" value="170" />
+            <skill id="Crossbow" value="120" />
+            <skill id="Throwing" value="150" />
+            <skill id="Riding" value="180" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="145" />
+            <skill id="Leadership" value="125" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.aserai_lance"/>
+            <equipment slot="Item1" id="Item.aserai_sword_cavalry"/>
+            <equipment slot="Head" id="Item.aserai_medium_helmet"/>
+            <equipment slot="Body" id="Item.aserai_medium_armor"/>
+            <equipment slot="Leg" id="Item.aserai_medium_boots"/>
+            <equipment slot="Horse" id="Item.aserai_camel"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_cavalry_05"
+             name="{=!}Sturgia Dragoon"
+             occupation="Mercenary"
+             culture="Culture.sturgia"
+             level="20"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="170" />
+            <skill id="TwoHanded" value="160" />
+            <skill id="Polearm" value="190" />
+            <skill id="Bow" value="160" />
+            <skill id="Crossbow" value="130" />
+            <skill id="Throwing" value="140" />
+            <skill id="Riding" value="185" />
+            <skill id="Athletics" value="165" />
+            <skill id="Tactics" value="155" />
+            <skill id="Leadership" value="135" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.sturgia_lance"/>
+            <equipment slot="Item1" id="Item.sturgia_sword_cavalry"/>
+            <equipment slot="Head" id="Item.sturgia_medium_helmet"/>
+            <equipment slot="Body" id="Item.sturgia_medium_armor"/>
+            <equipment slot="Leg" id="Item.sturgia_medium_boots"/>
+            <equipment slot="Horse" id="Item.sturgia_horse"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_cavalry_06"
+             name="{=!}Battania Scout"
+             occupation="Mercenary"
+             culture="Culture.battania"
+             level="20"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_battania" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="140" />
+            <skill id="TwoHanded" value="130" />
+            <skill id="Polearm" value="160" />
+            <skill id="Bow" value="180" />
+            <skill id="Crossbow" value="110" />
+            <skill id="Throwing" value="130" />
+            <skill id="Riding" value="175" />
+            <skill id="Athletics" value="170" />
+            <skill id="Tactics" value="140" />
+            <skill id="Leadership" value="120" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.battia_lance"/>
+            <equipment slot="Item1" id="Item.battia_sword_cavalry"/>
+            <equipment slot="Head" id="Item.battania_light_helmet"/>
+            <equipment slot="Body" id="Item.battania_light_armor"/>
+            <equipment slot="Leg" id="Item.battania_light_boots"/>
+            <equipment slot="Horse" id="Item.battania_horse"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_cavalry_07"
+             name="{=!}Eastern Lancer"
+             occupation="Mercenary"
+             culture="Culture.aserai"
+             level="25"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_aserai" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="175" />
+            <skill id="TwoHanded" value="165" />
+            <skill id="Polearm" value="195" />
+            <skill id="Bow" value="150" />
+            <skill id="Crossbow" value="140" />
+            <skill id="Throwing" value="145" />
+            <skill id="Riding" value="190" />
+            <skill id="Athletics" value="160" />
+            <skill id="Tactics" value="165" />
+            <skill id="Leadership" value="145" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.aserai_lance"/>
+            <equipment slot="Item1" id="Item.aserai_sword_cavalry"/>
+            <equipment slot="Head" id="Item.aserai_heavy_helmet"/>
+            <equipment slot="Body" id="Item.aserai_heavy_armor"/>
+            <equipment slot="Leg" id="Item.aserai_heavy_boots"/>
+            <equipment slot="Gloves" id="Item.aserai_gauntlets"/>
+            <equipment slot="Horse" id="Item.aserai_horse_heavy"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_cavalry_08"
+             name="{=!}Northern Horseman"
+             occupation="Mercenary"
+             culture="Culture.sturgia"
+             level="20"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="150" />
+            <skill id="TwoHanded" value="140" />
+            <skill id="Polearm" value="170" />
+            <skill id="Bow" value="160" />
+            <skill id="Crossbow" value="120" />
+            <skill id="Throwing" value="135" />
+            <skill id="Riding" value="180" />
+            <skill id="Athletics" value="165" />
+            <skill id="Tactics" value="145" />
+            <skill id="Leadership" value="125" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.sturgia_lance"/>
+            <equipment slot="Item1" id="Item.sturgia_sword_cavalry"/>
+            <equipment slot="Head" id="Item.sturgia_medium_helmet"/>
+            <equipment slot="Body" id="Item.sturgia_medium_armor"/>
+            <equipment slot="Leg" id="Item.sturgia_medium_boots"/>
+            <equipment slot="Horse" id="Item.sturgia_horse"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_cavalry_09"
+             name="{=!}Western Sellsword"
+             occupation="Mercenary"
+             culture="Culture.vlandia"
+             level="20"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="160" />
+            <skill id="TwoHanded" value="150" />
+            <skill id="Polearm" value="180" />
+            <skill id="Bow" value="140" />
+            <skill id="Crossbow" value="130" />
+            <skill id="Throwing" value="125" />
+            <skill id="Riding" value="175" />
+            <skill id="Athletics" value="155" />
+            <skill id="Tactics" value="150" />
+            <skill id="Leadership" value="130" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.vlandia_lance"/>
+            <equipment slot="Item1" id="Item.vlandia_sword_cavalry"/>
+            <equipment slot="Head" id="Item.vlandia_medium_helmet"/>
+            <equipment slot="Body" id="Item.vlandia_medium_armor"/>
+            <equipment slot="Leg" id="Item.vlandia_medium_boots"/>
+            <equipment slot="Horse" id="Item.vlandia_horse"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_cavalry_10"
+             name="{=!}Steppe Raider"
+             occupation="Mercenary"
+             culture="Culture.khuzait"
+             level="20"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="155" />
+            <skill id="TwoHanded" value="145" />
+            <skill id="Polearm" value="175" />
+            <skill id="Bow" value="185" />
+            <skill id="Crossbow" value="115" />
+            <skill id="Throwing" value="145" />
+            <skill id="Riding" value="195" />
+            <skill id="Athletics" value="170" />
+            <skill id="Tactics" value="155" />
+            <skill id="Leadership" value="135" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.khuzait_lance"/>
+            <equipment slot="Item1" id="Item.khuzait_sword_cavalry"/>
+            <equipment slot="Head" id="Item.khuzait_light_helmet"/>
+            <equipment slot="Body" id="Item.khuzait_light_armor"/>
+            <equipment slot="Leg" id="Item.khuzait_light_boots"/>
+            <equipment slot="Horse" id="Item.khuzait_horse"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_special_01"
+             name="{=!}Battle Priest"
+             occupation="Mercenary"
+             culture="Culture.empire"
+             level="30"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="160" />
+            <skill id="TwoHanded" value="150" />
+            <skill id="Polearm" value="170" />
+            <skill id="Bow" value="100" />
+            <skill id="Crossbow" value="110" />
+            <skill id="Throwing" value="120" />
+            <skill id="Riding" value="140" />
+            <skill id="Athletics" value="130" />
+            <skill id="Tactics" value="170" />
+            <skill id="Leadership" value="180" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.empire_gladius"/>
+            <equipment slot="Item1" id="Item.empire_heavy_shield"/>
+            <equipment slot="Head" id="Item.empire_heavy_helmet"/>
+            <equipment slot="Body" id="Item.empire_plate_armor"/>
+            <equipment slot="Leg" id="Item.empire_plate_boots"/>
+            <equipment slot="Gloves" id="Item.empire_gauntlets"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_special_02"
+             name="{=!}Warlord"
+             occupation="Mercenary"
+             culture="Culture.sturgia"
+             level="30"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="200" />
+            <skill id="TwoHanded" value="210" />
+            <skill id="Polearm" value="220" />
+            <skill id="Bow" value="120" />
+            <skill id="Crossbow" value="130" />
+            <skill id="Throwing" value="110" />
+            <skill id="Riding" value="180" />
+            <skill id="Athletics" value="170" />
+            <skill id="Tactics" value="190" />
+            <skill id="Leadership" value="200" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.sturgia_two_handed_axe"/>
+            <equipment slot="Head" id="Item.sturgia_heavy_helmet"/>
+            <equipment slot="Body" id="Item.sturgia_plate_armor"/>
+            <equipment slot="Leg" id="Item.sturgia_plate_boots"/>
+            <equipment slot="Gloves" id="Item.sturgia_gauntlets"/>
+            <equipment slot="Horse" id="Item.sturgia_horse_heavy"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_special_03"
+             name="{=!}Master Assassin"
+             occupation="Mercenary"
+             culture="Culture.aserai"
+             level="30"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_aserai" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="190" />
+            <skill id="TwoHanded" value="180" />
+            <skill id="Polearm" value="160" />
+            <skill id="Bow" value="180" />
+            <skill id="Crossbow" value="170" />
+            <skill id="Throwing" value="200" />
+            <skill id="Riding" value="170" />
+            <skill id="Athletics" value="190" />
+            <skill id="Tactics" value="180" />
+            <skill id="Leadership" value="170" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.aserai_dagger"/>
+            <equipment slot="Item1" id="Item.aserai_throwing_knife"/>
+            <equipment slot="Head" id="Item.aserai_heavy_helmet"/>
+            <equipment slot="Body" id="Item.aserai_medium_armor"/>
+            <equipment slot="Leg" id="Item.aserai_medium_boots"/>
+            <equipment slot="Gloves" id="Item.aserai_gauntlets"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_special_04"
+             name="{=!}Fire Breather"
+             occupation="Mercenary"
+             culture="Culture.khuzait"
+             level="30"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="170" />
+            <skill id="TwoHanded" value="160" />
+            <skill id="Polearm" value="180" />
+            <skill id="Bow" value="190" />
+            <skill id="Crossbow" value="150" />
+            <skill id="Throwing" value="200" />
+            <skill id="Riding" value="200" />
+            <skill id="Athletics" value="180" />
+            <skill id="Tactics" value="175" />
+            <skill id="Leadership" value="165" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.khuzait_bow"/>
+            <equipment slot="Item1" id="Item.khuzait_throwing_axe"/>
+            <equipment slot="Head" id="Item.khuzait_medium_helmet"/>
+            <equipment slot="Body" id="Item.khuzait_medium_armor"/>
+            <equipment slot="Leg" id="Item.khuzait_medium_boots"/>
+            <equipment slot="Horse" id="Item.khuzait_horse_heavy"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_special_05"
+             name="{=!}Iron Knight"
+             occupation="Mercenary"
+             culture="Culture.vlandia"
+             level="30"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_vlandia" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="210" />
+            <skill id="TwoHanded" value="200" />
+            <skill id="Polearm" value="220" />
+            <skill id="Bow" value="150" />
+            <skill id="Crossbow" value="160" />
+            <skill id="Throwing" value="140" />
+            <skill id="Riding" value="210" />
+            <skill id="Athletics" value="170" />
+            <skill id="Tactics" value="190" />
+            <skill id="Leadership" value="190" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.vlandia_lance"/>
+            <equipment slot="Item1" id="Item.vlandia_sword_cavalry"/>
+            <equipment slot="Head" id="Item.vlandia_plate_helmet"/>
+            <equipment slot="Body" id="Item.vlandia_plate_armor"/>
+            <equipment slot="Leg" id="Item.vlandia_plate_boots"/>
+            <equipment slot="Gloves" id="Item.vlandia_gauntlets"/>
+            <equipment slot="Horse" id="Item.vlandia_horse_heavy"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_special_06"
+             name="{=!}Northern Reaver"
+             occupation="Mercenary"
+             culture="Culture.battania"
+             level="30"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_battania" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="195" />
+            <skill id="TwoHanded" value="205" />
+            <skill id="Polearm" value="190" />
+            <skill id="Bow" value="170" />
+            <skill id="Crossbow" value="140" />
+            <skill id="Throwing" value="160" />
+            <skill id="Riding" value="185" />
+            <skill id="Athletics" value="175" />
+            <skill id="Tactics" value="180" />
+            <skill id="Leadership" value="175" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.battia_two_handed_axe"/>
+            <equipment slot="Head" id="Item.battania_plate_helmet"/>
+            <equipment slot="Body" id="Item.battania_plate_armor"/>
+            <equipment slot="Leg" id="Item.battania_plate_boots"/>
+            <equipment slot="Gloves" id="Item.battania_gauntlets"/>
+            <equipment slot="Horse" id="Item.battania_horse_heavy"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_special_07"
+             name="{=!}Desert Nomad"
+             occupation="Mercenary"
+             culture="Culture.aserai"
+             level="30"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_aserai" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="185" />
+            <skill id="TwoHanded" value="175" />
+            <skill id="Polearm" value="195" />
+            <skill id="Bow" value="200" />
+            <skill id="Crossbow" value="160" />
+            <skill id="Throwing" value="190" />
+            <skill id="Riding" value="195" />
+            <skill id="Athletics" value="185" />
+            <skill id="Tactics" value="185" />
+            <skill id="Leadership" value="175" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.aserai_bow"/>
+            <equipment slot="Item1" id="Item.aserai_throwing_knife"/>
+            <equipment slot="Head" id="Item.aserai_medium_helmet"/>
+            <equipment slot="Body" id="Item.aserai_medium_armor"/>
+            <equipment slot="Leg" id="Item.aserai_medium_boots"/>
+            <equipment slot="Horse" id="Item.aserai_horse_heavy"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_special_08"
+             name="{=!}Southern Conqueror"
+             occupation="Mercenary"
+             culture="Culture.empire"
+             level="30"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_empire" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="200" />
+            <skill id="TwoHanded" value="190" />
+            <skill id="Polearm" value="210" />
+            <skill id="Bow" value="160" />
+            <skill id="Crossbow" value="170" />
+            <skill id="Throwing" value="150" />
+            <skill id="Riding" value="200" />
+            <skill id="Athletics" value="170" />
+            <skill id="Tactics" value="195" />
+            <skill id="Leadership" value="195" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.empire_gladius"/>
+            <equipment slot="Item1" id="Item.empire_heavy_shield"/>
+            <equipment slot="Head" id="Item.empire_plate_helmet"/>
+            <equipment slot="Body" id="Item.empire_plate_armor"/>
+            <equipment slot="Leg" id="Item.empire_plate_boots"/>
+            <equipment slot="Gloves" id="Item.empire_gauntlets"/>
+            <equipment slot="Horse" id="Item.empire_horse_heavy"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_special_09"
+             name="{=!}Eastern Warlord"
+             occupation="Mercenary"
+             culture="Culture.khuzait"
+             level="30"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_khuzait" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="205" />
+            <skill id="TwoHanded" value="195" />
+            <skill id="Polearm" value="215" />
+            <skill id="Bow" value="210" />
+            <skill id="Crossbow" value="170" />
+            <skill id="Throwing" value="195" />
+            <skill id="Riding" value="215" />
+            <skill id="Athletics" value="190" />
+            <skill id="Tactics" value="200" />
+            <skill id="Leadership" value="190" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.khuzait_bow"/>
+            <equipment slot="Item1" id="Item.khuzait_throwing_axe"/>
+            <equipment slot="Head" id="Item.khuzait_plate_helmet"/>
+            <equipment slot="Body" id="Item.khuzait_plate_armor"/>
+            <equipment slot="Leg" id="Item.khuzait_plate_boots"/>
+            <equipment slot="Gloves" id="Item.khuzait_gauntlets"/>
+            <equipment slot="Horse" id="Item.khuzait_horse_heavy"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_special_10"
+             name="{=!}Northern Champion"
+             occupation="Mercenary"
+             culture="Culture.sturgia"
+             level="30"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_sturgia" /></face>
+    <skills>
+
+            <skill id="OneHanded" value="210" />
+            <skill id="TwoHanded" value="220" />
+            <skill id="Polearm" value="200" />
+            <skill id="Bow" value="140" />
+            <skill id="Crossbow" value="150" />
+            <skill id="Throwing" value="130" />
+            <skill id="Riding" value="190" />
+            <skill id="Athletics" value="180" />
+            <skill id="Tactics" value="195" />
+            <skill id="Leadership" value="185" />
+            </skills>
+    <Equipments>
+        <EquipmentRoster>
+
+            <equipment slot="Item0" id="Item.sturgia_two_handed_axe"/>
+            <equipment slot="Head" id="Item.sturgia_plate_helmet"/>
+            <equipment slot="Body" id="Item.sturgia_plate_armor"/>
+            <equipment slot="Leg" id="Item.sturgia_plate_boots"/>
+            <equipment slot="Gloves" id="Item.sturgia_gauntlets"/>
+            <equipment slot="Horse" id="Item.sturgia_horse_heavy"/>
+                </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+</NPCCharacters>
+<!-- ============================================== -->
+<!-- NORD/VIKING MERCENARIES - 5 UNITS            -->
+<!-- ============================================== -->
+
+<NPCCharacter id="merc_nord_berserker"
+             name="{=!}Nord Berserker"
+             occupation="Mercenary"
+             culture="Culture.nord"
+             level="22"
+             is_basic_troop="false">
+    <face><face_key_template value="BodyProperty.fighter_nord" /></face>
+    <skills>
+        <skill id="TwoHanded" value="180" />
+        <skill id="Athletics" value="160" />
+        <skill id="Throwing" value="140" />
+    </skills>
+    <Equipments>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.nord_twohanded_axe_5_t4"/>
+            <equipment slot="Item1" id="Item.nord_throwing_axe_1_t5"/>
+            <equipment slot="Head" id="Item.OSA_nord_helmet_berserker"/>
+            <equipment slot="Body" id="Item.OSA_nord_armor_berserker"/>
+        </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_nord_huscarl"
+             name="{=!}Nord Huscarl"
+             occupation="Mercenary"
+             culture="Culture.nord"
+             level="20"
+             is_basic_troop="false">
+    <skills>
+        <skill id="OneHanded" value="170" />
+        <skill id="TwoHanded" value="160" />
+        <skill id="Athletics" value="150" />
+    </skills>
+    <Equipments>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.nord_twohanded_axe_4_t5"/>
+            <equipment slot="Item1" id="Item.nord_shield"/>
+            <equipment slot="Head" id="Item.OSA_nord_helmet_elite"/>
+            <equipment slot="Body" id="Item.OSA_nord_armor_heavy"/>
+        </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_nord_archer"
+             name="{=!}Nord Archer"
+             occupation="Mercenary"
+             culture="Culture.nord"
+             level="16"
+             is_basic_troop="false">
+    <skills>
+        <skill id="Bow" value="140" />
+        <skill id="OneHanded" value="110" />
+    </skills>
+    <Equipments>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.nord_bow"/>
+            <equipment slot="Item1" id="Item.arrows"/>
+            <equipment slot="Item2" id="Item.nord_axe"/>
+            <equipment slot="Body" id="Item.OSA_nord_armor_medium"/>
+        </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_nord_raider"
+             name="{=!}Nord Raider"
+             occupation="Mercenary"
+             culture="Culture.nord"
+             level="14"
+             is_basic_troop="false">
+    <skills>
+        <skill id="OneHanded" value="130" />
+        <skill id="Throwing" value="120" />
+        <skill id="Athletics" value="140" />
+    </skills>
+    <Equipments>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.nord_axe"/>
+            <equipment slot="Item1" id="Item.nord_throwing_axe_2_t4"/>
+            <equipment slot="Item2" id="Item.nord_shield"/>
+            <equipment slot="Body" id="Item.OSA_nord_armor_light"/>
+        </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+<NPCCharacter id="merc_nord_ulfhednar"
+             name="{=!}Ulfhednar Elite"
+             occupation="Mercenary"
+             culture="Culture.nord"
+             level="25"
+             is_basic_troop="false">
+    <skills>
+        <skill id="TwoHanded" value="200" />
+        <skill id="Athletics" value="180" />
+        <skill id="Throwing" value="160" />
+    </skills>
+    <Equipments>
+        <EquipmentRoster>
+            <equipment slot="Item0" id="Item.nord_long_two_handed_t6"/>
+            <equipment slot="Item1" id="Item.nord_throwing_axe_1_t5"/>
+            <equipment slot="Head" id="Item.OSA_nord_helmet_ulfhednar"/>
+            <equipment slot="Body" id="Item.OSA_nord_armor_ulfhednar"/>
+        </EquipmentRoster>
+    </Equipments>
+</NPCCharacter>
+
+</NPCCharacters>

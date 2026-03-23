@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+<!-- ============================================== -->
+<!-- TACTICAL OVERHAUL CUSTOM UNITS ONLY          -->
+<!-- 88 Custom Units (NO VANILLA - Native loads it)-->
+<!-- ============================================== -->
+
+<!-- ASERAI CUSTOM (13 units) -->
+<!-- Camel Archers (4) + Camel Lancers (3) + Mamelukes (4) + Qadi (2) -->
+
+<!-- KHUZAIT CUSTOM (3 units) -->
+<!-- Javelin Throwers -->
+
+<!-- NORD CUSTOM (5 units) -->
+<!-- Berserkers -->
+
+<!-- NORMANDY CUSTOM (31 units) -->
+<!-- Full tree -->
+
+<!-- RUTHENIA CUSTOM (28 units) -->
+<!-- Full tree -->
+
+<!-- MERCENARIES (15 units) -->
+<!-- 15 types -->
+
+<!-- BOUNTY HUNTERS (4 units) -->
+<!-- 4 tiers -->
+
+<!-- NOTE: Vanilla 549 units są ładowane przez Native! -->
+<!-- Tutaj tylko NOWE custom units dla moda -->
+
+</NPCCharacters>
